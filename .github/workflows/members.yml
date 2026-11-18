@@ -1,0 +1,56 @@
+name: Sync members list from Box
+
+on:
+  schedule:
+    - cron: "23 5 * * 1"         # Mondays 05:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install requests openpyxl pyyaml rapidfuzz beautifulsoup4 lxml
+
+      - name: Download members list
+        env:
+          BOX_CLIENT_ID: ${{ secrets.BOX_CLIENT_ID }}
+          BOX_CLIENT_SECRET: ${{ secrets.BOX_CLIENT_SECRET }}
+          BOX_REFRESH_TOKEN: ${{ secrets.BOX_REFRESH_TOKEN }}
+          BOX_FILE_ID: ${{ secrets.BOX_FILE_ID }}
+          BOX_FOLDER_ID: ${{ secrets.BOX_FOLDER_ID }}
+          MEMBERS_JSON: ${{ secrets.MEMBERS_JSON }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python -m ddac.box_sync
+
+      # Box issues a new refresh token on every use — store it, or the next run fails.
+      # Runs even if the download step failed, as long as a new token was issued.
+      - name: Save rotated Box token
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -s .box_refresh_token ]; then
+            gh secret set BOX_REFRESH_TOKEN < .box_refresh_token
+            rm .box_refresh_token
+          fi
+
+      - name: Save members list as a secret
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -s .members.json ]; then
+            gh secret set MEMBERS_JSON < .members.json
+            rm .members.json
+          fi

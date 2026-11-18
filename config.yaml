@@ -1,0 +1,55 @@
+# DDAC results scraper configuration
+
+club:
+  canonical: "Drogheda & District AC"
+  # Normalised forms (lowercase, no punctuation, "and"/"&" removed, AC forms unified)
+  # that count as a confident match.
+  confident_aliases:
+    - "drogheda district ac"
+    - "drogheda district"
+    - "drogheda district athletic"
+    - "drogheda district athletics"
+    - "ddac"
+  # Fuzzy score (0-100) against "drogheda district ac" that counts as confident.
+  # Catches typos like "Drogheda Distict AC", "Droghda District".
+  fuzzy_threshold: 85
+  # Club names that mention Drogheda but lack "District" — included, flagged for PRO review.
+  ambiguous_aliases:
+    - "drogheda ac"
+    - "drogheda"
+    - "drogheda athletic"
+    - "drogheda athletics"
+  # Other clubs that must never be matched (normalised, substring match).
+  exclude:
+    - "ace"
+    - "st peters"
+    - "boyne"
+    - "drogheda triathlon"
+    - "drogheda tri"
+    - "drogheda harriers"
+    - "drogheda running club"
+    - "drogheda parkrun"
+    - "drogheda united"
+
+# Members list (weekly Box sync) is used to confirm ambiguous matches.
+members:
+  file: .members.json     # local only, gitignored; in GitHub it lives in the MEMBERS_JSON secret
+  box_file_id: ""        # set when the Box app is configured (or use BOX_FILE_ID secret)
+  box_folder_id: ""      # alternative: newest spreadsheet in this folder
+  name_columns: ["Name", "Full Name", "First Name", "Surname", "Last Name"]
+  min_expected: 50       # alert if the downloaded list is suspiciously short
+
+sources:
+  myrunresults:
+    enabled: true
+    list_pages: 2          # how many pages of the results list to check each run
+    recheck_days: 4        # re-check an event for corrections/late results for this many days
+  dublin_graded:
+    enabled: true
+    base_url: "http://pastresults.dublinathletics.com"
+    max_meets: 12          # graded meets per season to probe
+    recheck_days: 3
+
+output:
+  results_dir: docs/results
+  data_dir: data
