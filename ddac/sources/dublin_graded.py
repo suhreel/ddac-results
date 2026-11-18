@@ -83,7 +83,10 @@ def scrape_meet(meet: str, menu_url: str, menu_html: str) -> tuple[list[Result],
         print(f"    {meet}: title={meet_name!r} date={meet_date!r} links={len(links)}")
         print(f"    all hrefs: {[a['href'] for a in soup.find_all('a', href=True)][:15]}")
         print(f"    frames: {[f.get('src') for f in soup.find_all(['frame', 'iframe'])]}")
-        print(f"    menu text: {soup.get_text(' ', strip=True)[:300]!r}")
+        print(f"    scripts: {[sc.get('src') for sc in soup.find_all('script') if sc.get('src')]}")
+        inline = " ".join(sc.get_text() for sc in soup.find_all('script') if not sc.get('src'))
+        print(f"    inline js: {inline[:1500]!r}")
+        print(f"    raw html head: {menu_html[:1200]!r}")
     base = {"source": NAME, "event_id": meet, "event_name": meet_name, "event_date": meet_date}
     results: list[Result] = []
     # results might also be on the menu page itself

@@ -90,6 +90,53 @@ def resolve_by_click(page, ev: dict) -> None:
         pass
 
 
+MRR_FIELDS = [  # (output header, JSON keys in order of preference)
+    ("Place", ["runner_Place"]),
+    ("First Name", ["runner_FirstName"]),
+    ("Surname", ["runner_LastName"]),
+    ("Club", ["runner_Club", "runner_Team"]),
+    ("Chip Time", ["runner_NetTime", "runner_GrossTime"]),
+    ("Age Cat", ["runner_SubCategory", "runner_Category"]),
+    ("Cat Pos", ["runner_SubCatPlace", "runner_CatPlace"]),
+    ("Race", ["runner_Class"]),
+]
+
+
+def _mrr_rows(items: list[dict]) -> tuple[list[str], list[list[str]]]:
+    headers = [h for h, _ in MRR_FIELDS]
+    rows = []
+    for it in items:
+        row = []
+        for h, keys in MRR_FIELDS:
+            v = next((str(it.get(k)).strip() for k in keys if str(it.get(k) or "").strip()), "")
+            if h == "Chip Time" and str(it.get("runnerIsDnf") or "").lower() in ("true", "1"):
+                v = "DNF"
+            row.append(v)
+        rows.append(row)
+    return headers, rows
+
+
+def _json_items(payloads: list) -> list[dict]:
+    """All result-like dicts from every captured JSON payload, de-duplicated."""
+    out = {}
+    def walk(o):
+        if isinstance(o, list) and o and isinstance(o[0], dict) and \
+                any("club" in k.lower() for k in o[0]) and any("name" in k.lower() for k in o[0]):
+            for it in o:
+                key = it.get("runnerId") or json.dumps(it, sort_keys=True)
+                out[key] = it
+            return
+        if isinstance(o, dict):
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    for p in payloads:
+        walk(p)
+    return list(out.values())
+
+
 def _json_rows(payloads: list) -> tuple[list[str], list[list[str]]] | None:
     """Find a list of result-like dicts in captured JSON."""
     def walk(o):
@@ -190,10 +237,13 @@ def scrape_event(page, ev: dict) -> list[Result]:
     url = f"{BASE}/events/{ev['slug']}/{ev['id']}/results"
     payloads: list = []
 
+    json_urls: list[str] = []
+
     def on_resp(resp):
         if "json" in (resp.headers.get("content-type") or ""):
             try:
                 payloads.append(resp.json())
+                json_urls.append(f"{resp.request.method} {resp.url} {resp.request.post_data or ''}"[:400])
             except Exception:
                 pass
 
@@ -205,6 +255,8 @@ def scrape_event(page, ev: dict) -> list[Result]:
     results: list[Result] = []
 
     tabs = _race_tabs(page, ev.get("tags", "")) or [""]
+    table_results: list[Result] = []
+    pages_read = 0
     for tab in tabs:
         if tab:
             try:
@@ -212,15 +264,7 @@ def scrape_event(page, ev: dict) -> list[Result]:
                 page.wait_for_timeout(1500)
             except Exception:
                 continue
-        payloads.clear()
         _set_max_page_size(page)
-        j = _json_rows(payloads)
-        if j and os.environ.get("DEBUG") == "1":
-            print(f"    JSON headers: {j[0]}")
-            print(f"    JSON row 1:   {j[1][0] if j[1] else ''}")
-        if j:
-            results += rows_to_results(j[0], j[1], {**base, "race": tab})
-            continue
         seen = set()
         for _ in range(200):  # page cap
             headers, rows, links = _read_table(page)
@@ -228,9 +272,20 @@ def scrape_event(page, ev: dict) -> list[Result]:
             if sig in seen:
                 break
             seen.add(sig)
-            results += rows_to_results(headers, rows, {**base, "race": tab}, links)
+            table_results += rows_to_results(headers, rows, {**base, "race": tab}, links)
             if not _click_next(page):
                 break
+        pages_read += len(seen)
+    # JSON is the cleanest source: it holds every page loaded while paginating
+    items = _json_items(payloads)
+    if items:
+        h, rows = _mrr_rows(items)
+        results += rows_to_results(h, rows, {**base, "race": ""})
+    else:
+        results += table_results
+    if os.environ.get("DEBUG") == "1":
+        print(f"    tabs={tabs} pages={pages_read} json_runners={len(items)} ddac={len(results)}")
+        print(f"    json requests: {json_urls[:4]}")
     page.remove_listener("response", on_resp)
     # de-duplicate (tabs sometimes show the same table)
     uniq = {r.key: r for r in results}

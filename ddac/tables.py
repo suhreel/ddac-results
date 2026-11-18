@@ -66,6 +66,17 @@ def map_headers(headers: list[str]) -> dict[str, int]:
     return out
 
 
+def tidy_name(name: str) -> str:
+    """'Oisín MC ARDLE' -> 'Oisín Mc Ardle', "SEAN O'BRIEN" -> "Sean O'Brien". Leaves mixed case alone."""
+    def fix(w: str) -> str:
+        if not w.isupper() or len(w) < 2:
+            return w
+        w = w.capitalize()
+        w = re.sub(r"^(O'|Mc)([a-z])", lambda m: m.group(1) + m.group(2).upper(), w) if len(w) > 3 else w
+        return re.sub(r"-([a-z])", lambda m: "-" + m.group(1).upper(), w)
+    return " ".join(fix(w) for w in (name or "").split())
+
+
 def classify(club: str, athlete: str, raw_line: str = "") -> str | None:
     """Combine club match + members list."""
     m = match_club(club) if club is not None else match_line(raw_line)
@@ -88,7 +99,7 @@ def rows_to_results(headers: list[str], rows: list[list[str]], base: dict,
             continue
         get = lambda f: cells[cols[f]].strip() if f in cols and cols[f] < len(cells) else ""
         if "first" in cols:
-            athlete = f"{get('first')} {get('last')}".strip()
+            athlete = tidy_name(f"{get('first')} {get('last')}".strip())
         else:
             athlete = re.sub(r"\s*#\d+\s*$", "", get("athlete"))
         if get("race"):
