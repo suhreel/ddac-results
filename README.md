@@ -121,5 +121,12 @@ pytest                                  # tests
   athlete is on the members list, then confident.
 - **Never:** Ace AC, St Peter's, Boyne and anything else in `exclude`.
 
+**The members list is only a helper.** The club-name search always runs on every
+result, whether or not the members list exists, is out of date, or is missing
+someone. The list can only *add* certainty — it never removes a result:
+- "Drogheda AC"-style match + name on the list → upgraded from ⚠️ to confident.
+- Name on the list but club left blank → added with ⚠️ no club listed.
+- Name *not* on the list → nothing changes; club-name matches are kept as normal.
+
 ## Costs
 Free: GitHub Actions (public repo), Gmail SMTP, Box API.

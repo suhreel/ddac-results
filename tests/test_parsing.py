@@ -78,3 +78,16 @@ def test_myrunresults_json_mapping():
         "Oisín Mc Ardle": ("37", "00:21:41", "MU18", "2", "5km", "confident"),
         "Ann Byrne": ("", "DNF", "", "", "10km", "confident"),
     }
+
+
+def test_members_list_is_helper_only(monkeypatch):
+    """Club-name matches must survive whether or not the athlete is on the members list."""
+    import ddac.members as m
+    monkeypatch.setenv("MEMBERS_JSON", '{"names": ["Sean Kelly"]}')
+    m.load_members.cache_clear()
+    rs = {r.athlete: r.match for r in rows_to_results(MRR_HEADERS, MRR_ROWS, BASE)}
+    assert rs["Aoife MURPHY"] == "confident"      # not on the list, still found
+    assert rs["Sean KELLY"] == "confident"        # "Drogheda AC" upgraded by the list
+    assert rs["Ciara DOYLE"] == "confident"       # typo'd club, not on the list, still found
+    monkeypatch.delenv("MEMBERS_JSON")
+    m.load_members.cache_clear()

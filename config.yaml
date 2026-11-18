@@ -31,7 +31,9 @@ club:
     - "drogheda parkrun"
     - "drogheda united"
 
-# Members list (weekly Box sync) is used to confirm ambiguous matches.
+# Members list (weekly Box sync) is a HELPER only: it confirms "Drogheda AC"-style
+# matches and catches members with a blank club field. It never removes a result —
+# the club-name search runs regardless, so people missing from the list are still found.
 members:
   file: .members.json     # local only, gitignored; in GitHub it lives in the MEMBERS_JSON secret
   box_file_id: ""        # set when the Box app is configured (or use BOX_FILE_ID secret)
