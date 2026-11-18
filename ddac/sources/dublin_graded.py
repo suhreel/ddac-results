@@ -55,26 +55,20 @@ def _find_date(text: str) -> str:
 
 
 def _probe(menu_url: str) -> None:
-    """Debug: render a Timetronics menu in the browser and print its structure."""
-    from ..browser import browser_page
+    """Debug: print the Timetronics data files' structure."""
+    import re as _re
     folder = menu_url.rsplit("/", 1)[0]
-    for js in ("inc/settings.js", "inc/createMenu.js"):
-        txt = _get(f"{folder}/{js}") or ""
-        print(f"    {js} ({len(txt)} chars): {txt[:1200]!r}")
-    with browser_page() as page:
-        reqs = []
-        page.on("request", lambda r: reqs.append(r.url))
-        page.goto(menu_url, wait_until="networkidle")
-        page.wait_for_timeout(2000)
-        info = page.evaluate("""() => ({
-            anchors: Array.from(document.querySelectorAll('a')).slice(0, 40).map(a =>
-                [a.innerText.trim().slice(0, 40), a.getAttribute('href'), a.getAttribute('onclick')]),
-            tables: document.querySelectorAll('table').length,
-            text: document.body.innerText.slice(0, 800)
-        })""")
-        print(f"    rendered anchors: {info['anchors']}")
-        print(f"    tables={info['tables']} text={info['text']!r}")
-        print(f"    requests: {[u for u in reqs if not u.endswith(('.css', '.png', '.gif', '.jpg'))][:40]}")
+    menu = _get(f"{folder}/menu.xml") or ""
+    print(f"    menu.xml ({len(menu)} chars): {menu[:1500]!r}")
+    ct = _get(f"{folder}/inc/createTables.js") or ""
+    hits = [m.group(0) for m in _re.finditer(r".{0,120}(loadXMLDoc|\.xml|\.txt).{0,120}", ct)][:8]
+    print(f"    createTables.js xml/txt refs: {hits}")
+    cm = _get(f"{folder}/inc/createMenu.js") or ""
+    hits = [m.group(0) for m in _re.finditer(r".{0,150}(Textfile|\.txt|textfile).{0,150}", cm, _re.I)][:5]
+    print(f"    createMenu.js textfile refs: {hits}")
+    for guess in ("59.xml", "results.txt", "Results.txt", "event59.xml"):
+        t = _get(f"{folder}/{guess}")
+        print(f"    {guess}: {len(t or '')} chars {(t or '')[:700]!r}")
 
 
 def parse_page(html: str, base: dict) -> list[Result]:
