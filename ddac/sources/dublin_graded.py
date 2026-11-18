@@ -8,6 +8,7 @@ The menu links to one page per event. Pages may be HTML tables or fixed-width
 from __future__ import annotations
 
 import hashlib
+import os
 import re
 from datetime import date, datetime, timedelta
 from urllib.parse import urljoin
@@ -15,6 +16,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+from ..browser import DEBUG_DIR
 from ..models import Result
 from ..tables import parse_html_tables, parse_pre_text, rows_to_results
 
@@ -28,6 +30,10 @@ def _get(url: str) -> str | None:
         r = requests.get(url, headers=UA, timeout=20)
         if r.status_code == 200 and r.text.strip():
             r.encoding = r.apparent_encoding or r.encoding
+            if os.environ.get("DEBUG") == "1":
+                DEBUG_DIR.mkdir(exist_ok=True)
+                name = re.sub(r"[^A-Za-z0-9_.-]", "_", url.split("://", 1)[-1])[-100:]
+                (DEBUG_DIR / f"dg_{name}.html").write_text(r.text, encoding="utf-8")
             return r.text
     except requests.RequestException:
         pass

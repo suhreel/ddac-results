@@ -34,5 +34,6 @@ class Result:
 
     @classmethod
     def from_dict(cls, d: dict) -> "Result":
-        d = {k: v for k, v in d.items() if k != "key"}
-        return cls(**d)
+        # ignore bookkeeping fields added by the store (key, first_seen, updated)
+        fields = cls.__dataclass_fields__
+        return cls(**{k: v for k, v in d.items() if k in fields})
