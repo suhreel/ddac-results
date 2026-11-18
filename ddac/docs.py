@@ -104,7 +104,8 @@ def build_month(results: list[Result], month: str) -> str:
                 lines += [f"**{race}**", ""]
             lines += ["| Pos | Athlete | Cat | Time | |", "|---|---|---|---|---|"]
             for r in sorted(items, key=lambda r: (_place_num(r.place), _secs(r.time))):
-                cat = f"{r.category}{' (' + r.cat_place + ')' if r.cat_place else ''}"
+                c = r.category if re.search(r"[A-Za-z0-9]", r.category or "") else ""
+                cat = f"{c} ({r.cat_place})" if c and r.cat_place and r.cat_place != r.place else c
                 lines.append(f"| {r.place} | {r.athlete} | {cat} | {fmt_time(r.time)} | {FLAG.get(r.match, '')} |")
             lines.append("")
     return "\n".join(lines)

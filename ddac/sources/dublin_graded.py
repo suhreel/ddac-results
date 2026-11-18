@@ -104,6 +104,10 @@ def fix_date(d: str, season: str, newly_seen: bool) -> str:
 
 def scrape_meet(meet: str, menu_url: str, menu_xml: str, newly_seen: bool = False) -> list[Result]:
     name, mdate = meet_info(menu_xml)
+    # tidy names like "Dublin Graded Meet 3 2006" / "Dublin Graded Meet 6"
+    m = re.match(r"(.*?meet\s*\d+)", name, re.I)
+    if m:
+        name = f"{m.group(1).strip()} {'20' + meet[6:8]}"
     base = {"source": NAME, "event_id": meet, "event_name": name or f"Dublin Graded {meet}",
             "event_date": mdate, "url": menu_url}
     debug = os.environ.get("DEBUG") == "1"
