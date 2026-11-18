@@ -54,6 +54,29 @@ def _find_date(text: str) -> str:
     return ""
 
 
+def _probe(menu_url: str) -> None:
+    """Debug: render a Timetronics menu in the browser and print its structure."""
+    from ..browser import browser_page
+    folder = menu_url.rsplit("/", 1)[0]
+    for js in ("inc/settings.js", "inc/createMenu.js"):
+        txt = _get(f"{folder}/{js}") or ""
+        print(f"    {js} ({len(txt)} chars): {txt[:1200]!r}")
+    with browser_page() as page:
+        reqs = []
+        page.on("request", lambda r: reqs.append(r.url))
+        page.goto(menu_url, wait_until="networkidle")
+        page.wait_for_timeout(2000)
+        info = page.evaluate("""() => ({
+            anchors: Array.from(document.querySelectorAll('a')).slice(0, 40).map(a =>
+                [a.innerText.trim().slice(0, 40), a.getAttribute('href'), a.getAttribute('onclick')]),
+            tables: document.querySelectorAll('table').length,
+            text: document.body.innerText.slice(0, 800)
+        })""")
+        print(f"    rendered anchors: {info['anchors']}")
+        print(f"    tables={info['tables']} text={info['text']!r}")
+        print(f"    requests: {[u for u in reqs if not u.endswith(('.css', '.png', '.gif', '.jpg'))][:40]}")
+
+
 def parse_page(html: str, base: dict) -> list[Result]:
     soup = BeautifulSoup(html, "lxml")
     title = (soup.title.get_text(strip=True) if soup.title else "") or base.get("race", "")
@@ -79,23 +102,14 @@ def scrape_meet(meet: str, menu_url: str, menu_html: str) -> tuple[list[Result],
         if href.startswith(menu_url.rsplit("/", 1)[0]) and href != menu_url and not href.endswith((".pdf", ".zip")):
             links.append((a.get_text(" ", strip=True), href))
     links = list(dict.fromkeys(links))
-    if os.environ.get("DEBUG") == "1":
-        print(f"    {meet}: title={meet_name!r} date={meet_date!r} links={len(links)}")
-        print(f"    all hrefs: {[a['href'] for a in soup.find_all('a', href=True)][:15]}")
-        print(f"    frames: {[f.get('src') for f in soup.find_all(['frame', 'iframe'])]}")
-        print(f"    scripts: {[sc.get('src') for sc in soup.find_all('script') if sc.get('src')]}")
-        inline = " ".join(sc.get_text() for sc in soup.find_all('script') if not sc.get('src'))
-        print(f"    inline js: {inline[:1500]!r}")
-        print(f"    raw html head: {menu_html[:1200]!r}")
+    if os.environ.get("DEBUG") == "1" and meet.endswith("-1"):
+        _probe(menu_url)
     base = {"source": NAME, "event_id": meet, "event_name": meet_name, "event_date": meet_date}
     results: list[Result] = []
     # results might also be on the menu page itself
     results += parse_page(menu_html, {**base, "race": meet_name, "url": menu_url})
     for i, (text, href) in enumerate(links):
         html = _get(href)
-        if html and i == 0 and os.environ.get("DEBUG") == "1":
-            print(f"    first page {href}: {BeautifulSoup(html, 'lxml').get_text(' ', strip=True)[:600]!r}")
-            print(f"    tables={html.lower().count('<table')} pre={html.lower().count('<pre')}")
         if html:
             results += parse_page(html, {**base, "race": text, "url": href})
     return list({r.key: r for r in results}.values()), meet_name, meet_date

@@ -1,14 +1,13 @@
 """MyRunResults (myrunresults.com).
 
-The results list and results tables are JavaScript-driven: event rows are
-clickable rather than plain links, and tables paginate client-side. So this
-uses headless Chromium and works in layers, most reliable first:
+The site is a JavaScript app. Results come from a JSON feed:
+  POST https://api.myrunresults.com/api/PublicEvent/GetRunnersStatsAll
+       body {"option": {"raceId": <event id>, "runnerClass": "<race tab, lowercase>"}}
+Each event page lists its races as tabs (".event-results-tab__distance-name").
+Headless Chromium opens the results list and each event page, reads the race
+tabs, then calls the feed for every race from inside the page.
 
-  1. Capture any JSON the page loads (if results arrive via an API call).
-  2. Otherwise read the rendered table, set the largest page size, and click
-     through pagination and each race/distance tab.
-
-Run with DEBUG=1 to save the HTML/screenshot of every page visited (in debug/).
+Run with DEBUG=1 to print per-race counts and save page HTML to debug/.
 """
 from __future__ import annotations
 
@@ -116,204 +115,69 @@ def _mrr_rows(items: list[dict]) -> tuple[list[str], list[list[str]]]:
     return headers, rows
 
 
-def _json_items(payloads: list) -> list[dict]:
-    """All result-like dicts from every captured JSON payload, de-duplicated."""
-    out = {}
-    def walk(o):
-        if isinstance(o, list) and o and isinstance(o[0], dict) and \
-                any("club" in k.lower() for k in o[0]) and any("name" in k.lower() for k in o[0]):
-            for it in o:
-                key = it.get("runnerId") or json.dumps(it, sort_keys=True)
-                out[key] = it
-            return
-        if isinstance(o, dict):
-            for v in o.values():
-                walk(v)
-        elif isinstance(o, list):
-            for v in o:
-                walk(v)
-    for p in payloads:
-        walk(p)
-    return list(out.values())
+API = "https://api.myrunresults.com/api/PublicEvent/GetRunnersStatsAll"
+
+FETCH_CLASS_JS = """async ([api, raceId, runnerClass]) => {
+    const all = [];
+    for (let skip = 0; skip < 20000; skip += 1000) {
+        const r = await fetch(`${api}?toggle=1&skipCount=${skip}&maxResultCount=1000`, {
+            method: 'POST', headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({option: {raceId: raceId, runnerClass: runnerClass}})});
+        if (!r.ok) return {error: r.status, items: all};
+        const j = await r.json();
+        const items = (j.result && j.result.items) || j.items || [];
+        all.push(...items);
+        const total = (j.result && j.result.totalCount) || j.totalCount || 0;
+        if (items.length === 0 || all.length >= total) break;
+    }
+    return {items: all};
+}"""
 
 
-def _json_rows(payloads: list) -> tuple[list[str], list[list[str]]] | None:
-    """Find a list of result-like dicts in captured JSON."""
-    def walk(o):
-        if isinstance(o, list) and o and isinstance(o[0], dict):
-            keys = {k.lower() for k in o[0]}
-            if any("club" in k or "team" in k for k in keys) and any("name" in k for k in keys):
-                return o
-        if isinstance(o, dict):
-            for v in o.values():
-                r = walk(v)
-                if r:
-                    return r
-        if isinstance(o, list):
-            for v in o:
-                r = walk(v)
-                if r:
-                    return r
-        return None
-    for p in payloads:
-        rows = walk(p)
-        if rows:
-            headers = list(rows[0].keys())
-            return headers, [[str(r.get(h, "") or "") for h in headers] for r in rows]
-    return None
-
-
-def _read_table(page) -> tuple[list[str], list[list[str]], list[str]]:
-    data = page.evaluate("""() => {
-        const t = Array.from(document.querySelectorAll('table'))
-          .sort((a,b) => b.querySelectorAll('tr').length - a.querySelectorAll('tr').length)[0];
-        if (!t) return {headers: [], rows: [], links: []};
-        const headers = Array.from(t.querySelectorAll('thead th, tr:first-child th'))
-          .map(th => th.innerText.replace(/[⬆⬇▲▼]/g,'').trim());
-        const trs = Array.from(t.querySelectorAll('tbody tr'));
-        return {
-          headers,
-          rows: trs.map(tr => Array.from(tr.querySelectorAll('td')).map(td => td.innerText.trim())),
-          links: trs.map(tr => { const a = tr.querySelector('a[href]'); return a ? a.href : ''; })
-        };
-    }""")
-    return data["headers"], data["rows"], data["links"]
-
-
-def _set_max_page_size(page) -> None:
-    for sel in ["select[name$='_length']", "select.page-size", "select"]:
-        loc = page.locator(sel)
-        for i in range(min(loc.count(), 5)):
-            try:
-                opts = loc.nth(i).locator("option").all_inner_texts()
-                nums = [o for o in opts if o.strip().isdigit()]
-                if nums:
-                    loc.nth(i).select_option(label=max(nums, key=int))
-                    page.wait_for_timeout(1500)
-                    return
-            except Exception:
-                continue
-    # link-style page size controls ("10 20 50 100")
-    for label in ("100", "50"):
-        loc = page.get_by_text(label, exact=True)
-        if loc.count():
-            try:
-                loc.first.click()
-                page.wait_for_timeout(1500)
-                return
-            except Exception:
-                pass
-
-
-def _click_next(page) -> bool:
-    for sel in ["a:has-text('Next'):not(.disabled)", "button:has-text('Next'):not([disabled])",
-                "li:not(.disabled) > a:has-text('Next')", ".paginate_button.next:not(.disabled)"]:
-        loc = page.locator(sel)
-        if loc.count():
-            el = loc.first
-            cls = (el.get_attribute("class") or "") + (el.evaluate("e => e.parentElement.className") or "")
-            if "disabled" in cls:
-                return False
-            before = page.evaluate("() => document.querySelector('tbody') ? document.querySelector('tbody').innerText.slice(0,200) : ''")
-            el.click()
-            page.wait_for_timeout(1200)
-            after = page.evaluate("() => document.querySelector('tbody') ? document.querySelector('tbody').innerText.slice(0,200) : ''")
-            return after != before
-    return False
-
-
-def _race_tabs(page, tags: str) -> list[str]:
-    """Distance/race tabs, e.g. '10k', '5k'. Uses the distances listed for the event
-    plus anything that looks like a tab."""
-    texts = page.evaluate("""() => Array.from(document.querySelectorAll(
-        '[role=tab], .nav-tabs a, .nav-pills a, .tabs a, .race-tabs a, ul.nav a, button.tab'))
-        .map(e => e.innerText.trim()).filter(t => t && t.length < 40)""")
-    dist = re.compile(r"^\s*\d+(\.\d+)?\s*(k|km|mile|miles|m)\b|marathon|half|relay|fun run|kids|junior|walk", re.I)
-    tabs = [t for t in texts if dist.search(t)]
-    return list(dict.fromkeys(tabs))
+def race_classes(page) -> list[str]:
+    """Race/distance tab labels, e.g. ['10 MILE', '10KM', '5KM'] or ['GIRLS U9', ...]."""
+    labels = page.evaluate("""() => Array.from(document.querySelectorAll(
+        '.event-results-tab__distance-name')).map(e => e.innerText.trim()).filter(Boolean)""")
+    return list(dict.fromkeys(labels))
 
 
 def scrape_event(page, ev: dict) -> list[Result]:
+    """Read every race in the event straight from the MyRunResults data feed."""
     url = f"{BASE}/events/{ev['slug']}/{ev['id']}/results"
-    payloads: list = []
+    first_class: list[str] = []
 
-    json_urls: list[str] = []
-
-    def on_resp(resp):
-        if "json" in (resp.headers.get("content-type") or ""):
+    def on_req(req):
+        if req.url.startswith(API) and req.post_data:
             try:
-                payloads.append(resp.json())
-                json_urls.append(f"{resp.request.method} {resp.url} {resp.request.post_data or ''}"[:400])
+                first_class.append(json.loads(req.post_data)["option"]["runnerClass"])
             except Exception:
                 pass
 
-    page.on("response", on_resp)
+    page.on("request", on_req)
     page.goto(url, wait_until="networkidle")
+    page.remove_listener("request", on_req)
     dump(page, f"mrr_event_{ev['id']}")
     base = {"source": NAME, "event_id": ev["id"], "event_name": ev["name"],
             "event_date": ev["date"], "url": url}
-    results: list[Result] = []
 
-    tabs = _race_tabs(page, ev.get("tags", "")) or [""]
-    table_results: list[Result] = []
-    pages_read = 0
-    for tab in tabs:
-        if tab:
-            try:
-                page.get_by_text(tab, exact=True).first.click()
-                page.wait_for_timeout(1500)
-            except Exception:
-                continue
-        _set_max_page_size(page)
-        seen = set()
-        for _ in range(200):  # page cap
-            headers, rows, links = _read_table(page)
-            sig = json.dumps(rows[:3])
-            if sig in seen:
-                break
-            seen.add(sig)
-            table_results += rows_to_results(headers, rows, {**base, "race": tab}, links)
-            if not _click_next(page):
-                break
-        pages_read += len(seen)
-    # JSON is the cleanest source: it holds every page loaded while paginating
-    items = _json_items(payloads)
-    if items:
+    # the site sends tab labels in lowercase ("10 MILE" -> "10 mile")
+    classes = [c.lower() for c in race_classes(page)] or first_class
+    classes = list(dict.fromkeys(classes))
+    results: list[Result] = []
+    counts = {}
+    for rc in classes:
+        res = page.evaluate(FETCH_CLASS_JS, [API, int(ev["id"]), rc])
+        items = res.get("items", [])
+        counts[rc] = len(items)
+        if res.get("error"):
+            print(f"    ! feed error {res['error']} for {rc!r}")
         h, rows = _mrr_rows(items)
         results += rows_to_results(h, rows, {**base, "race": ""})
-    else:
-        results += table_results
     if os.environ.get("DEBUG") == "1":
-        print(f"    tabs={tabs} pages={pages_read} json_runners={len(items)} ddac={len(results)}")
-        print(f"    api calls: {[u for u in json_urls if 'api.myrunresults' in u][:6]}")
-        probe = page.evaluate("""async (raceId) => {
-            const out = {};
-            const call = async (body, n) => {
-              try {
-                const r = await fetch('https://api.myrunresults.com/api/PublicEvent/GetRunnersStatsAll?toggle=1&skipCount=0&maxResultCount=' + n,
-                  {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body)});
-                const j = await r.json();
-                const items = (j.result && (j.result.items || j.result)) || j.items || [];
-                const arr = Array.isArray(items) ? items : [];
-                return {status: r.status, n: arr.length, total: arr[0] ? arr[0].totalFilteredRows : null,
-                        classes: [...new Set(arr.map(x => x.runner_Class))].slice(0, 20),
-                        keys: Object.keys(j).concat(j.result ? Object.keys(j.result) : [])};
-              } catch (e) { return {error: String(e)}; }
-            };
-            out.noClass = await call({option: {raceId: raceId}}, 2000);
-            out.emptyClass = await call({option: {raceId: raceId, runnerClass: ''}}, 2000);
-            return out;
-        }""", int(ev["id"]))
-        print(f"    probe: {probe}")
-        tabs_dom = page.evaluate("""() => Array.from(document.querySelectorAll('a, button, li, span, div'))
-            .filter(e => e.children.length === 0 && e.innerText && e.innerText.trim().length < 30)
-            .map(e => e.tagName + '.' + (e.className || '').toString().slice(0, 40) + ':' + e.innerText.trim())
-            .slice(0, 400)""")
-        print(f"    leaf elements: {[t for t in tabs_dom if any(k in t.lower() for k in ('km', 'mile', 'u9', 'u11', 'girls', 'boys', 'men', 'women', 'masters'))][:30]}")
-    page.remove_listener("response", on_resp)
-    # de-duplicate (tabs sometimes show the same table)
-    uniq = {r.key: r for r in results}
-    return list(uniq.values())
+        print(f"    races: {counts}")
+    if not classes:
+        print("    (no results published yet)")
+    return list({r.key: r for r in results}.values())
 
 
 def run(store, cfg: dict, since: str | None = None) -> list[Result]:

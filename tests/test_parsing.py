@@ -70,3 +70,25 @@ def test_month_doc():
     assert "## Test 10k" in md and "Aoife MURPHY was first DDAC finisher" in md
     assert "⚠️ check club" in md and "Needs checking" in md
     print(md)
+
+
+def test_myrunresults_json_mapping():
+    from ddac.sources.myrunresults import _mrr_rows
+    items = [
+        {"runnerId": "1", "runner_Club": "Drogheda and District A.C.", "runner_Place": "37",
+         "runner_CatPlace": "31", "runner_SubCatPlace": "2", "runner_FirstName": "Oisín",
+         "runner_LastName": "MC ARDLE", "runner_NetTime": "00:21:41", "runner_GrossTime": "00:21:45",
+         "runner_Category": "Male", "runner_SubCategory": "MU18", "runner_Class": "5km", "runnerIsDnf": ""},
+        {"runnerId": "2", "runner_Club": "St. Peter's A.C. DTC", "runner_FirstName": "Cian",
+         "runner_LastName": "GORHAM", "runner_Place": "1", "runner_NetTime": "00:15:15", "runner_Class": "5km"},
+        {"runnerId": "3", "runner_Club": "", "runner_Team": "Drogheda & District AC", "runner_FirstName": "Ann",
+         "runner_LastName": "BYRNE", "runner_Place": "", "runner_NetTime": "", "runner_Class": "10km",
+         "runnerIsDnf": True},
+    ]
+    h, rows = _mrr_rows(items)
+    rs = rows_to_results(h, rows, {**BASE, "race": ""})
+    got = {r.athlete: (r.place, r.time, r.category, r.cat_place, r.race, r.match) for r in rs}
+    assert got == {
+        "Oisín Mc Ardle": ("37", "00:21:41", "MU18", "2", "5km", "confident"),
+        "Ann Byrne": ("", "DNF", "", "", "10km", "confident"),
+    }

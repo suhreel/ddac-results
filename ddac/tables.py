@@ -102,8 +102,7 @@ def rows_to_results(headers: list[str], rows: list[list[str]], base: dict,
             athlete = tidy_name(f"{get('first')} {get('last')}".strip())
         else:
             athlete = re.sub(r"\s*#\d+\s*$", "", get("athlete"))
-        if get("race"):
-            base = {**base, "race": base.get("race") or get("race")}
+        row_base = {**base, "race": base.get("race") or get("race")}
         club = get("club") if "club" in cols else None
         raw = " | ".join(c.strip() for c in cells)
         m = classify(club, athlete, raw)
@@ -118,7 +117,7 @@ def rows_to_results(headers: list[str], rows: list[list[str]], base: dict,
             place=get("place"), category=get("category"), cat_place=get("cat_place"),
             raw=raw, match=m,
             url=(links[idx] if links and idx < len(links) and links[idx] else base.get("url", "")),
-            **{k: v for k, v in base.items() if k != "url"},
+            **{k: v for k, v in row_base.items() if k != "url"},
         ))
     return out
 
