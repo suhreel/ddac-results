@@ -77,7 +77,8 @@ def parse_rendered(html: str, base: dict) -> list[Result]:
         out += rows_to_results(headers, rows, {**base, "race": race})
     for r in out:
         r.athlete = tidy_name(r.athlete)
-    return out
+        r.race = re.sub(r"\s+", " ", r.race).strip()
+    return [r for r in out if r.time.upper() not in ("DNS", "DQ*")]
 
 
 def race_date(folder: str, rid: str) -> str:
@@ -90,7 +91,18 @@ def race_date(folder: str, rid: str) -> str:
     return f"{m.group(3)}-{m.group(2)}-{m.group(1)}" if m else ""
 
 
-def scrape_meet(meet: str, menu_url: str, menu_xml: str) -> list[Result]:
+def fix_date(d: str, season: str, newly_seen: bool) -> str:
+    """The meet software often carries an old year. A meet appearing now, in season,
+    is dated today; otherwise keep month/day and use the season's year."""
+    today = date.today()
+    if d[:4] == season:
+        return d
+    if newly_seen and 4 <= today.month <= 9:
+        return today.isoformat()
+    return f"{season}{d[4:]}" if re.match(r"\d{4}-\d{2}-\d{2}", d) else today.isoformat()
+
+
+def scrape_meet(meet: str, menu_url: str, menu_xml: str, newly_seen: bool = False) -> list[Result]:
     name, mdate = meet_info(menu_xml)
     base = {"source": NAME, "event_id": meet, "event_name": name or f"Dublin Graded {meet}",
             "event_date": mdate, "url": menu_url}
@@ -109,6 +121,7 @@ def scrape_meet(meet: str, menu_url: str, menu_xml: str) -> list[Result]:
             if d:
                 base["event_date"] = mdate = d
                 break
+        mdate = base["event_date"] = fix_date(mdate, "20" + meet[6:8], newly_seen)
         if debug:
             print(f"    {meet}: {name!r} {mdate} — {len(races)} races")
         for i, (race_name, rid) in enumerate(races):
@@ -147,8 +160,11 @@ def run(store, cfg: dict, since: str | None = None) -> list[Result]:
             if (date.today() - date.fromisoformat(first)).days > cfg.get("recheck_days", 3):
                 meets[meet]["done"] = True
             continue
+        if any(v.get("hash") == h for k, v in meets.items() if k != meet):
+            meets[meet] = {"hash": h, "first_seen": first, "duplicate": True}
+            continue  # folder holds a copy of another meet
         print(f"  checking {meet}")
-        res = scrape_meet(meet, f"{folder}/menu.html", menu_xml)
+        res = scrape_meet(meet, f"{folder}/menu.html", menu_xml, newly_seen=not prev)
         meets[meet] = {"hash": h, "first_seen": first, "ddac": len(res)}
         found += res
     return found
