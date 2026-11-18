@@ -1,1 +1,111 @@
-{}
+{
+ "dublin_graded": {
+  "meets": {
+   "graded26-1": {
+    "ddac": 11,
+    "first_seen": "2026-11-18",
+    "hash": "19ace5758d33a6b0a1aa7ced4506dc3c67641999"
+   },
+   "graded26-2": {
+    "ddac": 0,
+    "first_seen": "2026-11-18",
+    "hash": "e793d2693f7eb6a033739158292a354f57ccd94d"
+   },
+   "graded26-3": {
+    "ddac": 2,
+    "first_seen": "2026-11-18",
+    "hash": "66e41a011c9022c36ea31d5c2b49998916e6beeb"
+   },
+   "graded26-4": {
+    "ddac": 0,
+    "first_seen": "2026-11-18",
+    "hash": "aecea42ec425fdcfd37a2caa87418b6813c567e0"
+   },
+   "graded26-5": {
+    "ddac": 3,
+    "first_seen": "2026-11-18",
+    "hash": "ea3f90f7c91e989381d262a6a34c57c9fd6207c3"
+   },
+   "graded26-6": {
+    "ddac": 7,
+    "first_seen": "2026-11-18",
+    "hash": "cf6d0e26169171a8d3d0e19953ba3537e27dc43b"
+   },
+   "graded26-7": {
+    "ddac": 0,
+    "first_seen": "2026-11-18",
+    "hash": "0ca3fab718eed80927627c2207611d2ad007e406"
+   },
+   "graded26-8": {
+    "ddac": 2,
+    "first_seen": "2026-11-18",
+    "hash": "95f7b5592650560c676ed67a363a5f271e8b88ba"
+   }
+  }
+ },
+ "last_run": "2026-11-18T02:44:00+00:00",
+ "myrunresults": {
+  "events": {
+   "5900": {
+    "checked": "2026-11-18T02:38",
+    "date": "2026-11-07",
+    "ddac": 0,
+    "name": "Cork Juvenile B XC Championships"
+   },
+   "6127": {
+    "checked": "2026-11-18T02:38",
+    "date": "2026-11-14",
+    "ddac": 0,
+    "name": "Joe Duffy BMW Clontarf Half Marathon November 2026"
+   },
+   "6235": {
+    "checked": "2026-11-18T02:38",
+    "date": "2026-11-07",
+    "ddac": 14,
+    "name": "Leinster Senior, Juvenile Uneven Ages"
+   },
+   "6362": {
+    "checked": "2026-11-18T02:39",
+    "date": "2026-11-01",
+    "ddac": 0,
+    "name": "Munster Senior, U23 Uneven Age XC 2026"
+   },
+   "6364": {
+    "checked": "2026-11-18T02:38",
+    "date": "2026-11-15",
+    "ddac": 0,
+    "name": "Munster Intermediate and Juv B XC 2026"
+   },
+   "6393": {
+    "checked": "2026-11-18T02:39",
+    "date": "2026-11-01",
+    "ddac": 0,
+    "name": "Dublin U19, U20 & Senior XC"
+   },
+   "6399": {
+    "checked": "2026-11-18T02:38",
+    "date": "2026-11-07",
+    "ddac": 16,
+    "name": "Johnny McKenna Charity Run 2026"
+   },
+   "6457": {
+    "checked": "2026-11-18T02:38",
+    "date": "2026-11-15",
+    "ddac": 0,
+    "name": "Stook 10 Mile, 10k & 5k Fun Run 2026"
+   },
+   "6572": {
+    "checked": "2026-11-18T02:38",
+    "date": "2026-11-07",
+    "ddac": 0,
+    "name": "MCI Templemore"
+   },
+   "6618": {
+    "checked": "2026-11-18T02:38",
+    "date": "2026-11-14",
+    "ddac": 0,
+    "name": "British & Irish Masters XC 2026"
+   }
+  }
+ }
+}
