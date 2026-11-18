@@ -1,28 +1,28 @@
 """Dublin Athletics graded track meets.
 
-Results are published as static pages at a predictable address per meet:
+One results site per meet, at a predictable address:
   http://pastresults.dublinathletics.com/graded26-7/menu.html
-The menu links to one page per event. Pages may be HTML tables or fixed-width
-<pre> text (meet-management software output), so both are handled.
+The pages are built by Timetronics meet software: the menu lists every race
+with an onclick of createTable('<id>'), and createTable() loads <id>_list.xml
+and draws the result tables. Headless Chromium opens the menu, calls
+createTable() for each race and reads the rendered tables.
 """
 from __future__ import annotations
 
 import hashlib
 import os
 import re
-from datetime import date, datetime, timedelta
-from urllib.parse import urljoin
+from datetime import date
 
 import requests
 from bs4 import BeautifulSoup
 
-from ..browser import DEBUG_DIR
+from ..browser import browser_page
 from ..models import Result
-from ..tables import parse_html_tables, parse_pre_text, rows_to_results
+from ..tables import parse_html_tables, rows_to_results
 
 NAME = "dublin_graded"
 UA = {"User-Agent": "DDAC-results-bot/1.0 (+https://ddac.ie)"}
-DATE_RE = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)?[ /.-]([A-Za-z]{3,9}|\d{1,2})[ /.-](\d{2,4})\b")
 
 
 def _get(url: str) -> str | None:
@@ -30,110 +30,91 @@ def _get(url: str) -> str | None:
         r = requests.get(url, headers=UA, timeout=20)
         if r.status_code == 200 and r.text.strip():
             r.encoding = r.apparent_encoding or r.encoding
-            if os.environ.get("DEBUG") == "1":
-                DEBUG_DIR.mkdir(exist_ok=True)
-                name = re.sub(r"[^A-Za-z0-9_.-]", "_", url.split("://", 1)[-1])[-100:]
-                (DEBUG_DIR / f"dg_{name}.html").write_text(r.text, encoding="utf-8")
             return r.text
     except requests.RequestException:
         pass
     return None
 
 
-def _find_date(text: str) -> str:
-    m = DATE_RE.search(text)
-    if not m:
-        return ""
-    d, mo, y = m.groups()
-    y = int(y) + 2000 if len(y) == 2 else int(y)
-    for fmt in ("%d %b %Y", "%d %B %Y", "%d %m %Y"):
-        try:
-            return datetime.strptime(f"{d} {mo} {y}", fmt).date().isoformat()
-        except ValueError:
-            continue
-    return ""
+def meet_info(menu_xml: str) -> tuple[str, str]:
+    """Meet name and ISO date from menu.xml (<name>, <startdate>dd-mm-yyyy)."""
+    soup = BeautifulSoup(menu_xml, "xml")
+    comp = soup.find("competition")
+    name = comp.find("name").get_text(strip=True) if comp and comp.find("name") else ""
+    d = comp.find("startdate").get_text(strip=True) if comp and comp.find("startdate") else ""
+    m = re.match(r"(\d{2})-(\d{2})-(\d{4})", d)
+    iso = f"{m.group(3)}-{m.group(2)}-{m.group(1)}" if m else ""
+    # the meet software sometimes keeps last year's date; prefer a scheduled race date
+    sess = soup.find("datescheduled") or soup.find("date")
+    if sess and re.match(r"\d{4}-\d{2}-\d{2}", sess.get_text(strip=True)):
+        iso = sess.get_text(strip=True)
+    return name, iso
 
 
-def _probe(menu_url: str) -> None:
-    """Debug: how Timetronics names per-event XML files."""
-    import re as _re
-    folder = menu_url.rsplit("/", 1)[0]
-    ct = _get(f"{folder}/inc/createTables.js") or ""
-    i = ct.find("function createTable")
-    print(f"    createTable(): {ct[i:i + 2500]!r}")
-    for m in _re.finditer(r".{0,200}fileName\s*=.{0,200}", ct):
-        print(f"    fileName assign: {m.group(0)!r}")
-    menu = _get(f"{folder}/menu.xml") or ""
-    j = menu.find("<event>")
-    print(f"    first <event>: {menu[j:j + 1800]!r}")
-
-
-def parse_page(html: str, base: dict) -> list[Result]:
-    soup = BeautifulSoup(html, "lxml")
-    title = (soup.title.get_text(strip=True) if soup.title else "") or base.get("race", "")
+def parse_rendered(html: str, base: dict) -> list[Result]:
     out: list[Result] = []
-    tables = parse_html_tables(html)
-    for heading, headers, rows, links in tables:
-        out += rows_to_results(headers, rows, {**base, "race": heading or title})
-    for pre in soup.find_all("pre"):
-        out += parse_pre_text(pre.get_text("\n"), {**base, "race": title})
-    if not tables and not soup.find("pre"):
-        # plain text page
-        out += parse_pre_text(soup.get_text("\n"), {**base, "race": title})
+    for heading, headers, rows, links in parse_html_tables(html):
+        if len(rows) < 1 or len(headers) < 3:
+            continue
+        out += rows_to_results(headers, rows, {**base, "race": base.get("race") or heading})
     return out
 
 
-def scrape_meet(meet: str, menu_url: str, menu_html: str) -> tuple[list[Result], str, str]:
-    soup = BeautifulSoup(menu_html, "lxml")
-    meet_name = soup.title.get_text(strip=True) if soup.title else f"Dublin Graded {meet}"
-    meet_date = _find_date(soup.get_text(" "))
-    links = []
-    for a in soup.find_all("a", href=True):
-        href = urljoin(menu_url, a["href"])
-        if href.startswith(menu_url.rsplit("/", 1)[0]) and href != menu_url and not href.endswith((".pdf", ".zip")):
-            links.append((a.get_text(" ", strip=True), href))
-    links = list(dict.fromkeys(links))
-    if os.environ.get("DEBUG") == "1" and meet.endswith("-1"):
-        _probe(menu_url)
-    base = {"source": NAME, "event_id": meet, "event_name": meet_name, "event_date": meet_date}
+def scrape_meet(meet: str, menu_url: str, menu_xml: str) -> list[Result]:
+    name, mdate = meet_info(menu_xml)
+    base = {"source": NAME, "event_id": meet, "event_name": name or f"Dublin Graded {meet}",
+            "event_date": mdate, "url": menu_url}
+    debug = os.environ.get("DEBUG") == "1"
     results: list[Result] = []
-    # results might also be on the menu page itself
-    results += parse_page(menu_html, {**base, "race": meet_name, "url": menu_url})
-    for i, (text, href) in enumerate(links):
-        html = _get(href)
-        if html:
-            results += parse_page(html, {**base, "race": text, "url": href})
-    return list({r.key: r for r in results}.values()), meet_name, meet_date
+    with browser_page() as page:
+        page.goto(menu_url, wait_until="networkidle")
+        page.wait_for_timeout(1500)
+        races = page.evaluate("""() => Array.from(document.querySelectorAll('a[onclick*="createTable("]'))
+            .map(a => [a.innerText.trim(), (a.getAttribute('onclick').match(/createTable\\('([^']+)'/) || [])[1]])
+            .filter(x => x[1])""")
+        races = list(dict.fromkeys(tuple(r) for r in races))
+        if debug:
+            print(f"    {meet}: {name!r} {mdate} — {len(races)} races")
+        for i, (race_name, rid) in enumerate(races):
+            try:
+                page.evaluate(f"createTable('{rid}')")
+                page.wait_for_timeout(700)
+                html = page.content()
+            except Exception as e:
+                print(f"    ! {race_name}: {e}")
+                continue
+            res = parse_rendered(html, {**base, "race": race_name})
+            if debug and i == 0:
+                for h, hdr, rows, _ in parse_html_tables(html)[:4]:
+                    print(f"    sample table {h!r}: headers={hdr} rows={rows[:2]}")
+            results += res
+    return list({r.key: r for r in results}.values())
 
 
 def run(store, cfg: dict, since: str | None = None) -> list[Result]:
     st = store.source_state(NAME)
     meets = st.setdefault("meets", {})
     yy = date.today().strftime("%y")
+    debug = os.environ.get("DEBUG") == "1"
     found: list[Result] = []
     for n in range(1, cfg.get("max_meets", 12) + 1):
         meet = f"graded{yy}-{n}"
         prev = meets.get(meet, {})
-        if prev.get("done") and os.environ.get("DEBUG") != "1":
+        if prev.get("done") and not debug and not since:
             continue
-        url = f"{cfg['base_url']}/{meet}/menu.html"
-        html = _get(url)
-        if not html:
+        folder = f"{cfg['base_url']}/{meet}"
+        menu_xml = _get(f"{folder}/menu.xml")
+        if not menu_xml:
             continue
-        # follow page hashes so unchanged meets aren't re-parsed
-        h = hashlib.sha1(html.encode()).hexdigest()
+        # menu.xml changes whenever results are added or corrected
+        h = hashlib.sha1(menu_xml.encode()).hexdigest()
         first = prev.get("first_seen", date.today().isoformat())
-        if prev.get("hash") == h and prev.get("parsed") and os.environ.get("DEBUG") != "1":
-            age = (date.today() - date.fromisoformat(first)).days
-            if age > cfg.get("recheck_days", 3):
+        if prev.get("hash") == h and not debug and not since:
+            if (date.today() - date.fromisoformat(first)).days > cfg.get("recheck_days", 3):
                 meets[meet]["done"] = True
             continue
         print(f"  checking {meet}")
-        res, name, mdate = scrape_meet(meet, url, html)
-        for r in res:
-            if not r.event_date:
-                r.event_date = mdate or first
-        meets[meet] = {"hash": h, "parsed": True, "first_seen": first, "name": name,
-                       "date": mdate, "ddac": len(res)}
+        res = scrape_meet(meet, f"{folder}/menu.html", menu_xml)
+        meets[meet] = {"hash": h, "first_seen": first, "ddac": len(res)}
         found += res
     return found

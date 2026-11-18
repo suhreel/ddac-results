@@ -1,5 +1,5 @@
 from ddac.docs import build_month
-from ddac.sources.dublin_graded import parse_page
+from ddac.sources.dublin_graded import meet_info, parse_rendered
 from ddac.tables import map_headers, rows_to_results
 
 MRR_HEADERS = ["Place", "Name", "Gross Time", "Cat", "Champs", "Sub Cat", "Club"]
@@ -29,39 +29,25 @@ def test_myrunresults_rows():
     assert rs[0].time == "00:44:10" and rs[0].place == "14"
 
 
-HYTEK = """<html><head><title>Dublin Graded 7 - Women 3000m</title></head><body><pre>
-Women 3000 Meter Run Grade B
-=====================================================
-    Name                    Club                     Finals
-=====================================================
-  1 Jane Walsh              Raheny Shamrock AC     10:12.33
-  2 Mary Leech              Drogheda & District AC 10:41.22
-  3 Ann Byrne               Drogheda AC            10:55.01
-  4 Kate Reilly             St Peters AC Drogheda  11:02.10
-</pre></body></html>"""
-
-TABLE = """<html><head><title>Men 800m A</title></head><body><h3>Men 800m A</h3>
-<table><tr><th>Pos</th><th>Name</th><th>Club</th><th>Time</th></tr>
+TABLE = """<html><body><h2>800m. Grade A</h2>
+<table><tr><th>Rank</th><th>Name</th><th>Club</th><th>Result</th></tr>
 <tr><td>1</td><td>Sean Carrigg</td><td>Clonliffe Harriers</td><td>1:56.21</td></tr>
 <tr><td>5</td><td>Paul Smith</td><td>Drogheda &amp; District</td><td>2:01.40</td></tr>
 </table></body></html>"""
 
 
-def test_graded_pre():
-    rs = parse_page(HYTEK, {"source": "dublin_graded", "event_id": "graded26-7",
-                            "event_name": "Dublin Graded 7", "event_date": "2026-07-15", "url": "u"})
-    got = {r.athlete: (r.match, r.time, r.place) for r in rs}
-    assert got["Mary Leech"] == ("confident", "10:41.22", "2")
-    assert got["Ann Byrne"][0] == "ambiguous"
-    assert "Kate Reilly" not in got and "Jane Walsh" not in got
-    assert all("3000" in r.race for r in rs)
-
-
-def test_graded_table():
-    rs = parse_page(TABLE, {"source": "dublin_graded", "event_id": "graded26-7",
-                            "event_name": "Dublin Graded 7", "event_date": "2026-07-15", "url": "u"})
+def test_graded_rendered_table():
+    rs = parse_rendered(TABLE, {"source": "dublin_graded", "event_id": "graded26-1",
+                                "event_name": "Dublin Graded Meet 1 2026", "event_date": "2026-05-03",
+                                "race": "800m. Grade A", "url": "u"})
     assert len(rs) == 1 and rs[0].athlete == "Paul Smith" and rs[0].time == "2:01.40"
-    assert rs[0].race == "Men 800m A"
+    assert rs[0].race == "800m. Grade A" and rs[0].place == "5"
+
+
+def test_meet_info():
+    xml = """<?xml version="1.0"?><competition><name>Dublin Graded Meet 1 2026 </name>
+    <startdate>03-05-2025</startdate><rounds><round><datescheduled>2026-05-03</datescheduled></round></rounds></competition>"""
+    assert meet_info(xml) == ("Dublin Graded Meet 1 2026", "2026-05-03")
 
 
 def test_month_doc():
