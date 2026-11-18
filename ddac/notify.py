@@ -11,11 +11,41 @@ from html import escape
 from .models import Result
 
 
+def _creds():
+    """Tolerate pasted secrets: trailing newlines, and spaces in the 16-char app password."""
+    user = (os.environ.get("GMAIL_USER") or "").strip()
+    pw = "".join((os.environ.get("GMAIL_APP_PASSWORD") or "").split())
+    to = (os.environ.get("NOTIFY_TO") or "").strip() or user
+    return user, pw, to
+
+
+def _send(user: str, pw: str, to: str, msg) -> bool:
+    recipients = [a.strip() for a in to.replace(";", ",").split(",") if a.strip()]
+    for attempt in ("ssl", "starttls"):
+        try:
+            if attempt == "ssl":
+                s = smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30)
+            else:
+                s = smtplib.SMTP("smtp.gmail.com", 587, timeout=30)
+                s.starttls()
+            with s:
+                s.login(user, pw)
+                s.sendmail(user, recipients, msg.as_string())
+            print(f"Email sent to {', '.join(recipients)}")
+            return True
+        except smtplib.SMTPAuthenticationError as e:
+            print(f"! Gmail rejected the login ({e.smtp_code}). Check GMAIL_USER and GMAIL_APP_PASSWORD.")
+            return False
+        except Exception as e:
+            print(f"! Email via {attempt} failed: {type(e).__name__}: {e}")
+    return False
+
+
 def send_digest(new: list[Result], updated: list[Result], subject_prefix="DDAC results") -> bool:
-    user, pw = os.environ.get("GMAIL_USER"), os.environ.get("GMAIL_APP_PASSWORD")
-    to = os.environ.get("NOTIFY_TO") or user
+    user, pw, to = _creds()
     if not (user and pw) or not (new or updated):
         return False
+    print(f"Sending digest from {user[:3]}…@{user.split('@')[-1]} (password length {len(pw)})")
     events = defaultdict(list)
     for r in new + updated:
         events[(r.event_date, r.event_name)].append(r)
@@ -42,19 +72,14 @@ def send_digest(new: list[Result], updated: list[Result], subject_prefix="DDAC r
     msg["Subject"], msg["From"], msg["To"] = subject, user, to
     msg.attach(MIMEText("\n".join(text), "plain"))
     msg.attach(MIMEText("".join(html), "html"))
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
-        s.login(user, pw)
-        s.sendmail(user, [a.strip() for a in to.split(",")], msg.as_string())
-    return True
+    return _send(user, pw, to, msg)
 
 
 def send_alert(subject: str, body: str) -> None:
-    user, pw = os.environ.get("GMAIL_USER"), os.environ.get("GMAIL_APP_PASSWORD")
+    user, pw, _ = _creds()
     if not (user and pw):
         print(f"ALERT (email not configured): {subject}\n{body}")
         return
     msg = MIMEText(body)
     msg["Subject"], msg["From"], msg["To"] = f"[DDAC scraper] {subject}", user, user
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
-        s.login(user, pw)
-        s.sendmail(user, [user], msg.as_string())
+    _send(user, pw, user, msg)
