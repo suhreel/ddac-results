@@ -55,20 +55,16 @@ def _find_date(text: str) -> str:
 
 
 def _probe(menu_url: str) -> None:
-    """Debug: print the Timetronics data files' structure."""
-    import re as _re
+    """Debug: print the Timetronics results textfile structure."""
     folder = menu_url.rsplit("/", 1)[0]
-    menu = _get(f"{folder}/menu.xml") or ""
-    print(f"    menu.xml ({len(menu)} chars): {menu[:1500]!r}")
-    ct = _get(f"{folder}/inc/createTables.js") or ""
-    hits = [m.group(0) for m in _re.finditer(r".{0,120}(loadXMLDoc|\.xml|\.txt).{0,120}", ct)][:8]
-    print(f"    createTables.js xml/txt refs: {hits}")
-    cm = _get(f"{folder}/inc/createMenu.js") or ""
-    hits = [m.group(0) for m in _re.finditer(r".{0,150}(Textfile|\.txt|textfile).{0,150}", cm, _re.I)][:5]
-    print(f"    createMenu.js textfile refs: {hits}")
-    for guess in ("59.xml", "results.txt", "Results.txt", "event59.xml"):
-        t = _get(f"{folder}/{guess}")
-        print(f"    {guess}: {len(t or '')} chars {(t or '')[:700]!r}")
+    t = _get(f"{folder}/textfile.txt") or ""
+    lines = t.splitlines()
+    print(f"    textfile.txt: {len(t)} chars, {len(lines)} lines")
+    print(f"    head: {chr(10).join(lines[:60])!r}")
+    hits = [i for i, l in enumerate(lines) if "rogheda" in l]
+    print(f"    drogheda lines: {len(hits)}")
+    for i in hits[:4]:
+        print(f"    context {i}: {chr(10).join(lines[max(0, i - 12): i + 2])!r}")
 
 
 def parse_page(html: str, base: dict) -> list[Result]:
