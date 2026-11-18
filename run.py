@@ -24,12 +24,15 @@ def main() -> int:
     ap.add_argument("--since", help="backfill events on/after this date (YYYY-MM-DD)")
     ap.add_argument("--no-email", action="store_true")
     ap.add_argument("--dry-run", action="store_true", help="don't save anything")
+    ap.add_argument("--reset", action="store_true", help="forget all stored results and rebuild the docs")
     args = ap.parse_args()
 
     cfg = load_config()
     wanted = [s for s in args.sources.split(",") if s] or \
              [n for n, c in cfg["sources"].items() if c.get("enabled")]
     store = Store()
+    if args.reset:
+        store.results, store.state = {}, {}
     failures = []
     for name in wanted:
         if name not in SOURCES:
@@ -59,6 +62,11 @@ def main() -> int:
 
     store.save()
     months = {d["event_date"][:7] for d in new + upd}
+    if args.reset:
+        from ddac import ROOT
+        for f in (ROOT / cfg["output"]["results_dir"]).glob("*.md"):
+            f.unlink()
+        months = {d["event_date"][:7] for d in store.results.values()}
     if months:
         print("Updated docs:", ", ".join(write_months(store.all_results(), months)))
     if not args.no_email:
