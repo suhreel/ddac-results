@@ -109,7 +109,7 @@ def run(store, cfg: dict, since: str | None = None) -> list[Result]:
     for n in range(1, cfg.get("max_meets", 12) + 1):
         meet = f"graded{yy}-{n}"
         prev = meets.get(meet, {})
-        if prev.get("done"):
+        if prev.get("done") and os.environ.get("DEBUG") != "1":
             continue
         url = f"{cfg['base_url']}/{meet}/menu.html"
         html = _get(url)
@@ -118,7 +118,7 @@ def run(store, cfg: dict, since: str | None = None) -> list[Result]:
         # follow page hashes so unchanged meets aren't re-parsed
         h = hashlib.sha1(html.encode()).hexdigest()
         first = prev.get("first_seen", date.today().isoformat())
-        if prev.get("hash") == h and prev.get("parsed"):
+        if prev.get("hash") == h and prev.get("parsed") and os.environ.get("DEBUG") != "1":
             age = (date.today() - date.fromisoformat(first)).days
             if age > cfg.get("recheck_days", 3):
                 meets[meet]["done"] = True

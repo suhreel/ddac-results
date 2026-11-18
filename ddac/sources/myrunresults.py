@@ -285,7 +285,31 @@ def scrape_event(page, ev: dict) -> list[Result]:
         results += table_results
     if os.environ.get("DEBUG") == "1":
         print(f"    tabs={tabs} pages={pages_read} json_runners={len(items)} ddac={len(results)}")
-        print(f"    json requests: {json_urls[:4]}")
+        print(f"    api calls: {[u for u in json_urls if 'api.myrunresults' in u][:6]}")
+        probe = page.evaluate("""async (raceId) => {
+            const out = {};
+            const call = async (body, n) => {
+              try {
+                const r = await fetch('https://api.myrunresults.com/api/PublicEvent/GetRunnersStatsAll?toggle=1&skipCount=0&maxResultCount=' + n,
+                  {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body)});
+                const j = await r.json();
+                const items = (j.result && (j.result.items || j.result)) || j.items || [];
+                const arr = Array.isArray(items) ? items : [];
+                return {status: r.status, n: arr.length, total: arr[0] ? arr[0].totalFilteredRows : null,
+                        classes: [...new Set(arr.map(x => x.runner_Class))].slice(0, 20),
+                        keys: Object.keys(j).concat(j.result ? Object.keys(j.result) : [])};
+              } catch (e) { return {error: String(e)}; }
+            };
+            out.noClass = await call({option: {raceId: raceId}}, 2000);
+            out.emptyClass = await call({option: {raceId: raceId, runnerClass: ''}}, 2000);
+            return out;
+        }""", int(ev["id"]))
+        print(f"    probe: {probe}")
+        tabs_dom = page.evaluate("""() => Array.from(document.querySelectorAll('a, button, li, span, div'))
+            .filter(e => e.children.length === 0 && e.innerText && e.innerText.trim().length < 30)
+            .map(e => e.tagName + '.' + (e.className || '').toString().slice(0, 40) + ':' + e.innerText.trim())
+            .slice(0, 400)""")
+        print(f"    leaf elements: {[t for t in tabs_dom if any(k in t.lower() for k in ('km', 'mile', 'u9', 'u11', 'girls', 'boys', 'men', 'women', 'masters'))][:30]}")
     page.remove_listener("response", on_resp)
     # de-duplicate (tabs sometimes show the same table)
     uniq = {r.key: r for r in results}
