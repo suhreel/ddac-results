@@ -2,72 +2,48 @@
  "dublin_graded": {
   "meets": {
    "graded26-1": {
-    "date": "",
     "ddac": 0,
     "first_seen": "2026-11-18",
-    "hash": "0a8ca768b3f495bd52328665baf9bd2a409c157f",
-    "name": "Dublin Juvenile Indoors",
-    "parsed": true
+    "hash": "19ace5758d33a6b0a1aa7ced4506dc3c67641999"
    },
    "graded26-2": {
-    "date": "",
     "ddac": 0,
     "first_seen": "2026-11-18",
-    "hash": "2f581cc8ef10e54581c51d1d05ed38bfa1cd3f6b",
-    "name": "Dublin Juvenile Indoors",
-    "parsed": true
+    "hash": "e793d2693f7eb6a033739158292a354f57ccd94d"
    },
    "graded26-3": {
-    "date": "",
     "ddac": 0,
     "first_seen": "2026-11-18",
-    "hash": "2f581cc8ef10e54581c51d1d05ed38bfa1cd3f6b",
-    "name": "Dublin Juvenile Indoors",
-    "parsed": true
+    "hash": "66e41a011c9022c36ea31d5c2b49998916e6beeb"
    },
    "graded26-4": {
-    "date": "",
     "ddac": 0,
     "first_seen": "2026-11-18",
-    "hash": "2f581cc8ef10e54581c51d1d05ed38bfa1cd3f6b",
-    "name": "Dublin Juvenile Indoors",
-    "parsed": true
+    "hash": "aecea42ec425fdcfd37a2caa87418b6813c567e0"
    },
    "graded26-5": {
-    "date": "",
     "ddac": 0,
     "first_seen": "2026-11-18",
-    "hash": "2f581cc8ef10e54581c51d1d05ed38bfa1cd3f6b",
-    "name": "Dublin Juvenile Indoors",
-    "parsed": true
+    "hash": "ea3f90f7c91e989381d262a6a34c57c9fd6207c3"
    },
    "graded26-6": {
-    "date": "",
     "ddac": 0,
     "first_seen": "2026-11-18",
-    "hash": "2f581cc8ef10e54581c51d1d05ed38bfa1cd3f6b",
-    "name": "Dublin Juvenile Indoors",
-    "parsed": true
+    "hash": "cf6d0e26169171a8d3d0e19953ba3537e27dc43b"
    },
    "graded26-7": {
-    "date": "",
     "ddac": 0,
     "first_seen": "2026-11-18",
-    "hash": "0750f0d7824e939de22225d6207fa313bc45450c",
-    "name": "Dublin Juvenile Indoors",
-    "parsed": true
+    "hash": "0ca3fab718eed80927627c2207611d2ad007e406"
    },
    "graded26-8": {
-    "date": "",
     "ddac": 0,
     "first_seen": "2026-11-18",
-    "hash": "4e240f20f54fc47a01bdd8b1a9a98490aeba0032",
-    "name": "Dublin Juvenile Indoors",
-    "parsed": true
+    "hash": "95f7b5592650560c676ed67a363a5f271e8b88ba"
    }
   }
  },
- "last_run": "2026-11-18T02:29:25+00:00",
+ "last_run": "2026-11-18T02:36:41+00:00",
  "myrunresults": {
   "events": {
    "5900": {
