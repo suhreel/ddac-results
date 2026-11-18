@@ -1,6 +1,6 @@
 # DDAC Results
 
-Collects **Drogheda & District AC** results from results websites every hour,
+Collects **Drogheda & District AC** results from results websites every 20 minutes,
 logs them, builds a monthly results document for the newsletter and the Sunday
 paper, and emails a digest whenever new DDAC results appear.
 
@@ -13,7 +13,7 @@ Leinster, NI, etc.) plug in as extra files in `ddac/sources/`.
 | Output | Where |
 |---|---|
 | Monthly results doc (summary per race + DDAC results table) | `docs/results/2026-11.md` etc. |
-| Email digest of new/updated results | Your inbox, within the hour |
+| Email digest of new/updated results | Your inbox, within ~20 minutes |
 | All results as data (for later phases) | `data/results.json` |
 
 Results whose club name is unclear (e.g. "Drogheda AC" without "District")
@@ -26,8 +26,8 @@ field are marked **⚠️ no club listed**.
 
 ### 1. Create the repo
 1. On GitHub: **New repository** → name `ddac-results` → **Public** → Create.
-   - Public keeps GitHub Actions free with no minute limit. Hourly runs would use
-     roughly 2,000+ minutes a month, which is about the whole free allowance for a
+   - Public keeps GitHub Actions free with no minute limit. Runs every 20 minutes would use
+     roughly 6,000 minutes a month — three times the free allowance for a
      private repo.
    - Nothing private is stored in the repo: the members list lives in an encrypted
      GitHub secret, never in the files. The repo only holds results that are
@@ -55,7 +55,7 @@ Repo → **Settings → Secrets and variables → Actions → New repository sec
    send it to Claude to adjust the scraper.
 4. Check `docs/results/2026-11.md` in the repo.
 
-After that it runs by itself every hour at :07.
+After that it runs by itself every 20 minutes (:07, :27, :47).
 
 ### 4. Members list from Box (weekly, Mondays)
 Used to confirm "Drogheda AC"-style matches and catch members with no club listed.

@@ -2,7 +2,7 @@ name: Scrape results
 
 on:
   schedule:
-    - cron: "7 * * * *"          # every hour at :07
+    - cron: "7,27,47 * * * *"    # every 20 minutes
   workflow_dispatch:
     inputs:
       sources:
