@@ -79,12 +79,20 @@ def scrape_meet(meet: str, menu_url: str, menu_html: str) -> tuple[list[Result],
         if href.startswith(menu_url.rsplit("/", 1)[0]) and href != menu_url and not href.endswith((".pdf", ".zip")):
             links.append((a.get_text(" ", strip=True), href))
     links = list(dict.fromkeys(links))
+    if os.environ.get("DEBUG") == "1":
+        print(f"    {meet}: title={meet_name!r} date={meet_date!r} links={len(links)}")
+        print(f"    all hrefs: {[a['href'] for a in soup.find_all('a', href=True)][:15]}")
+        print(f"    frames: {[f.get('src') for f in soup.find_all(['frame', 'iframe'])]}")
+        print(f"    menu text: {soup.get_text(' ', strip=True)[:300]!r}")
     base = {"source": NAME, "event_id": meet, "event_name": meet_name, "event_date": meet_date}
     results: list[Result] = []
     # results might also be on the menu page itself
     results += parse_page(menu_html, {**base, "race": meet_name, "url": menu_url})
-    for text, href in links:
+    for i, (text, href) in enumerate(links):
         html = _get(href)
+        if html and i == 0 and os.environ.get("DEBUG") == "1":
+            print(f"    first page {href}: {BeautifulSoup(html, 'lxml').get_text(' ', strip=True)[:600]!r}")
+            print(f"    tables={html.lower().count('<table')} pre={html.lower().count('<pre')}")
         if html:
             results += parse_page(html, {**base, "race": text, "url": href})
     return list({r.key: r for r in results}.values()), meet_name, meet_date

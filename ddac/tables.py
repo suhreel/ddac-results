@@ -22,13 +22,33 @@ HEADER_KEYS = {
 TIME_RE = re.compile(r"\b\d{1,2}:\d{2}(?::\d{2})?(?:\.\d{1,3})?\b|\b\d{1,3}\.\d{2}m?\b")
 
 
+def _norm_header(h: str) -> str:
+    """'chipTime' / 'chip_time' / 'Chip Time' -> 'chip time'."""
+    h = re.sub(r"([a-z])([A-Z])", r"\1 \2", h or "")
+    return re.sub(r"[_\-.]+", " ", h).strip().lower()
+
+
 def map_headers(headers: list[str]) -> dict[str, int]:
     """Map logical field -> column index. Prefers chip/net time over gun time."""
     out: dict[str, int] = {}
-    hs = [h.strip().lower() for h in headers]
+    hs = [_norm_header(h) for h in headers]
+    # split first/last name columns (JSON APIs)
+    first = next((i for i, h in enumerate(hs) if h in ("first name", "firstname", "forename", "fname", "given name")), None)
+    last = next((i for i, h in enumerate(hs) if h in ("last name", "lastname", "surname", "sname", "family name")), None)
+    if first is not None and last is not None:
+        out["first"], out["last"] = first, last
+    race = next((i for i, h in enumerate(hs) if h in ("distance", "race", "race name", "race distance", "event")), None)
+    if race is not None:
+        out["race"] = race
     for field in ("cat_place", "place", "athlete", "club", "category", "bib"):
         for i, h in enumerate(hs):
             if i in out.values():
+                continue
+            if field == "athlete" and "first" in out:
+                break
+            if field == "club" and "id" in h.split():
+                continue
+            if field in ("place", "category") and h.split()[-1] == "id":
                 continue
             if any(h == k or h.startswith(k + " ") or h.endswith(" " + k) for k in HEADER_KEYS[field]):
                 out[field] = i
@@ -67,7 +87,12 @@ def rows_to_results(headers: list[str], rows: list[list[str]], base: dict,
         if not any(c.strip() for c in cells):
             continue
         get = lambda f: cells[cols[f]].strip() if f in cols and cols[f] < len(cells) else ""
-        athlete = re.sub(r"\s*#\d+\s*$", "", get("athlete"))
+        if "first" in cols:
+            athlete = f"{get('first')} {get('last')}".strip()
+        else:
+            athlete = re.sub(r"\s*#\d+\s*$", "", get("athlete"))
+        if get("race"):
+            base = {**base, "race": base.get("race") or get("race")}
         club = get("club") if "club" in cols else None
         raw = " | ".join(c.strip() for c in cells)
         m = classify(club, athlete, raw)

@@ -13,6 +13,7 @@ Run with DEBUG=1 to save the HTML/screenshot of every page visited (in debug/).
 from __future__ import annotations
 
 import json
+import os
 import re
 import time
 from datetime import date, datetime, timedelta
@@ -214,6 +215,9 @@ def scrape_event(page, ev: dict) -> list[Result]:
         payloads.clear()
         _set_max_page_size(page)
         j = _json_rows(payloads)
+        if j and os.environ.get("DEBUG") == "1":
+            print(f"    JSON headers: {j[0]}")
+            print(f"    JSON row 1:   {j[1][0] if j[1] else ''}")
         if j:
             results += rows_to_results(j[0], j[1], {**base, "race": tab})
             continue
