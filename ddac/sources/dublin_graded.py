@@ -55,16 +55,17 @@ def _find_date(text: str) -> str:
 
 
 def _probe(menu_url: str) -> None:
-    """Debug: print the Timetronics results textfile structure."""
+    """Debug: how Timetronics names per-event XML files."""
+    import re as _re
     folder = menu_url.rsplit("/", 1)[0]
-    t = _get(f"{folder}/textfile.txt") or ""
-    lines = t.splitlines()
-    print(f"    textfile.txt: {len(t)} chars, {len(lines)} lines")
-    print(f"    head: {chr(10).join(lines[:60])!r}")
-    hits = [i for i, l in enumerate(lines) if "rogheda" in l]
-    print(f"    drogheda lines: {len(hits)}")
-    for i in hits[:4]:
-        print(f"    context {i}: {chr(10).join(lines[max(0, i - 12): i + 2])!r}")
+    ct = _get(f"{folder}/inc/createTables.js") or ""
+    i = ct.find("function createTable")
+    print(f"    createTable(): {ct[i:i + 2500]!r}")
+    for m in _re.finditer(r".{0,200}fileName\s*=.{0,200}", ct):
+        print(f"    fileName assign: {m.group(0)!r}")
+    menu = _get(f"{folder}/menu.xml") or ""
+    j = menu.find("<event>")
+    print(f"    first <event>: {menu[j:j + 1800]!r}")
 
 
 def parse_page(html: str, base: dict) -> list[Result]:
