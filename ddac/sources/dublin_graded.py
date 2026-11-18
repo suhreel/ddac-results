@@ -19,7 +19,7 @@ from bs4 import BeautifulSoup
 
 from ..browser import browser_page
 from ..models import Result
-from ..tables import parse_html_tables, rows_to_results
+from ..tables import parse_html_tables, rows_to_results, tidy_name
 
 NAME = "dublin_graded"
 UA = {"User-Agent": "DDAC-results-bot/1.0 (+https://ddac.ie)"}
@@ -51,13 +51,43 @@ def meet_info(menu_xml: str) -> tuple[str, str]:
     return name, iso
 
 
+def _flip(name: str) -> str:
+    """'DEL BELLO, Caoimhe' -> 'Caoimhe DEL BELLO'."""
+    if "," in name:
+        last, first = [p.strip() for p in name.split(",", 1)]
+        return f"{first} {last}".strip()
+    return name
+
+
 def parse_rendered(html: str, base: dict) -> list[Result]:
     out: list[Result] = []
     for heading, headers, rows, links in parse_html_tables(html):
-        if len(rows) < 1 or len(headers) < 3:
+        low = [h.strip().lower() for h in headers]
+        # results tables have Place + Result; start lists don't
+        if "result" not in low or not any(h in ("place", "rank") for h in low):
             continue
-        out += rows_to_results(headers, rows, {**base, "race": base.get("race") or heading})
+        if "team" in low:  # Timetronics fills Team with 'undefined'/blank; Club is the real one
+            i = low.index("team")
+            headers = headers[:i] + headers[i + 1:]
+            rows = [r[:i] + r[i + 1:] for r in rows]
+        ni = next((i for i, h in enumerate(headers) if h.strip().lower() == "name"), None)
+        if ni is not None:
+            rows = [r[:ni] + [_flip(r[ni])] + r[ni + 1:] if len(r) > ni else r for r in rows]
+        race = base.get("race") or heading
+        out += rows_to_results(headers, rows, {**base, "race": race})
+    for r in out:
+        r.athlete = tidy_name(r.athlete)
     return out
+
+
+def race_date(folder: str, rid: str) -> str:
+    """Real race date from <id>_version.xml timestamp (the meet header date is often stale)."""
+    xml = _get(f"{folder}/{rid}_version.xml") or ""
+    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", xml)
+    if m:
+        return m.group(0)
+    m = re.search(r"(\d{2})[-/.](\d{2})[-/.](\d{4})", xml)
+    return f"{m.group(3)}-{m.group(2)}-{m.group(1)}" if m else ""
 
 
 def scrape_meet(meet: str, menu_url: str, menu_xml: str) -> list[Result]:
@@ -73,6 +103,12 @@ def scrape_meet(meet: str, menu_url: str, menu_xml: str) -> list[Result]:
             .map(a => [a.innerText.trim(), (a.getAttribute('onclick').match(/createTable\\('([^']+)'/) || [])[1]])
             .filter(x => x[1])""")
         races = list(dict.fromkeys(tuple(r) for r in races))
+        folder = menu_url.rsplit("/", 1)[0]
+        for _, rid in races[:3]:
+            d = race_date(folder, rid)
+            if d:
+                base["event_date"] = mdate = d
+                break
         if debug:
             print(f"    {meet}: {name!r} {mdate} — {len(races)} races")
         for i, (race_name, rid) in enumerate(races):
@@ -80,13 +116,11 @@ def scrape_meet(meet: str, menu_url: str, menu_xml: str) -> list[Result]:
                 page.evaluate(f"createTable('{rid}')")
                 page.wait_for_timeout(700)
                 html = page.content()
-            except Exception as e:
-                print(f"    ! {race_name}: {e}")
-                continue
+            except Exception:
+                continue  # race with no data yet
             res = parse_rendered(html, {**base, "race": race_name})
-            if debug and i == 0:
-                for h, hdr, rows, _ in parse_html_tables(html)[:4]:
-                    print(f"    sample table {h!r}: headers={hdr} rows={rows[:2]}")
+            if debug and res:
+                print(f"    {race_name}: " + "; ".join(f"{r.athlete} {r.time} ({r.club_raw})" for r in res))
             results += res
     return list({r.key: r for r in results}.values())
 
