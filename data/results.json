@@ -151,6 +151,27 @@
   "time": "00:11:35",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
  },
+ "28d54054797eb2fb": {
+  "athlete": "Conor Cooney",
+  "cat_place": "",
+  "category": "M65",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-10-11",
+  "event_id": "428096",
+  "event_name": "FASN 5K Run 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:08:08+00:00",
+  "key": "28d54054797eb2fb",
+  "match": "confident",
+  "place": "61",
+  "race": "5km",
+  "raw": "4146 | 221 | 61 | Conor COONEY | Drogheda & District A.C. | 35. M | M65 |  |  | 0:26:18 | 0:26:21",
+  "source": "raceresult",
+  "time": "0:26:18",
+  "url": "https://my.raceresult.com/428096/results"
+ },
  "32d90d2ddc19eb88": {
   "athlete": "Mia Jacob",
   "cat_place": "28",
@@ -227,6 +248,27 @@
   "time": "00:19:00",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
  },
+ "40157c16d975e535": {
+  "athlete": "Mary Mc Donnell",
+  "cat_place": "",
+  "category": "F65",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-10-11",
+  "event_id": "428096",
+  "event_name": "FASN 5K Run 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:08:08+00:00",
+  "key": "40157c16d975e535",
+  "match": "confident",
+  "place": "49",
+  "race": "5km",
+  "raw": "4688 | 180 | 49 | Mary MC DONNELL | Drogheda & District A.C. | 19. F | F65 |  |  | 0:25:34 | 0:25:37",
+  "source": "raceresult",
+  "time": "0:25:34",
+  "url": "https://my.raceresult.com/428096/results"
+ },
  "403b8f6f4d260919": {
   "athlete": "Aaron Hanlon",
   "cat_place": "",
@@ -283,6 +325,27 @@
   "source": "dublin_graded",
   "time": "1:06.75",
   "url": "http://pastresults.dublinathletics.com/graded26-6/menu.html"
+ },
+ "492403bc9cf27f14": {
+  "athlete": "Shane Larkin",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-10-11",
+  "event_id": "428096",
+  "event_name": "FASN 5K Run 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:08:08+00:00",
+  "key": "492403bc9cf27f14",
+  "match": "confident",
+  "place": "6",
+  "race": "5km",
+  "raw": "1259 | 23 | 6 | Shane LARKIN | Drogheda & District A.C. | 6. M | M50 |  |  | 0:18:52 | 0:18:52",
+  "source": "raceresult",
+  "time": "0:18:52",
+  "url": "https://my.raceresult.com/428096/results"
  },
  "494c8f4f020b7fb9": {
   "athlete": "Gerry Oconnor",
@@ -626,6 +689,27 @@
   "time": "00:16:03",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
  },
+ "84bcc9cb97c22f99": {
+  "athlete": "Alan Floyd",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-10-11",
+  "event_id": "428096",
+  "event_name": "FASN 5K Run 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:08:08+00:00",
+  "key": "84bcc9cb97c22f99",
+  "match": "confident",
+  "place": "126",
+  "race": "5km",
+  "raw": "4144 | 213 | 126 | Alan FLOYD | Drogheda & District A.C. | 61. M | M50 |  |  | 0:30:34 | 0:30:38",
+  "source": "raceresult",
+  "time": "0:30:34",
+  "url": "https://my.raceresult.com/428096/results"
+ },
  "85b7a11f33469c7c": {
   "athlete": "James Keenan",
   "cat_place": "66",
@@ -663,6 +747,27 @@
   "source": "myrunresults",
   "time": "00:25:27",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "90784e51f49c1195": {
+  "athlete": "Roisin Mc Geough",
+  "cat_place": "",
+  "category": "F40",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-10-11",
+  "event_id": "428096",
+  "event_name": "FASN 5K Run 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:08:08+00:00",
+  "key": "90784e51f49c1195",
+  "match": "confident",
+  "place": "25",
+  "race": "5km",
+  "raw": "4134 | 88 | 25 | Roisin MC GEOUGH | Drogheda & District A.C. | 6. F | F40 |  |  | 0:23:19 | 0:23:22",
+  "source": "raceresult",
+  "time": "0:23:19",
+  "url": "https://my.raceresult.com/428096/results"
  },
  "913c8e51004cc3c3": {
   "athlete": "Robbie Keane",
@@ -758,6 +863,27 @@
   "source": "myrunresults",
   "time": "00:33:45",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "b0cd1bf6ec0b46d5": {
+  "athlete": "Colin Griffin",
+  "cat_place": "",
+  "category": "",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-09-20",
+  "event_id": "420871",
+  "event_name": "Lahinch Half Marrathon & 6 Mile",
+  "extra": {
+   "via": "raceresult"
+  },
+  "first_seen": "2026-11-20T17:08:08+00:00",
+  "key": "b0cd1bf6ec0b46d5",
+  "match": "confident",
+  "place": "128",
+  "race": "Half Marathon",
+  "raw": "134 | 427 | 128. | 134 | Griffin, Colin |  |  | Drogheda and District A.C. | 1:50:47 | 1:51:03",
+  "source": "raceresult",
+  "time": "1:50:47",
+  "url": "https://my.raceresult.com/420871/results"
  },
  "b94fedf5a2649ddf": {
   "athlete": "Cian Bolton",
@@ -892,6 +1018,27 @@
   "time": "00:18:57",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
  },
+ "f5d868c5fd9b0071": {
+  "athlete": "Nuala Reily",
+  "cat_place": "",
+  "category": "F65",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-10-11",
+  "event_id": "428096",
+  "event_name": "FASN 5K Run 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:08:08+00:00",
+  "key": "f5d868c5fd9b0071",
+  "match": "confident",
+  "place": "63",
+  "race": "5km",
+  "raw": "4145 | 220 | 63 | Nuala REILY | Drogheda & District A.C. | 27. F | F65 |  |  | 0:26:27 | 0:26:30",
+  "source": "raceresult",
+  "time": "0:26:27",
+  "url": "https://my.raceresult.com/428096/results"
+ },
  "f69fabeed6bdbeea": {
   "athlete": "Dearbhla Johnston",
   "cat_place": "50",
@@ -910,6 +1057,27 @@
   "source": "myrunresults",
   "time": "00:10:11",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
+ },
+ "f816e1030ef1df67": {
+  "athlete": "Robert Quaile",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-10-11",
+  "event_id": "428096",
+  "event_name": "FASN 5K Run 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:08:08+00:00",
+  "key": "f816e1030ef1df67",
+  "match": "confident",
+  "place": "86",
+  "race": "5km",
+  "raw": "1262 | 17 | 86 | Robert QUAILE | Drogheda & District A.C. | 49. M | M |  |  | 0:28:17 | 0:28:23",
+  "source": "raceresult",
+  "time": "0:28:17",
+  "url": "https://my.raceresult.com/428096/results"
  },
  "fb8537ff7d5968b2": {
   "athlete": "Austin McCann",
@@ -948,5 +1116,26 @@
   "source": "dublin_graded",
   "time": "57.17",
   "url": "http://pastresults.dublinathletics.com/graded26-6/menu.html"
+ },
+ "fd89f7c8b540ed47": {
+  "athlete": "Raymond Hoey",
+  "cat_place": "",
+  "category": "M65",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-10-11",
+  "event_id": "428096",
+  "event_name": "FASN 5K Run 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:08:08+00:00",
+  "key": "fd89f7c8b540ed47",
+  "match": "confident",
+  "place": "136",
+  "race": "5km",
+  "raw": "4686 | 167 | 136 | Raymond HOEY | Drogheda & District A.C. | 63. M | M65 |  |  | 0:31:15 | 0:31:25",
+  "source": "raceresult",
+  "time": "0:31:15",
+  "url": "https://my.raceresult.com/428096/results"
  }
 }

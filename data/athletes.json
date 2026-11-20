@@ -21,6 +21,28 @@
   "latest": "2026-07-29",
   "highlights": []
  },
+ "alan floyd": {
+  "results": [
+   {
+    "date": "2026-10-11",
+    "event": "FASN 5K Run 2026",
+    "series": "fasn 5k run",
+    "race": "5km",
+    "time": "0:30:34",
+    "place": "126",
+    "category": "M50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/428096/results",
+    "highlights": []
+   }
+  ],
+  "name": "Alan Floyd",
+  "races": 1,
+  "first_seen": "2026-10-11",
+  "latest": "2026-10-11",
+  "highlights": []
+ },
  "alan wade": {
   "results": [
    {
@@ -241,12 +263,47 @@
     "source": "myrunresults",
     "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results",
     "highlights": []
+   },
+   {
+    "date": "2026-09-20",
+    "event": "Lahinch Half Marrathon & 6 Mile",
+    "series": "lahinch half marrathon 6 mile",
+    "race": "Half Marathon",
+    "time": "1:50:47",
+    "place": "128",
+    "category": "",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/420871/results",
+    "highlights": []
    }
   ],
   "name": "Colin Griffin",
-  "races": 1,
-  "first_seen": "2026-11-07",
+  "races": 2,
+  "first_seen": "2026-09-20",
   "latest": "2026-11-07",
+  "highlights": []
+ },
+ "conor cooney": {
+  "results": [
+   {
+    "date": "2026-10-11",
+    "event": "FASN 5K Run 2026",
+    "series": "fasn 5k run",
+    "race": "5km",
+    "time": "0:26:18",
+    "place": "61",
+    "category": "M65",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/428096/results",
+    "highlights": []
+   }
+  ],
+  "name": "Conor Cooney",
+  "races": 1,
+  "first_seen": "2026-10-11",
+  "latest": "2026-10-11",
   "highlights": []
  },
  "darragh minogue": {
@@ -666,6 +723,28 @@
   "latest": "2026-07-29",
   "highlights": []
  },
+ "mary mcdonnell": {
+  "results": [
+   {
+    "date": "2026-10-11",
+    "event": "FASN 5K Run 2026",
+    "series": "fasn 5k run",
+    "race": "5km",
+    "time": "0:25:34",
+    "place": "49",
+    "category": "F65",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/428096/results",
+    "highlights": []
+   }
+  ],
+  "name": "Mary Mc Donnell",
+  "races": 1,
+  "first_seen": "2026-10-11",
+  "latest": "2026-10-11",
+  "highlights": []
+ },
  "kostik maximilian": {
   "results": [
    {
@@ -784,6 +863,28 @@
    "3rd in 800m Men Grade D — Dublin Graded Meet 5 2026 (2026-06-14)"
   ]
  },
+ "nuala reily": {
+  "results": [
+   {
+    "date": "2026-10-11",
+    "event": "FASN 5K Run 2026",
+    "series": "fasn 5k run",
+    "race": "5km",
+    "time": "0:26:27",
+    "place": "63",
+    "category": "F65",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/428096/results",
+    "highlights": []
+   }
+  ],
+  "name": "Nuala Reily",
+  "races": 1,
+  "first_seen": "2026-10-11",
+  "latest": "2026-10-11",
+  "highlights": []
+ },
  "mcardle oisin": {
   "results": [
    {
@@ -862,6 +963,28 @@
    "3rd in 400m Men Grade D — Dublin Graded Meet 3 2026 (2026-05-20)"
   ]
  },
+ "hoey raymond": {
+  "results": [
+   {
+    "date": "2026-10-11",
+    "event": "FASN 5K Run 2026",
+    "series": "fasn 5k run",
+    "race": "5km",
+    "time": "0:31:15",
+    "place": "136",
+    "category": "M65",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/428096/results",
+    "highlights": []
+   }
+  ],
+  "name": "Raymond Hoey",
+  "races": 1,
+  "first_seen": "2026-10-11",
+  "latest": "2026-10-11",
+  "highlights": []
+ },
  "keane robbie": {
   "results": [
    {
@@ -915,11 +1038,24 @@
     "source": "myrunresults",
     "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results",
     "highlights": []
+   },
+   {
+    "date": "2026-10-11",
+    "event": "FASN 5K Run 2026",
+    "series": "fasn 5k run",
+    "race": "5km",
+    "time": "0:28:17",
+    "place": "86",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/428096/results",
+    "highlights": []
    }
   ],
   "name": "Robert Quaile",
-  "races": 1,
-  "first_seen": "2026-11-07",
+  "races": 2,
+  "first_seen": "2026-10-11",
   "latest": "2026-11-07",
   "highlights": []
  },
@@ -937,11 +1073,24 @@
     "source": "myrunresults",
     "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results",
     "highlights": []
+   },
+   {
+    "date": "2026-10-11",
+    "event": "FASN 5K Run 2026",
+    "series": "fasn 5k run",
+    "race": "5km",
+    "time": "0:23:19",
+    "place": "25",
+    "category": "F40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/428096/results",
+    "highlights": []
    }
   ],
   "name": "Roisin Mc Geough",
-  "races": 1,
-  "first_seen": "2026-11-07",
+  "races": 2,
+  "first_seen": "2026-10-11",
   "latest": "2026-11-07",
   "highlights": []
  },
@@ -1003,11 +1152,24 @@
     "source": "myrunresults",
     "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results",
     "highlights": []
+   },
+   {
+    "date": "2026-10-11",
+    "event": "FASN 5K Run 2026",
+    "series": "fasn 5k run",
+    "race": "5km",
+    "time": "0:18:52",
+    "place": "6",
+    "category": "M50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/428096/results",
+    "highlights": []
    }
   ],
   "name": "Shane Larkin",
-  "races": 1,
-  "first_seen": "2026-11-07",
+  "races": 2,
+  "first_seen": "2026-10-11",
   "latest": "2026-11-07",
   "highlights": []
  },

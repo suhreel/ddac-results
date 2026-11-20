@@ -43,7 +43,7 @@
    }
   }
  },
- "last_run": "2026-11-20T13:14:08+00:00",
+ "last_run": "2026-11-20T17:08:08+00:00",
  "myrunresults": {
   "events": {
    "5900": {
@@ -106,6 +106,746 @@
     "ddac": 0,
     "name": "British & Irish Masters XC 2026"
    }
+  }
+ },
+ "raceresult": {
+  "events": {
+   "399025": {
+    "checked": "2026-11-20T17:04",
+    "date": "2026-09-05",
+    "ddac": 0,
+    "name": "Lough Ree Monster Triathlon 2026",
+    "via": "raceresult"
+   },
+   "407808": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-12",
+    "ddac": 0,
+    "name": "Clew Bay Half Marathon & 10k 2026",
+    "via": "popupraces"
+   },
+   "407810": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-06",
+    "ddac": 0,
+    "name": "Craughwell 10Mile & 10km Road Race 2026",
+    "via": "popupraces"
+   },
+   "407811": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-13",
+    "ddac": 0,
+    "name": "Charleville International Half Marathon 2026",
+    "via": "popupraces"
+   },
+   "407815": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-19",
+    "ddac": 0,
+    "name": "Rhode AC Marathon, 3/4, Half & 10k \u2013 2026",
+    "via": "popupraces"
+   },
+   "411912": {
+    "checked": "2026-11-20T17:04",
+    "date": "2026-09-04",
+    "ddac": 0,
+    "name": "The Bay 5k 2026",
+    "via": "popupraces"
+   },
+   "411913": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-12",
+    "ddac": 0,
+    "name": "The Lakes 10k 2026",
+    "via": "popupraces"
+   },
+   "411914": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-13",
+    "ddac": 0,
+    "name": "Mountmellick 5km Road Race 2026",
+    "via": "popupraces"
+   },
+   "411916": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-09-26",
+    "ddac": 0,
+    "name": "East of Ireland Marathons \u2013 Howth",
+    "via": "popupraces"
+   },
+   "411917": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-09-26",
+    "ddac": 0,
+    "name": "Tomnafinnoge AC 5K 2026",
+    "via": "popupraces"
+   },
+   "411918": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-09-27",
+    "ddac": 0,
+    "name": "The Naas Town 10km and 5km Family Fun Run 2026",
+    "via": "popupraces"
+   },
+   "411920": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-10-04",
+    "ddac": 0,
+    "name": "Elevate Credit Union Charity 5k 2026",
+    "via": "popupraces"
+   },
+   "411922": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-11-07",
+    "ddac": 0,
+    "name": "The Gingerbread Run 2026",
+    "via": "popupraces"
+   },
+   "412007": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-09-27",
+    "ddac": 0,
+    "name": "The Village Run 2026",
+    "via": "popupraces"
+   },
+   "412506": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-11",
+    "ddac": 0,
+    "name": "Gaelathon",
+    "via": "raceresult"
+   },
+   "414456": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-06",
+    "ddac": 0,
+    "name": "Wicklow SC \u2013 McAulay Shield/O Donovan Cup",
+    "via": "popupraces"
+   },
+   "417318": {
+    "checked": "2026-11-20T17:04",
+    "date": "2026-09-06",
+    "ddac": 0,
+    "name": "R\u00e1s na mBan 2026",
+    "via": "popupraces"
+   },
+   "418233": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-22",
+    "ddac": 0,
+    "name": "Galway Primary Schools XC 2026",
+    "via": "popupraces"
+   },
+   "418790": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-06",
+    "ddac": 0,
+    "name": "IWA Run n Roll proudly supported by RedClick 2026",
+    "via": "popupraces"
+   },
+   "419218": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-23",
+    "ddac": 0,
+    "name": "Roscommon Primary Schools XC 2026",
+    "via": "popupraces"
+   },
+   "419628": {
+    "checked": "2026-11-20T17:04",
+    "date": "2026-09-02",
+    "ddac": 0,
+    "name": "Garda Triathlon 2026",
+    "via": "popupraces"
+   },
+   "420018": {
+    "checked": "2026-11-20T17:04",
+    "date": "2026-09-05",
+    "ddac": 0,
+    "name": "Tried and Tested Triathlon 2026",
+    "via": "raceresult"
+   },
+   "420024": {
+    "checked": "2026-11-20T17:04",
+    "date": "2026-09-06",
+    "ddac": 0,
+    "name": "Tried and Tested Junior Triathlon 2026",
+    "via": "raceresult"
+   },
+   "420132": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-11-08",
+    "ddac": 0,
+    "name": "Sanofi 5 mile & 5km 2026",
+    "via": "raceresult"
+   },
+   "420637": {
+    "checked": "2026-11-20T17:04",
+    "date": "2026-09-06",
+    "ddac": 0,
+    "name": "Barretstown Half Marathon Naas",
+    "via": "raceresult"
+   },
+   "420781": {
+    "checked": "2026-11-20T17:04",
+    "date": "2026-09-06",
+    "ddac": 0,
+    "name": "Run The Bridges",
+    "via": "raceresult"
+   },
+   "420871": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-20",
+    "ddac": 1,
+    "name": "Lahinch Half Marrathon & 6 Mile",
+    "via": "raceresult"
+   },
+   "420971": {
+    "checked": "2026-11-20T17:04",
+    "date": "2026-09-05",
+    "ddac": 0,
+    "name": "Rob Hef Mile 2026",
+    "via": "raceresult"
+   },
+   "421440": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-10",
+    "ddac": 0,
+    "name": "Dublin Mountain 5k Road Run 2026",
+    "via": "popupraces"
+   },
+   "422623": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-13",
+    "ddac": 0,
+    "name": "Ellistown GAA 3k and 5K",
+    "via": "raceresult"
+   },
+   "422628": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-13",
+    "ddac": 0,
+    "name": "Courtown Adventure Run 510",
+    "via": "raceresult"
+   },
+   "422836": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-13",
+    "ddac": 0,
+    "name": "Leinster Open Sea \u2013 Race to Case",
+    "via": "popupraces"
+   },
+   "422994": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-14",
+    "ddac": 0,
+    "name": "VHI Move Together 5km 2026",
+    "via": "popupraces"
+   },
+   "423022": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-20",
+    "ddac": 0,
+    "name": "Phoenix Energy Belfast City Half Marathon 2026",
+    "via": "popupraces"
+   },
+   "423239": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-20",
+    "ddac": 0,
+    "name": "The 45th Echo Women\u2019s Mini Marathon 2026",
+    "via": "popupraces"
+   },
+   "423479": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-19",
+    "ddac": 0,
+    "name": "Cromane Triathlon 2026",
+    "via": "raceresult"
+   },
+   "423503": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-16",
+    "ddac": 0,
+    "name": "Google 5k 2026",
+    "via": "popupraces"
+   },
+   "423618": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-20",
+    "ddac": 0,
+    "name": "Cromane 10 Mile 2026",
+    "via": "raceresult"
+   },
+   "423698": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-19",
+    "ddac": 0,
+    "name": "Bunninadden 5&10K",
+    "via": "raceresult"
+   },
+   "423757": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-19",
+    "ddac": 0,
+    "name": "Castlegar International Cross Country 2026",
+    "via": "popupraces"
+   },
+   "424364": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-19",
+    "ddac": 0,
+    "name": "WellWex Tryka",
+    "via": "raceresult"
+   },
+   "424867": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-23",
+    "ddac": 0,
+    "name": "Mayo Primary Schools XC 2026",
+    "via": "popupraces"
+   },
+   "425396": {
+    "checked": "2026-11-20T17:05",
+    "date": "2026-09-26",
+    "ddac": 0,
+    "name": "Valentia Island Triathlon 2026",
+    "via": "raceresult"
+   },
+   "426220": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-09-27",
+    "ddac": 0,
+    "name": "Newbridge FRC 2026",
+    "via": "raceresult"
+   },
+   "426221": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-09-27",
+    "ddac": 0,
+    "name": "St. Laurence's 5k & 10k Fun Run",
+    "via": "raceresult"
+   },
+   "426224": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-09-26",
+    "ddac": 0,
+    "name": "Leinster Open Sea: Halfmoon SC \u2013 Kilmartin Cup",
+    "via": "popupraces"
+   },
+   "426245": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-09-27",
+    "ddac": 0,
+    "name": "Laois Athletics \u2013 Novice & Even ages XC 2026",
+    "via": "popupraces"
+   },
+   "426382": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-10-03",
+    "ddac": 0,
+    "name": "Northwest Coastal Challenge 26",
+    "via": "raceresult"
+   },
+   "426568": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-11",
+    "ddac": 0,
+    "name": "Laois Athletics \u2013 Intermediate & Uneven Ages XC 2026",
+    "via": "popupraces"
+   },
+   "426576": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-09-29",
+    "ddac": 0,
+    "name": "Galway Primary Schools XC 2026-Finals",
+    "via": "popupraces"
+   },
+   "426831": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-10-04",
+    "ddac": 0,
+    "name": "Grange 10K 26",
+    "via": "raceresult"
+   },
+   "427023": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-17",
+    "ddac": 0,
+    "name": "Outrun Hunger 2026",
+    "via": "popupraces"
+   },
+   "427398": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-10-03",
+    "ddac": 0,
+    "name": "Connaught Schools XC Finals 2026",
+    "via": "popupraces"
+   },
+   "427575": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-10-04",
+    "ddac": 0,
+    "name": "Fr Joe McMahon 5/10km",
+    "via": "raceresult"
+   },
+   "427608": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-11-04",
+    "ddac": 0,
+    "name": "Winter League 2026/27",
+    "via": "raceresult"
+   },
+   "427619": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-10-04",
+    "ddac": 0,
+    "name": "Meath Cross Country 2026 \u2013 Even, Jnr, Novice",
+    "via": "popupraces"
+   },
+   "428070": {
+    "checked": "2026-11-20T17:06",
+    "date": "2026-10-06",
+    "ddac": 0,
+    "name": "Fota House Cross-Cup 2026",
+    "via": "popupraces"
+   },
+   "428096": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-11",
+    "ddac": 8,
+    "name": "FASN 5K Run 2026",
+    "via": "popupraces"
+   },
+   "428267": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-11",
+    "ddac": 0,
+    "name": "Meath Cross Country 2026 \u2013 Uneven Ages & Intermediate",
+    "via": "popupraces"
+   },
+   "429196": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-11",
+    "ddac": 0,
+    "name": "North Leitrim Glens Run 2026",
+    "via": "raceresult"
+   },
+   "429254": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-11",
+    "ddac": 0,
+    "name": "Na Piarsaigh GAA 5 & 10km 2026",
+    "via": "raceresult"
+   },
+   "429320": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-11",
+    "ddac": 0,
+    "name": "Kilcullen AFC  5k & 10k Fun Run",
+    "via": "raceresult"
+   },
+   "429800": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-18",
+    "ddac": 0,
+    "name": "Longwood Village 10K and 5K Races 2026",
+    "via": "popupraces"
+   },
+   "429805": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-18",
+    "ddac": 0,
+    "name": "St. Ibar\u2019s/Shelmaliers 6km 2026",
+    "via": "popupraces"
+   },
+   "430094": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-18",
+    "ddac": 0,
+    "name": "Moylough 10K 2026",
+    "via": "raceresult"
+   },
+   "430101": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-18",
+    "ddac": 0,
+    "name": "Ardattin Sprint & Stride 5K & 10K",
+    "via": "raceresult"
+   },
+   "430107": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-17",
+    "ddac": 0,
+    "name": "Run Brave For Yourself",
+    "via": "raceresult"
+   },
+   "430115": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-17",
+    "ddac": 0,
+    "name": "Canicross Turraun Day 1",
+    "via": "raceresult"
+   },
+   "430118": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-18",
+    "ddac": 0,
+    "name": "Canicross Turraun Day 2",
+    "via": "raceresult"
+   },
+   "430947": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-31",
+    "ddac": 0,
+    "name": "Coppenagh Coo 5km Carlow Chase 2026",
+    "via": "popupraces"
+   },
+   "430955": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-11-01",
+    "ddac": 0,
+    "name": "Sallins Community Run 5k 10k 2026",
+    "via": "popupraces"
+   },
+   "430968": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-11-01",
+    "ddac": 0,
+    "name": "Laois Athletics \u2013 Masters & Development XC Races 2026",
+    "via": "popupraces"
+   },
+   "431823": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-25",
+    "ddac": 0,
+    "name": "Ballinskelligs Full Half 10k and 5k",
+    "via": "raceresult"
+   },
+   "431997": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-29",
+    "ddac": 0,
+    "name": "Limerick Night Run",
+    "via": "raceresult"
+   },
+   "432032": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-26",
+    "ddac": 0,
+    "name": "Baltinglass GAA Halloween 5K 2026",
+    "via": "raceresult"
+   },
+   "432994": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-11-01",
+    "ddac": 0,
+    "name": "Run to Remember 5k 2026",
+    "via": "raceresult"
+   },
+   "432995": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-11-01",
+    "ddac": 0,
+    "name": "Chris O'Dowd Lough Key 5K & 10K Challenge",
+    "via": "raceresult"
+   },
+   "433028": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-10-31",
+    "ddac": 0,
+    "name": "Bridge United 5km",
+    "via": "raceresult"
+   },
+   "433626": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-11-07",
+    "ddac": 0,
+    "name": "Eyeries 5 Mile Road Race 2026",
+    "via": "popupraces"
+   },
+   "433664": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-11-08",
+    "ddac": 0,
+    "name": "Polish Independence Run 2026",
+    "via": "popupraces"
+   },
+   "433668": {
+    "checked": "2026-11-20T17:08",
+    "date": "2026-11-14",
+    "ddac": 0,
+    "name": "Run the Line 2026",
+    "via": "popupraces"
+   },
+   "433821": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-11-08",
+    "ddac": 0,
+    "name": "Connaught Athletics Unevens & SNR League Rd 3",
+    "via": "popupraces"
+   },
+   "434126": {
+    "checked": "2026-11-20T17:08",
+    "date": "2026-11-14",
+    "ddac": 0,
+    "name": "Annagassan 10km 2026",
+    "via": "raceresult"
+   },
+   "434149": {
+    "checked": "2026-11-20T17:08",
+    "date": "2026-11-15",
+    "ddac": 0,
+    "name": "Phoenix Energy Belfast City 5k Fun Run 2026",
+    "via": "popupraces"
+   },
+   "434341": {
+    "checked": "2026-11-20T17:07",
+    "date": "2026-11-09",
+    "ddac": 0,
+    "name": "Tralee Corprate 5-10km",
+    "via": "raceresult"
+   },
+   "434417": {
+    "checked": "2026-11-20T17:08",
+    "date": "2026-11-14",
+    "ddac": 0,
+    "name": "Irish Universities Athletics Association \u2013 Road Relays 2026",
+    "via": "popupraces"
+   },
+   "434958": {
+    "checked": "2026-11-20T17:08",
+    "date": "2026-11-14",
+    "ddac": 0,
+    "name": "Beat the Train 2026",
+    "via": "raceresult"
+   },
+   "435677": {
+    "checked": "2026-11-20T17:08",
+    "date": "2026-11-15",
+    "ddac": 0,
+    "name": "West Limerick Day of 5km",
+    "via": "racetimingireland"
+   },
+   "435742": {
+    "checked": "2026-11-20T17:08",
+    "date": "2026-11-14",
+    "ddac": 0,
+    "name": "Cappagh GAA 5k",
+    "via": "raceresult"
+   }
+  },
+  "page_ids": {
+   "https://www.popupraces.ie/race/alpha-hyrox-sim-september-2026/": "422661",
+   "https://www.popupraces.ie/race/castlegar-international-cross-country-2026/": "423757",
+   "https://www.popupraces.ie/race/charleville-international-half-marathon-2026/": "407811",
+   "https://www.popupraces.ie/race/clew-bay-half-marathon-10k-2026/": "407808",
+   "https://www.popupraces.ie/race/connaught-athletics-unevens/": "433821",
+   "https://www.popupraces.ie/race/connaught-schools-xc-finals-2026/": "427398",
+   "https://www.popupraces.ie/race/coppenagh-coo-5km-carlow-chase-2026/": "430947",
+   "https://www.popupraces.ie/race/craughwell-10mile-10km-road-race-2026/": "407810",
+   "https://www.popupraces.ie/race/cycling-ireland-national-masters-road-championships-2026/": "422285",
+   "https://www.popupraces.ie/race/east-of-ireland-marathons-howth/": "411916",
+   "https://www.popupraces.ie/race/elevate-credit-union-charity-5k-2026/": "411920",
+   "https://www.popupraces.ie/race/eyeries-5-mile-road-race-2026/": "433626",
+   "https://www.popupraces.ie/race/fasn-5k-run-2026/": "428096",
+   "https://www.popupraces.ie/race/fota-house-cross-cup-2026/": "428070",
+   "https://www.popupraces.ie/race/galway-primary-schools-xc-2026-finals/": "426576",
+   "https://www.popupraces.ie/race/galway-primary-schools-xc-2026/": "418233",
+   "https://www.popupraces.ie/race/garda-triathlon-2026/": "419628",
+   "https://www.popupraces.ie/race/glencullen-5k-road-race-2026/": "421440",
+   "https://www.popupraces.ie/race/google-5k-2026/": "423503",
+   "https://www.popupraces.ie/race/hyrox-kildare-6-0/": "428264",
+   "https://www.popupraces.ie/race/irish-universities-athletics-association-road-relays-2026/": "434417",
+   "https://www.popupraces.ie/race/iwa-run-n-roll-proudly-supported-by-redclick-2026/": "418790",
+   "https://www.popupraces.ie/race/killarneys-fitness-simulation-october-2026/": "428262",
+   "https://www.popupraces.ie/race/laois-athletics-intermediate-uneven-ages-xc-2026/": "426568",
+   "https://www.popupraces.ie/race/laois-athletics-masters-development-xc-races-2026/": "430968",
+   "https://www.popupraces.ie/race/laois-athletics-novice-even-ages-xc-2026/": "426245",
+   "https://www.popupraces.ie/race/leinster-open-sea-halfmoon-sc-kilmartin-cup/": "426224",
+   "https://www.popupraces.ie/race/leinster-open-sea-race-to-case/": "422836",
+   "https://www.popupraces.ie/race/longwood-village-10k-and-5k-races-2026/": "429800",
+   "https://www.popupraces.ie/race/mayo-primary-schools-xc-2026/": "424867",
+   "https://www.popupraces.ie/race/meath-cross-country-2026-even-jnr-novice/": "427619",
+   "https://www.popupraces.ie/race/meath-cross-country-2026-uneven-ages-intermediate/": "428267",
+   "https://www.popupraces.ie/race/mountmellick-5km-road-race-2026/": "411914",
+   "https://www.popupraces.ie/race/outrun-hunger-2026/": "427023",
+   "https://www.popupraces.ie/race/phoenix-energy-belfast-city-5k-fun-run-2026/": "434149",
+   "https://www.popupraces.ie/race/phoenix-energy-belfast-city-half-marathon-2026/": "423022",
+   "https://www.popupraces.ie/race/polish-independence-run-2026/": "433664",
+   "https://www.popupraces.ie/race/ras-na-mban-2026/": "417318",
+   "https://www.popupraces.ie/race/rhode-ac-marathon-3-4-10k-2026/": "407815",
+   "https://www.popupraces.ie/race/roscommon-primary-schools-xc-2026/": "419218",
+   "https://www.popupraces.ie/race/run-the-line-2026/": "433668",
+   "https://www.popupraces.ie/race/sallins-community-run-5k-10k-2026/": "430955",
+   "https://www.popupraces.ie/race/st-ibars-shelmaliers-6km-2026/": "429805",
+   "https://www.popupraces.ie/race/the-45th-echo-womens-mini-marathon-2026/": "423239",
+   "https://www.popupraces.ie/race/the-bay-5k-2026/": "411912",
+   "https://www.popupraces.ie/race/the-gingerbread-run-2026/": "411922",
+   "https://www.popupraces.ie/race/the-lakes-10k-2026/": "411913",
+   "https://www.popupraces.ie/race/the-naas-town-10km-and-5km-family-fun-run-2026/": "411918",
+   "https://www.popupraces.ie/race/the-village-run-2026/": "412007",
+   "https://www.popupraces.ie/race/tomnafinnoge-ac-5k-2026/": "411917",
+   "https://www.popupraces.ie/race/vhi-move-together-5km-2026/": "422994",
+   "https://www.popupraces.ie/race/wicklow-sc-mcaulay-shield-o-donovan-cup/": "414456",
+   "https://www.racetimingireland.com/ballaghy": "409493",
+   "https://www.racetimingireland.com/bandonhyrox": "403431",
+   "https://www.racetimingireland.com/bilboa2026": "404714",
+   "https://www.racetimingireland.com/bmoh2026": "416698",
+   "https://www.racetimingireland.com/bridgeunited1": "433028",
+   "https://www.racetimingireland.com/claughaungaa5km": "392734",
+   "https://www.racetimingireland.com/clonmell": "412868",
+   "https://www.racetimingireland.com/corkcitymile": "420971",
+   "https://www.racetimingireland.com/county4mile": "387667",
+   "https://www.racetimingireland.com/curraghchase": "419181",
+   "https://www.racetimingireland.com/cyclingirelandgravel": "430565",
+   "https://www.racetimingireland.com/cyclingirelandhill2026": "427565",
+   "https://www.racetimingireland.com/cyclingirelandmasters": "422613",
+   "https://www.racetimingireland.com/delfimarathon": "397766",
+   "https://www.racetimingireland.com/ennishalf2026": "400288",
+   "https://www.racetimingireland.com/ennissummer10": "405233",
+   "https://www.racetimingireland.com/erinsisle": "416604",
+   "https://www.racetimingireland.com/feedourhomeless": "401702",
+   "https://www.racetimingireland.com/frjoemcmahon": "427575",
+   "https://www.racetimingireland.com/hospital": "410949",
+   "https://www.racetimingireland.com/hyroxcastleisland": "383425",
+   "https://www.racetimingireland.com/hyroxcastleisland2": "406020",
+   "https://www.racetimingireland.com/hyroxkenmare": "381266",
+   "https://www.racetimingireland.com/hyroxkerry4": "387735",
+   "https://www.racetimingireland.com/hyroxkilkenny3": "420686",
+   "https://www.racetimingireland.com/hyroxroscrea": "397004",
+   "https://www.racetimingireland.com/hyroxwexford": "385549",
+   "https://www.racetimingireland.com/hyroxwexford2": "395334",
+   "https://www.racetimingireland.com/kerrysim5": "411978",
+   "https://www.racetimingireland.com/kilfinny": "386731",
+   "https://www.racetimingireland.com/kilkennyhyrox": "384379",
+   "https://www.racetimingireland.com/kilmaleygaa": "384430",
+   "https://www.racetimingireland.com/kilmurry10km": "377174",
+   "https://www.racetimingireland.com/lahinchhalf2026": "420871",
+   "https://www.racetimingireland.com/limerick10km2026": "381466",
+   "https://www.racetimingireland.com/limerick5km2026": "377688",
+   "https://www.racetimingireland.com/limerickhalf26": "413220",
+   "https://www.racetimingireland.com/limericknightrun2026": "431997",
+   "https://www.racetimingireland.com/limerickruns10m": "394305",
+   "https://www.racetimingireland.com/limericksummer10": "411198",
+   "https://www.racetimingireland.com/munstermasters26": "419366",
+   "https://www.racetimingireland.com/napiargaa": "429254",
+   "https://www.racetimingireland.com/north-tipp-wheelers": "",
+   "https://www.racetimingireland.com/reboot": "408415",
+   "https://www.racetimingireland.com/run4mum": "387703",
+   "https://www.racetimingireland.com/runthebridges26": "420781",
+   "https://www.racetimingireland.com/setu": "415254",
+   "https://www.racetimingireland.com/sevensprings": "406058",
+   "https://www.racetimingireland.com/shannonac5mile": "385552",
+   "https://www.racetimingireland.com/sidea-school-fitness-games-2026": "396598",
+   "https://www.racetimingireland.com/smbhalf": "391064",
+   "https://www.racetimingireland.com/thurles6km": "400173",
+   "https://www.racetimingireland.com/timoleague": "415260",
+   "https://www.racetimingireland.com/tralee2026": "434341",
+   "https://www.racetimingireland.com/tralee50": "389154",
+   "https://www.racetimingireland.com/wellwex": "424364",
+   "https://www.racetimingireland.com/westlimerick2026": "435677",
+   "https://www.racetimingireland.com/wexfordbus5km": "407391",
+   "https://www.racetimingireland.com/wexfordsims": "408416"
   }
  }
 }
