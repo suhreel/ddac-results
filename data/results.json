@@ -58,6 +58,27 @@
   "time": "00:23:14",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
  },
+ "07b00e8496af3ab8": {
+  "athlete": "Brian Martin",
+  "cat_place": "",
+  "category": "M40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-20",
+  "event_id": "405167",
+  "event_name": "Michael Manning Memorial Dunshaughlin 10k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "07b00e8496af3ab8",
+  "match": "confident",
+  "place": "23",
+  "race": "10km",
+  "raw": "273 | 934 | 23 | Brian MARTIN | Drogheda and District A.C. | 22. M | M40 |  | [img:video.png|height:1rem] | 0:33:05 | 0:33:07",
+  "source": "raceresult",
+  "time": "0:33:05",
+  "url": "https://my.raceresult.com/405167/results"
+ },
  "096514d7839baca5": {
   "athlete": "Mark Agrios",
   "cat_place": "57",
@@ -180,6 +201,48 @@
   "time": "1:10:45",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "1909e3037afbf66b": {
+  "athlete": "Brian Martin",
+  "cat_place": "",
+  "category": "M40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "1909e3037afbf66b",
+  "match": "confident",
+  "place": "42",
+  "race": "5km",
+  "raw": "1287 | 87 | 42 | Brian MARTIN | Drogheda and District A.C. | [img:video.png|height:1rem] | M40 | 0:15:51 | 0:15:53",
+  "source": "raceresult",
+  "time": "0:15:51",
+  "url": "https://my.raceresult.com/396850/results"
+ },
+ "1929ebf05a736889": {
+  "athlete": "Shane Larkin",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-12",
+  "event_id": "404897",
+  "event_name": "The Braveheart 5km Run 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "1929ebf05a736889",
+  "match": "confident",
+  "place": "17",
+  "race": "5km",
+  "raw": "336 | 209 | 17 | Shane LARKIN | Drogheda and District A.C. | 16. M | M50 |  |  | 0:19:35 | 0:19:36",
+  "source": "raceresult",
+  "time": "0:19:35",
+  "url": "https://my.raceresult.com/404897/results"
+ },
  "1a72c48826567c0f": {
   "athlete": "Stephen Duggan",
   "cat_place": "",
@@ -219,6 +282,27 @@
   "source": "myrunresults",
   "time": "00:21:04",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "1ece7c514e352385": {
+  "athlete": "Paul Smith",
+  "cat_place": "",
+  "category": "M45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "1ece7c514e352385",
+  "match": "confident",
+  "place": "202",
+  "race": "5km",
+  "raw": "2265 | 858 | 202 | Paul SMITH | Drogheda and District A.C. | [img:video.png|height:1rem] | M45 | 0:18:13 | 0:18:14",
+  "source": "raceresult",
+  "time": "0:18:13",
+  "url": "https://my.raceresult.com/396850/results"
  },
  "1f6b788483618875": {
   "athlete": "Nessa Foley",
@@ -300,6 +384,27 @@
   "time": "0:54:36",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "2261c8734a246577": {
+  "athlete": "Barry Foley",
+  "cat_place": "",
+  "category": "M40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "2261c8734a246577",
+  "match": "confident",
+  "place": "147",
+  "race": "5km",
+  "raw": "2493 | 486 | 147 | Barry FOLEY | Drogheda and District A.C. | [img:video.png|height:1rem] | M40 | 0:17:30 | 0:17:37",
+  "source": "raceresult",
+  "time": "0:17:30",
+  "url": "https://my.raceresult.com/396850/results"
+ },
  "22b5d1f3d9f9fc3f": {
   "athlete": "Bobby Daly",
   "cat_place": "9",
@@ -318,6 +423,27 @@
   "source": "myrunresults",
   "time": "00:11:35",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
+ },
+ "2661ea8eebe69d02": {
+  "athlete": "Colin Dyas",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-20",
+  "event_id": "405167",
+  "event_name": "Michael Manning Memorial Dunshaughlin 10k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "2661ea8eebe69d02",
+  "match": "confident",
+  "place": "21",
+  "race": "10km",
+  "raw": "1358 | 514 | 21 | Colin DYAS | Drogheda and District A.C. | 20. M | M |  | [img:video.png|height:1rem] | 0:32:57 | 0:32:59",
+  "source": "raceresult",
+  "time": "0:32:57",
+  "url": "https://my.raceresult.com/405167/results"
  },
  "28d54054797eb2fb": {
   "athlete": "Conor Cooney",
@@ -339,6 +465,69 @@
   "source": "raceresult",
   "time": "0:26:18",
   "url": "https://my.raceresult.com/428096/results"
+ },
+ "2ac46ee2869e10bf": {
+  "athlete": "Rachel McCormack",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "2ac46ee2869e10bf",
+  "match": "confident",
+  "place": "380",
+  "race": "5km",
+  "raw": "2180 | 792 | 380 | Rachel MC CORMACK | Drogheda and District A.C. | [img:video.png|height:1rem] | F | 0:20:17 | 0:20:31",
+  "source": "raceresult",
+  "time": "0:20:17",
+  "url": "https://my.raceresult.com/396850/results"
+ },
+ "2c4d38e208ac76ed": {
+  "athlete": "Alan Foley",
+  "cat_place": "",
+  "category": "M45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-20",
+  "event_id": "405167",
+  "event_name": "Michael Manning Memorial Dunshaughlin 10k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "2c4d38e208ac76ed",
+  "match": "confident",
+  "place": "248",
+  "race": "10km",
+  "raw": "786 | 1447 | 248 | Alan FOLEY | Drogheda and District A.C. | 228. M | M45 |  | [img:video.png|height:1rem] | 0:40:55 | 0:41:08",
+  "source": "raceresult",
+  "time": "0:40:55",
+  "url": "https://my.raceresult.com/405167/results"
+ },
+ "2e3a6671b094b63d": {
+  "athlete": "Yasmin Canning",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "2e3a6671b094b63d",
+  "match": "confident",
+  "place": "371",
+  "race": "5km",
+  "raw": "2148 | 476 | 371 | Yasmin CANNING | Drogheda and District A.C. | [img:video.png|height:1rem] | F50 | 0:20:05 | 0:20:19",
+  "source": "raceresult",
+  "time": "0:20:05",
+  "url": "https://my.raceresult.com/396850/results"
  },
  "3255179a8540c0a7": {
   "athlete": "Sergii Raschupkin",
@@ -441,6 +630,48 @@
   "time": "59.65",
   "url": "http://pastresults.dublinathletics.com/graded26-6/menu.html"
  },
+ "37edb9ebf783e621": {
+  "athlete": "Rachel McCormack",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-12",
+  "event_id": "404897",
+  "event_name": "The Braveheart 5km Run 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "37edb9ebf783e621",
+  "match": "confident",
+  "place": "40",
+  "race": "5km",
+  "raw": "337 | 533 | 40 | Rachel MC CORMACK | Drogheda and District A.C. | 3. F | F |  |  | 0:21:19 | 0:21:21",
+  "source": "raceresult",
+  "time": "0:21:19",
+  "url": "https://my.raceresult.com/404897/results"
+ },
+ "380a89126fff07a6": {
+  "athlete": "Aaron Hanlon",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-20",
+  "event_id": "405167",
+  "event_name": "Michael Manning Memorial Dunshaughlin 10k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "380a89126fff07a6",
+  "match": "confident",
+  "place": "5",
+  "race": "10km",
+  "raw": "1186 | 205 | 5 | Aaron HANLON | Drogheda and District A.C. | 5. M | M |  | [img:video.png|height:1rem] | 0:30:07 | 0:30:07",
+  "source": "raceresult",
+  "time": "0:30:07",
+  "url": "https://my.raceresult.com/405167/results"
+ },
  "3abee1d9cd3830e9": {
   "athlete": "Mary Flanagan",
   "cat_place": "",
@@ -540,6 +771,27 @@
   "time": "3:57.51",
   "url": "http://pastresults.dublinathletics.com/graded26-8/menu.html"
  },
+ "404cb91dc4661709": {
+  "athlete": "Shaun Conroy",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "404cb91dc4661709",
+  "match": "confident",
+  "place": "212",
+  "race": "5km",
+  "raw": "1436 | 236 | 212 | Shaun CONROY | Drogheda and District A.C. | [img:video.png|height:1rem] | M | 0:18:17 | 0:18:24",
+  "source": "raceresult",
+  "time": "0:18:17",
+  "url": "https://my.raceresult.com/396850/results"
+ },
  "40ccc78ba2fc39c9": {
   "athlete": "Darragh Minogue",
   "cat_place": "10",
@@ -558,6 +810,48 @@
   "source": "myrunresults",
   "time": "00:08:42",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
+ },
+ "41422e94e909fcba": {
+  "athlete": "Thomas Breen",
+  "cat_place": "",
+  "category": "M35-44",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-31",
+  "event_id": "390867",
+  "event_name": "Analog Devices Cork City Marathon 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "41422e94e909fcba",
+  "match": "confident",
+  "place": "25",
+  "race": "10 km",
+  "raw": "13470 | 3375 | 25 | Thomas BREEN | Drogheda and District A.C. | 23. M | M35-44 | [img:pictures.png|height:1rem] | [img:video.png|height:1rem] | 0:36:41 | 0:36:39",
+  "source": "raceresult",
+  "time": "0:36:39",
+  "url": "https://my.raceresult.com/390867/results"
+ },
+ "4199377c149feb72": {
+  "athlete": "Mia Jacob",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "4199377c149feb72",
+  "match": "confident",
+  "place": "292",
+  "race": "5km",
+  "raw": "2183 | 44 | 292 | Mia JACOB | Drogheda and District A.C. | [img:video.png|height:1rem] | F | 0:19:14 | 0:19:26",
+  "source": "raceresult",
+  "time": "0:19:14",
+  "url": "https://my.raceresult.com/396850/results"
  },
  "432cb9fec8922a8d": {
   "athlete": "Jane O'Callaghan",
@@ -579,6 +873,27 @@
   "source": "raceresult",
   "time": "1:38:14",
   "url": "https://my.raceresult.com/379375/results"
+ },
+ "438ea4f186e1bfb6": {
+  "athlete": "Elma Martin",
+  "cat_place": "",
+  "category": "F40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "438ea4f186e1bfb6",
+  "match": "confident",
+  "place": "460",
+  "race": "5km",
+  "raw": "1628 | 428 | 460 | Elma MARTIN | Drogheda and District A.C. | [img:video.png|height:1rem] | F40 | 0:21:19 | 0:21:35",
+  "source": "raceresult",
+  "time": "0:21:19",
+  "url": "https://my.raceresult.com/396850/results"
  },
  "4538d35b17e30f7e": {
   "athlete": "Sophie Kinsella",
@@ -719,6 +1034,27 @@
   "time": "1:21:08",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "4dd632fdc492e7ec": {
+  "athlete": "Paddy Murphy",
+  "cat_place": "",
+  "category": "M55",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-20",
+  "event_id": "405167",
+  "event_name": "Michael Manning Memorial Dunshaughlin 10k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "4dd632fdc492e7ec",
+  "match": "confident",
+  "place": "228",
+  "race": "10km",
+  "raw": "1354 | 254 | 228 | Paddy MURPHY | Drogheda and District A.C. | 212. M | M55 |  | [img:video.png|height:1rem] | 0:40:25 | 0:40:33",
+  "source": "raceresult",
+  "time": "0:40:25",
+  "url": "https://my.raceresult.com/405167/results"
+ },
  "4deac4b85a68cb98": {
   "athlete": "Johnny Corcoran",
   "cat_place": "",
@@ -835,6 +1171,48 @@
   "time": "00:18:15",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
  },
+ "546971f0240eec92": {
+  "athlete": "Gearóid Ó Gibne",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-12",
+  "event_id": "404897",
+  "event_name": "The Braveheart 5km Run 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "546971f0240eec92",
+  "match": "confident",
+  "place": "267",
+  "race": "5km",
+  "raw": "339 | 249 | 267 | Gearóid Ó GIBNE | Drogheda and District A.C. | 185. M | M60 |  |  | 0:27:30 | 0:27:43",
+  "source": "raceresult",
+  "time": "0:27:30",
+  "url": "https://my.raceresult.com/404897/results"
+ },
+ "574cc9cd98632b96": {
+  "athlete": "Andy McDonnell",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "574cc9cd98632b96",
+  "match": "confident",
+  "place": "89",
+  "race": "5km",
+  "raw": "1273 | 73 | 89 | Andy MC DONNELL | Drogheda and District A.C. | [img:video.png|height:1rem] | M | 0:16:46 | 0:16:51",
+  "source": "raceresult",
+  "time": "0:16:46",
+  "url": "https://my.raceresult.com/396850/results"
+ },
  "5b1084fe0b65e4db": {
   "athlete": "Kathryn Meade",
   "cat_place": "",
@@ -875,6 +1253,90 @@
   "time": "00:21:32",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
  },
+ "5b7e48cae7855574": {
+  "athlete": "Shaun Conroy",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-20",
+  "event_id": "405167",
+  "event_name": "Michael Manning Memorial Dunshaughlin 10k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "5b7e48cae7855574",
+  "match": "confident",
+  "place": "384",
+  "race": "10km",
+  "raw": "276 | 937 | 384 | Shaun CONROY | Drogheda and District A.C. | 341. M | M |  | [img:video.png|height:1rem] | 0:44:28 | 0:44:32",
+  "source": "raceresult",
+  "time": "0:44:28",
+  "url": "https://my.raceresult.com/405167/results"
+ },
+ "5c62af83da497343": {
+  "athlete": "Colin Leonard",
+  "cat_place": "",
+  "category": "M40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-20",
+  "event_id": "405167",
+  "event_name": "Michael Manning Memorial Dunshaughlin 10k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "5c62af83da497343",
+  "match": "confident",
+  "place": "28",
+  "race": "10km",
+  "raw": "720 | 1381 | 28 | Colin LEONARD | Drogheda and District A.C. | 27. M | M40 |  | [img:video.png|height:1rem] | 0:33:17 | 0:33:19",
+  "source": "raceresult",
+  "time": "0:33:17",
+  "url": "https://my.raceresult.com/405167/results"
+ },
+ "60800d34d97a04ae": {
+  "athlete": "Aaron Hanlon",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-05-24",
+  "event_id": "400403",
+  "event_name": "The Culmullen Run 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "60800d34d97a04ae",
+  "match": "confident",
+  "place": "1",
+  "race": "5 Miles",
+  "raw": "3630 | 237 | 1 | Aaron HANLON | Drogheda & District A.C. | M | 0:24:30 | 0:24:30",
+  "source": "raceresult",
+  "time": "0:24:30",
+  "url": "https://my.raceresult.com/400403/results"
+ },
+ "612a843028a55009": {
+  "athlete": "Jim O'Grady",
+  "cat_place": "",
+  "category": "M65",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-31",
+  "event_id": "390867",
+  "event_name": "Analog Devices Cork City Marathon 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "612a843028a55009",
+  "match": "confident",
+  "place": "2772",
+  "race": "Half Marathon",
+  "raw": "4957 | 4432 | 2772 | Jim O'GRADY | Drogheda and District A.C. | 1779. M | M65 | [img:pictures.png|height:1rem] | [img:video.png|height:1rem] | 2:09:36 | 2:10:07",
+  "source": "raceresult",
+  "time": "2:09:36",
+  "url": "https://my.raceresult.com/390867/results"
+ },
  "625842a5921e11b9": {
   "athlete": "Niall Donnelly",
   "cat_place": "",
@@ -893,6 +1355,27 @@
   "source": "dublin_graded",
   "time": "4:53.03",
   "url": "http://pastresults.dublinathletics.com/graded26-3/menu.html"
+ },
+ "626f3ed34bcea979": {
+  "athlete": "Joe Hammel",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "626f3ed34bcea979",
+  "match": "confident",
+  "place": "290",
+  "race": "5km",
+  "raw": "1607 | 407 | 290 | Joe HAMMEL | Drogheda and District A.C. | [img:video.png|height:1rem] | M50 | 0:19:20 | 0:19:26",
+  "source": "raceresult",
+  "time": "0:19:20",
+  "url": "https://my.raceresult.com/396850/results"
  },
  "6277aa4a9fa35da9": {
   "athlete": "Mary Kinsella",
@@ -1011,6 +1494,27 @@
   "source": "dublin_graded",
   "time": "3:10.62",
   "url": "http://pastresults.dublinathletics.com/graded26-1/menu.html"
+ },
+ "700d535de2b77e62": {
+  "athlete": "Luke Cormican",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "700d535de2b77e62",
+  "match": "confident",
+  "place": "188",
+  "race": "5km",
+  "raw": "1272 | 72 | 188 | Luke CORMICAN | Drogheda and District A.C. | [img:video.png|height:1rem] | M | 0:17:56 | 0:18:03",
+  "source": "raceresult",
+  "time": "0:17:56",
+  "url": "https://my.raceresult.com/396850/results"
  },
  "717a7bd1c7cb9c14": {
   "athlete": "Eve Cunningham",
@@ -1311,6 +1815,27 @@
   "time": "1:00.36",
   "url": "http://pastresults.dublinathletics.com/graded26-6/menu.html"
  },
+ "98ef187329199a49": {
+  "athlete": "Mary Leech",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "98ef187329199a49",
+  "match": "confident",
+  "place": "265",
+  "race": "5km",
+  "raw": "2181 | 395 | 265 | Mary LEECH | Drogheda and District A.C. | [img:video.png|height:1rem] | F50 | 0:18:52 | 0:19:04",
+  "source": "raceresult",
+  "time": "0:18:52",
+  "url": "https://my.raceresult.com/396850/results"
+ },
  "9d1f3ae007cc2a4f": {
   "athlete": "Robert Quaile",
   "cat_place": "75",
@@ -1329,6 +1854,27 @@
   "source": "myrunresults",
   "time": "00:27:10",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "9d94842679068f20": {
+  "athlete": "Conor Cooney",
+  "cat_place": "",
+  "category": "M70",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "9d94842679068f20",
+  "match": "confident",
+  "place": "577",
+  "race": "5km",
+  "raw": "2427 | 718 | 577 | Conor COONEY | Drogheda and District A.C. | [img:video.png|height:1rem] | M70 | 0:24:32 | 0:24:39",
+  "source": "raceresult",
+  "time": "0:24:32",
+  "url": "https://my.raceresult.com/396850/results"
  },
  "a41d6377c210c477": {
   "athlete": "Stephen Gill",
@@ -1412,6 +1958,27 @@
   "time": "1:22:44",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "a8da55c51d8c2917": {
+  "athlete": "Robbie Farrell",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "a8da55c51d8c2917",
+  "match": "confident",
+  "place": "310",
+  "race": "5km",
+  "raw": "2136 | 61 | 310 | Robbie FARRELL | Drogheda and District A.C. | [img:video.png|height:1rem] | M | 0:19:25 | 0:19:38",
+  "source": "raceresult",
+  "time": "0:19:25",
+  "url": "https://my.raceresult.com/396850/results"
+ },
  "ad3eb0832a951161": {
   "athlete": "Sarah Monaghan",
   "cat_place": "95",
@@ -1430,6 +1997,27 @@
   "source": "myrunresults",
   "time": "00:33:45",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "b01b6538ee00fbb7": {
+  "athlete": "Colin Leonard",
+  "cat_place": "",
+  "category": "M40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "b01b6538ee00fbb7",
+  "match": "confident",
+  "place": "47",
+  "race": "5km",
+  "raw": "1265 | 65 | 47 | Colin LEONARD | Drogheda and District A.C. | [img:video.png|height:1rem] | M40 | 0:16:03 | 0:16:04",
+  "source": "raceresult",
+  "time": "0:16:03",
+  "url": "https://my.raceresult.com/396850/results"
  },
  "b0cd1bf6ec0b46d5": {
   "athlete": "Colin Griffin",
@@ -1472,6 +2060,69 @@
   "source": "raceresult",
   "time": "1:19:24",
   "url": "https://my.raceresult.com/379375/results"
+ },
+ "b51dc062c4343ce4": {
+  "athlete": "Martin Duffy",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-20",
+  "event_id": "405167",
+  "event_name": "Michael Manning Memorial Dunshaughlin 10k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "b51dc062c4343ce4",
+  "match": "confident",
+  "place": "639",
+  "race": "10km",
+  "raw": "1355 | 466 | 639 | Martin DUFFY | Drogheda and District A.C. | 513. M | M60 |  | [img:video.png|height:1rem] | 0:50:34 | 0:51:06",
+  "source": "raceresult",
+  "time": "0:50:34",
+  "url": "https://my.raceresult.com/405167/results"
+ },
+ "b6aa5b20be4b10ee": {
+  "athlete": "Emmet Steenson",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-05-10",
+  "event_id": "396121",
+  "event_name": "Maynooth 10k / 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "b6aa5b20be4b10ee",
+  "match": "confident",
+  "place": "243",
+  "race": "10km",
+  "raw": "295 | 295 | 243 | Emmet STEENSON | Drogheda & District A.C. | M60 |  | 0:49:41 | 0:50:31",
+  "source": "raceresult",
+  "time": "0:49:41",
+  "url": "https://my.raceresult.com/396121/results"
+ },
+ "b6e471a89cbf9fc8": {
+  "athlete": "Conor Cooney",
+  "cat_place": "",
+  "category": "M70",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-20",
+  "event_id": "405167",
+  "event_name": "Michael Manning Memorial Dunshaughlin 10k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "b6e471a89cbf9fc8",
+  "match": "confident",
+  "place": "742",
+  "race": "10km",
+  "raw": "1279 | 444 | 742 | Conor COONEY | Drogheda and District A.C. | 571. M | M70 |  | [img:video.png|height:1rem] | 0:54:04 | 0:54:15",
+  "source": "raceresult",
+  "time": "0:54:04",
+  "url": "https://my.raceresult.com/405167/results"
  },
  "b94fedf5a2649ddf": {
   "athlete": "Cian Bolton",
@@ -1551,6 +2202,111 @@
   "time": "1:44:10",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "c45e96fe347df745": {
+  "athlete": "Nuala Reilly",
+  "cat_place": "",
+  "category": "F70",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "c45e96fe347df745",
+  "match": "confident",
+  "place": "586",
+  "race": "5km",
+  "raw": "2448 | 720 | 586 | Nuala REILLY | Drogheda and District A.C. | [img:video.png|height:1rem] | F70 | 0:24:45 | 0:25:01",
+  "source": "raceresult",
+  "time": "0:24:45",
+  "url": "https://my.raceresult.com/396850/results"
+ },
+ "c5aa583283d3ab6a": {
+  "athlete": "Andrea McArdle",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-20",
+  "event_id": "405167",
+  "event_name": "Michael Manning Memorial Dunshaughlin 10k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "c5aa583283d3ab6a",
+  "match": "confident",
+  "place": "333",
+  "race": "10km",
+  "raw": "500 | 1161 | 333 | Andrea MC ARDLE | Drogheda and District A.C. | 33. F | F50 |  | [img:video.png|height:1rem] | 0:43:19 | 0:43:32",
+  "source": "raceresult",
+  "time": "0:43:19",
+  "url": "https://my.raceresult.com/405167/results"
+ },
+ "c5d3fd98e025dbc7": {
+  "athlete": "Shane Russell",
+  "cat_place": "",
+  "category": "M40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "c5d3fd98e025dbc7",
+  "match": "confident",
+  "place": "173",
+  "race": "5km",
+  "raw": "1280 | 80 | 173 | Shane RUSSELL | Drogheda and District A.C. | [img:video.png|height:1rem] | M40 | 0:17:48 | 0:17:55",
+  "source": "raceresult",
+  "time": "0:17:48",
+  "url": "https://my.raceresult.com/396850/results"
+ },
+ "cefcb0d793c42eb5": {
+  "athlete": "Olivia Reilly",
+  "cat_place": "",
+  "category": "F40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "cefcb0d793c42eb5",
+  "match": "confident",
+  "place": "579",
+  "race": "5km",
+  "raw": "2428 | 495 | 579 | Olivia REILLY | Drogheda and District A.C. | [img:video.png|height:1rem] | F40 | 0:24:25 | 0:24:41",
+  "source": "raceresult",
+  "time": "0:24:25",
+  "url": "https://my.raceresult.com/396850/results"
+ },
+ "cf10df90f5f54c6d": {
+  "athlete": "Sergii Raschupkin",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "cf10df90f5f54c6d",
+  "match": "confident",
+  "place": "12",
+  "race": "5km",
+  "raw": "2309 | 765 | 12 | Sergii RASCHUPKIN | Drogheda and District A.C. | [img:video.png|height:1rem] | M | 0:15:11 | 0:15:12",
+  "source": "raceresult",
+  "time": "0:15:11",
+  "url": "https://my.raceresult.com/396850/results"
+ },
  "d3964b4d05958b09": {
   "athlete": "Eimear Marron",
   "cat_place": "",
@@ -1571,6 +2327,27 @@
   "source": "raceresult",
   "time": "1:14:57",
   "url": "https://my.raceresult.com/379375/results"
+ },
+ "d715846d17b1787b": {
+  "athlete": "Thomas Breen",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "d715846d17b1787b",
+  "match": "confident",
+  "place": "95",
+  "race": "5km",
+  "raw": "2150 | 487 | 95 | Thomas BREEN | Drogheda and District A.C. | [img:video.png|height:1rem] | M | 0:16:50 | 0:16:55",
+  "source": "raceresult",
+  "time": "0:16:50",
+  "url": "https://my.raceresult.com/396850/results"
  },
  "dae5019f075dafa9": {
   "athlete": "Gavin Bruce",
@@ -1613,6 +2390,90 @@
   "source": "raceresult",
   "time": "1:30:20",
   "url": "https://my.raceresult.com/379375/results"
+ },
+ "df42e0886e64bb71": {
+  "athlete": "Nuala Reilly",
+  "cat_place": "",
+  "category": "F70",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-20",
+  "event_id": "405167",
+  "event_name": "Michael Manning Memorial Dunshaughlin 10k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "df42e0886e64bb71",
+  "match": "confident",
+  "place": "621",
+  "race": "10km",
+  "raw": "1190 | 209 | 621 | Nuala REILLY | Drogheda and District A.C. | 117. F | F70 |  | [img:video.png|height:1rem] | 0:50:00 | 0:50:05",
+  "source": "raceresult",
+  "time": "0:50:00",
+  "url": "https://my.raceresult.com/405167/results"
+ },
+ "e2f2d48f6ae92631": {
+  "athlete": "Mike Staunton",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-06-20",
+  "event_id": "405167",
+  "event_name": "Michael Manning Memorial Dunshaughlin 10k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "e2f2d48f6ae92631",
+  "match": "confident",
+  "place": "670",
+  "race": "10km",
+  "raw": "312 | 973 | 670 | Mike STAUNTON | Drogheda and District A.C. | 529. M | M60 |  | [img:video.png|height:1rem] | 0:51:41 | 0:51:54",
+  "source": "raceresult",
+  "time": "0:51:41",
+  "url": "https://my.raceresult.com/405167/results"
+ },
+ "e7762766abc28fd0": {
+  "athlete": "Barry Sullivan",
+  "cat_place": "",
+  "category": "",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-30",
+  "event_id": "402125",
+  "event_name": "Wexford Festival May 2026",
+  "extra": {
+   "via": "raceresult"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "e7762766abc28fd0",
+  "match": "confident",
+  "place": "DNS",
+  "race": "Wexford 50k",
+  "raw": "5051 | 52 | DNS | Barry Sullivan | M | Drogheda and District A.C. | 0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+  "source": "raceresult",
+  "time": "",
+  "url": "https://my.raceresult.com/402125/results"
+ },
+ "e7e3abe0b18eca7a": {
+  "athlete": "Paul Kierans",
+  "cat_place": "",
+  "category": "M35-44",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-31",
+  "event_id": "390867",
+  "event_name": "Analog Devices Cork City Marathon 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "e7e3abe0b18eca7a",
+  "match": "confident",
+  "place": "26",
+  "race": "10 km",
+  "raw": "13471 | 3376 | 26 | Paul KIERANS | Drogheda and District A.C. | 24. M | M35-44 | [img:pictures.png|height:1rem] | [img:video.png|height:1rem] | 0:36:41 | 0:36:39",
+  "source": "raceresult",
+  "time": "0:36:39",
+  "url": "https://my.raceresult.com/390867/results"
  },
  "e9c99d74b9868aa8": {
   "athlete": "Yasaman Nuri",
@@ -1692,6 +2553,27 @@
   "time": "00:09:04",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
  },
+ "f38a58204cfeefc2": {
+  "athlete": "Paul Kierans",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "f38a58204cfeefc2",
+  "match": "confident",
+  "place": "80",
+  "race": "5km",
+  "raw": "2234 | 491 | 80 | Paul KIERANS | Drogheda and District A.C. | [img:video.png|height:1rem] | M | 0:16:41 | 0:16:46",
+  "source": "raceresult",
+  "time": "0:16:41",
+  "url": "https://my.raceresult.com/396850/results"
+ },
  "f52b4d25045637a9": {
   "athlete": "Beatrice Cunningham",
   "cat_place": "23",
@@ -1710,6 +2592,48 @@
   "source": "myrunresults",
   "time": "00:18:57",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
+ },
+ "f5422b6ca5c8a092": {
+  "athlete": "Fatih Zitouche",
+  "cat_place": "",
+  "category": "M40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-31",
+  "event_id": "390867",
+  "event_name": "Analog Devices Cork City Marathon 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "f5422b6ca5c8a092",
+  "match": "confident",
+  "place": "193",
+  "race": "Marathon",
+  "raw": "861 | 8787 | 193 | Fatih ZITOUCHE | Drogheda and District A.C. | 176. M | M40 | [img:pictures.png|height:1rem] | [img:video.png|height:1rem] | 3:09:17 | 3:09:25",
+  "source": "raceresult",
+  "time": "3:09:17",
+  "url": "https://my.raceresult.com/390867/results"
+ },
+ "f58dc6e96d7d77f9": {
+  "athlete": "Colin Dyas",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-05-19",
+  "event_id": "396850",
+  "event_name": "The Bob Heffernan and Mary Hanley 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:37:33+00:00",
+  "key": "f58dc6e96d7d77f9",
+  "match": "confident",
+  "place": "29",
+  "race": "5km",
+  "raw": "2233 | 508 | 29 | Colin DYAS | Drogheda and District A.C. | [img:video.png|height:1rem] | M | 0:15:38 | 0:15:39",
+  "source": "raceresult",
+  "time": "0:15:38",
+  "url": "https://my.raceresult.com/396850/results"
  },
  "f5d868c5fd9b0071": {
   "athlete": "Nuala Reily",

@@ -13,13 +13,43 @@
     "source": "dublin_graded",
     "url": "http://pastresults.dublinathletics.com/graded26-8/menu.html",
     "highlights": []
+   },
+   {
+    "date": "2026-06-20",
+    "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
+    "series": "michael manning memorial dunshaughlin 10k",
+    "race": "10km",
+    "time": "0:30:07",
+    "place": "5",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/405167/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-05-24",
+    "event": "The Culmullen Run 2026",
+    "series": "the culmullen run",
+    "race": "5 Miles",
+    "time": "0:24:30",
+    "place": "1",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400403/results",
+    "highlights": [
+     "1st overall"
+    ]
    }
   ],
   "name": "Aaron Hanlon",
-  "races": 1,
-  "first_seen": "2026-07-29",
+  "races": 3,
+  "first_seen": "2026-05-24",
   "latest": "2026-07-29",
-  "highlights": []
+  "highlights": [
+   "1st overall — The Culmullen Run 2026 (2026-05-24)"
+  ]
  },
  "aishling reilly": {
   "results": [
@@ -65,6 +95,28 @@
   "latest": "2026-10-11",
   "highlights": []
  },
+ "alan foley": {
+  "results": [
+   {
+    "date": "2026-06-20",
+    "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
+    "series": "michael manning memorial dunshaughlin 10k",
+    "race": "10km",
+    "time": "0:40:55",
+    "place": "248",
+    "category": "M45",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/405167/results",
+    "highlights": []
+   }
+  ],
+  "name": "Alan Foley",
+  "races": 1,
+  "first_seen": "2026-06-20",
+  "latest": "2026-06-20",
+  "highlights": []
+ },
  "alan wade": {
   "results": [
    {
@@ -107,6 +159,19 @@
  "andrea mcardle": {
   "results": [
    {
+    "date": "2026-06-20",
+    "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
+    "series": "michael manning memorial dunshaughlin 10k",
+    "race": "10km",
+    "time": "0:43:19",
+    "place": "333",
+    "category": "F50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/405167/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -121,9 +186,9 @@
    }
   ],
   "name": "Andrea McArdle",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-06-20",
   "highlights": []
  },
  "andrea mccabe": {
@@ -146,6 +211,28 @@
   "races": 1,
   "first_seen": "2026-05-03",
   "latest": "2026-05-03",
+  "highlights": []
+ },
+ "andy mcdonnell": {
+  "results": [
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:16:46",
+    "place": "89",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   }
+  ],
+  "name": "Andy McDonnell",
+  "races": 1,
+  "first_seen": "2026-05-19",
+  "latest": "2026-05-19",
   "highlights": []
  },
  "anna isgro": {
@@ -227,6 +314,50 @@
   "latest": "2026-11-07",
   "highlights": []
  },
+ "barry foley": {
+  "results": [
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:17:30",
+    "place": "147",
+    "category": "M40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   }
+  ],
+  "name": "Barry Foley",
+  "races": 1,
+  "first_seen": "2026-05-19",
+  "latest": "2026-05-19",
+  "highlights": []
+ },
+ "barry sullivan": {
+  "results": [
+   {
+    "date": "2026-05-30",
+    "event": "Wexford Festival May 2026",
+    "series": "wexford festival may",
+    "race": "Wexford 50k",
+    "time": "",
+    "place": "DNS",
+    "category": "",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/402125/results",
+    "highlights": []
+   }
+  ],
+  "name": "Barry Sullivan",
+  "races": 1,
+  "first_seen": "2026-05-30",
+  "latest": "2026-05-30",
+  "highlights": []
+ },
  "beatrice cunningham": {
   "results": [
    {
@@ -269,6 +400,41 @@
   "races": 1,
   "first_seen": "2026-11-07",
   "latest": "2026-11-07",
+  "highlights": []
+ },
+ "brian martin": {
+  "results": [
+   {
+    "date": "2026-06-20",
+    "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
+    "series": "michael manning memorial dunshaughlin 10k",
+    "race": "10km",
+    "time": "0:33:05",
+    "place": "23",
+    "category": "M40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/405167/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:15:51",
+    "place": "42",
+    "category": "M40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   }
+  ],
+  "name": "Brian Martin",
+  "races": 2,
+  "first_seen": "2026-05-19",
+  "latest": "2026-06-20",
   "highlights": []
  },
  "bolton cian": {
@@ -337,6 +503,41 @@
   "latest": "2026-11-07",
   "highlights": []
  },
+ "colin dyas": {
+  "results": [
+   {
+    "date": "2026-06-20",
+    "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
+    "series": "michael manning memorial dunshaughlin 10k",
+    "race": "10km",
+    "time": "0:32:57",
+    "place": "21",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/405167/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:15:38",
+    "place": "29",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   }
+  ],
+  "name": "Colin Dyas",
+  "races": 2,
+  "first_seen": "2026-05-19",
+  "latest": "2026-06-20",
+  "highlights": []
+ },
  "colin griffin": {
   "results": [
    {
@@ -375,6 +576,32 @@
  "colin leonard": {
   "results": [
    {
+    "date": "2026-06-20",
+    "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
+    "series": "michael manning memorial dunshaughlin 10k",
+    "race": "10km",
+    "time": "0:33:17",
+    "place": "28",
+    "category": "M40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/405167/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:16:03",
+    "place": "47",
+    "category": "M40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -389,9 +616,9 @@
    }
   ],
   "name": "Colin Leonard",
-  "races": 1,
+  "races": 3,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-06-20",
   "highlights": []
  },
  "conor cooney": {
@@ -408,11 +635,37 @@
     "source": "raceresult",
     "url": "https://my.raceresult.com/428096/results",
     "highlights": []
+   },
+   {
+    "date": "2026-06-20",
+    "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
+    "series": "michael manning memorial dunshaughlin 10k",
+    "race": "10km",
+    "time": "0:54:04",
+    "place": "742",
+    "category": "M70",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/405167/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:24:32",
+    "place": "577",
+    "category": "M70",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
    }
   ],
   "name": "Conor Cooney",
-  "races": 1,
-  "first_seen": "2026-10-11",
+  "races": 3,
+  "first_seen": "2026-05-19",
   "latest": "2026-10-11",
   "highlights": []
  },
@@ -504,6 +757,28 @@
   "latest": "2026-02-01",
   "highlights": []
  },
+ "elma martin": {
+  "results": [
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:21:19",
+    "place": "460",
+    "category": "F40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   }
+  ],
+  "name": "Elma Martin",
+  "races": 1,
+  "first_seen": "2026-05-19",
+  "latest": "2026-05-19",
+  "highlights": []
+ },
  "emily garvey": {
   "results": [
    {
@@ -529,6 +804,19 @@
  "emmet steenson": {
   "results": [
    {
+    "date": "2026-05-10",
+    "event": "Maynooth 10k / 5k 2026",
+    "series": "maynooth 10k 5k",
+    "race": "10km",
+    "time": "0:49:41",
+    "place": "243",
+    "category": "M60",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396121/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -543,9 +831,9 @@
    }
   ],
   "name": "Emmet Steenson",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-05-10",
   "highlights": []
  },
  "cunningham eve": {
@@ -592,6 +880,28 @@
   "latest": "2026-11-07",
   "highlights": []
  },
+ "fatih zitouche": {
+  "results": [
+   {
+    "date": "2026-05-31",
+    "event": "Analog Devices Cork City Marathon 2026",
+    "series": "analog devices cork city marathon",
+    "race": "Marathon",
+    "time": "3:09:17",
+    "place": "193",
+    "category": "M40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/390867/results",
+    "highlights": []
+   }
+  ],
+  "name": "Fatih Zitouche",
+  "races": 1,
+  "first_seen": "2026-05-31",
+  "latest": "2026-05-31",
+  "highlights": []
+ },
  "brady frank": {
   "results": [
    {
@@ -634,6 +944,28 @@
   "races": 1,
   "first_seen": "2026-02-01",
   "latest": "2026-02-01",
+  "highlights": []
+ },
+ "gearoid gibne o": {
+  "results": [
+   {
+    "date": "2026-06-12",
+    "event": "The Braveheart 5km Run 2026",
+    "series": "the braveheart 5km run",
+    "race": "5km",
+    "time": "0:27:30",
+    "place": "267",
+    "category": "M60",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/404897/results",
+    "highlights": []
+   }
+  ],
+  "name": "Gearóid Ó Gibne",
+  "races": 1,
+  "first_seen": "2026-06-12",
+  "latest": "2026-06-12",
   "highlights": []
  },
  "gerry mcgeough": {
@@ -790,8 +1122,43 @@
   "latest": "2026-02-01",
   "highlights": []
  },
+ "jim ogrady": {
+  "results": [
+   {
+    "date": "2026-05-31",
+    "event": "Analog Devices Cork City Marathon 2026",
+    "series": "analog devices cork city marathon",
+    "race": "Half Marathon",
+    "time": "2:09:36",
+    "place": "2772",
+    "category": "M65",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/390867/results",
+    "highlights": []
+   }
+  ],
+  "name": "Jim O'Grady",
+  "races": 1,
+  "first_seen": "2026-05-31",
+  "latest": "2026-05-31",
+  "highlights": []
+ },
  "hammel joe": {
   "results": [
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:19:20",
+    "place": "290",
+    "category": "M50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   },
    {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
@@ -807,9 +1174,9 @@
    }
   ],
   "name": "Joe Hammel",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-05-19",
   "highlights": []
  },
  "john perkins": {
@@ -1076,11 +1443,24 @@
     "source": "myrunresults",
     "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results",
     "highlights": []
+   },
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:17:56",
+    "place": "188",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
    }
   ],
   "name": "Luke Cormican",
-  "races": 1,
-  "first_seen": "2026-11-07",
+  "races": 2,
+  "first_seen": "2026-05-19",
   "latest": "2026-11-07",
   "highlights": []
  },
@@ -1104,6 +1484,28 @@
   "races": 1,
   "first_seen": "2026-11-07",
   "latest": "2026-11-07",
+  "highlights": []
+ },
+ "duffy martin": {
+  "results": [
+   {
+    "date": "2026-06-20",
+    "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
+    "series": "michael manning memorial dunshaughlin 10k",
+    "race": "10km",
+    "time": "0:50:34",
+    "place": "639",
+    "category": "M60",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/405167/results",
+    "highlights": []
+   }
+  ],
+  "name": "Martin Duffy",
+  "races": 1,
+  "first_seen": "2026-06-20",
+  "latest": "2026-06-20",
   "highlights": []
  },
  "flanagan mary": {
@@ -1166,6 +1568,19 @@
     "highlights": []
    },
    {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:18:52",
+    "place": "265",
+    "category": "F50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   },
+   {
     "date": "2026-05-03",
     "event": "Dublin Graded Meet 1 2026",
     "series": "dublin graded meet 1",
@@ -1180,7 +1595,7 @@
    }
   ],
   "name": "Mary Leech",
-  "races": 2,
+  "races": 3,
   "first_seen": "2026-05-03",
   "latest": "2026-07-29",
   "highlights": []
@@ -1245,6 +1660,19 @@
     "highlights": []
    },
    {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:19:14",
+    "place": "292",
+    "category": "F",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -1259,7 +1687,7 @@
    }
   ],
   "name": "Mia Jacob",
-  "races": 2,
+  "races": 3,
   "first_seen": "2026-02-01",
   "latest": "2026-11-07",
   "highlights": []
@@ -1289,6 +1717,19 @@
  "mike staunton": {
   "results": [
    {
+    "date": "2026-06-20",
+    "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
+    "series": "michael manning memorial dunshaughlin 10k",
+    "race": "10km",
+    "time": "0:51:41",
+    "place": "670",
+    "category": "M60",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/405167/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -1316,9 +1757,9 @@
    }
   ],
   "name": "Mike Staunton",
-  "races": 2,
+  "races": 3,
   "first_seen": "2026-01-11",
-  "latest": "2026-02-01",
+  "latest": "2026-06-20",
   "highlights": []
  },
  "morgan reid": {
@@ -1420,6 +1861,32 @@
  "nuala reilly": {
   "results": [
    {
+    "date": "2026-06-20",
+    "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
+    "series": "michael manning memorial dunshaughlin 10k",
+    "race": "10km",
+    "time": "0:50:00",
+    "place": "621",
+    "category": "F70",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/405167/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:24:45",
+    "place": "586",
+    "category": "F70",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -1434,9 +1901,9 @@
    }
   ],
   "name": "Nuala Reilly",
-  "races": 1,
+  "races": 3,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-06-20",
   "highlights": []
  },
  "nuala reily": {
@@ -1487,8 +1954,78 @@
    "2nd MU18 — Johnny McKenna Charity Run 2026 (2026-11-07)"
   ]
  },
+ "olivia reilly": {
+  "results": [
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:24:25",
+    "place": "579",
+    "category": "F40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   }
+  ],
+  "name": "Olivia Reilly",
+  "races": 1,
+  "first_seen": "2026-05-19",
+  "latest": "2026-05-19",
+  "highlights": []
+ },
+ "murphy paddy": {
+  "results": [
+   {
+    "date": "2026-06-20",
+    "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
+    "series": "michael manning memorial dunshaughlin 10k",
+    "race": "10km",
+    "time": "0:40:25",
+    "place": "228",
+    "category": "M55",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/405167/results",
+    "highlights": []
+   }
+  ],
+  "name": "Paddy Murphy",
+  "races": 1,
+  "first_seen": "2026-06-20",
+  "latest": "2026-06-20",
+  "highlights": []
+ },
  "kierans paul": {
   "results": [
+   {
+    "date": "2026-05-31",
+    "event": "Analog Devices Cork City Marathon 2026",
+    "series": "analog devices cork city marathon",
+    "race": "10 km",
+    "time": "0:36:39",
+    "place": "26",
+    "category": "M35-44",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/390867/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:16:41",
+    "place": "80",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   },
    {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
@@ -1504,13 +2041,26 @@
    }
   ],
   "name": "Paul Kierans",
-  "races": 1,
+  "races": 3,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-05-31",
   "highlights": []
  },
  "paul smith": {
   "results": [
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:18:13",
+    "place": "202",
+    "category": "M45",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   },
    {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
@@ -1526,9 +2076,9 @@
    }
   ],
   "name": "Paul Smith",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-05-19",
   "highlights": []
  },
  "paul stuart": {
@@ -1586,6 +2136,32 @@
  "mccormack rachel": {
   "results": [
    {
+    "date": "2026-06-12",
+    "event": "The Braveheart 5km Run 2026",
+    "series": "the braveheart 5km run",
+    "race": "5km",
+    "time": "0:21:19",
+    "place": "40",
+    "category": "F",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/404897/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:20:17",
+    "place": "380",
+    "category": "F",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -1600,9 +2176,9 @@
    }
   ],
   "name": "Rachel McCormack",
-  "races": 1,
+  "races": 3,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-06-12",
   "highlights": []
  },
  "hoey raymond": {
@@ -1625,6 +2201,28 @@
   "races": 1,
   "first_seen": "2026-10-11",
   "latest": "2026-10-11",
+  "highlights": []
+ },
+ "farrell robbie": {
+  "results": [
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:19:25",
+    "place": "310",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   }
+  ],
+  "name": "Robbie Farrell",
+  "races": 1,
+  "first_seen": "2026-05-19",
+  "latest": "2026-05-19",
   "highlights": []
  },
  "keane robbie": {
@@ -1796,6 +2394,19 @@
     "highlights": []
    },
    {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:15:11",
+    "place": "12",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -1810,7 +2421,7 @@
    }
   ],
   "name": "Sergii Raschupkin",
-  "races": 2,
+  "races": 3,
   "first_seen": "2026-02-01",
   "latest": "2026-11-07",
   "highlights": []
@@ -1842,12 +2453,82 @@
     "source": "raceresult",
     "url": "https://my.raceresult.com/428096/results",
     "highlights": []
+   },
+   {
+    "date": "2026-06-12",
+    "event": "The Braveheart 5km Run 2026",
+    "series": "the braveheart 5km run",
+    "race": "5km",
+    "time": "0:19:35",
+    "place": "17",
+    "category": "M50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/404897/results",
+    "highlights": []
    }
   ],
   "name": "Shane Larkin",
-  "races": 2,
-  "first_seen": "2026-10-11",
+  "races": 3,
+  "first_seen": "2026-06-12",
   "latest": "2026-11-07",
+  "highlights": []
+ },
+ "russell shane": {
+  "results": [
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:17:48",
+    "place": "173",
+    "category": "M40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   }
+  ],
+  "name": "Shane Russell",
+  "races": 1,
+  "first_seen": "2026-05-19",
+  "latest": "2026-05-19",
+  "highlights": []
+ },
+ "conroy shaun": {
+  "results": [
+   {
+    "date": "2026-06-20",
+    "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
+    "series": "michael manning memorial dunshaughlin 10k",
+    "race": "10km",
+    "time": "0:44:28",
+    "place": "384",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/405167/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:18:17",
+    "place": "212",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   }
+  ],
+  "name": "Shaun Conroy",
+  "races": 2,
+  "first_seen": "2026-05-19",
+  "latest": "2026-06-20",
   "highlights": []
  },
  "kinsella sophie": {
@@ -1941,6 +2622,32 @@
  "breen thomas": {
   "results": [
    {
+    "date": "2026-05-31",
+    "event": "Analog Devices Cork City Marathon 2026",
+    "series": "analog devices cork city marathon",
+    "race": "10 km",
+    "time": "0:36:39",
+    "place": "25",
+    "category": "M35-44",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/390867/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:16:50",
+    "place": "95",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -1955,9 +2662,9 @@
    }
   ],
   "name": "Thomas Breen",
-  "races": 1,
+  "races": 3,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-05-31",
   "highlights": []
  },
  "nuri yasaman": {
@@ -1980,6 +2687,28 @@
   "races": 1,
   "first_seen": "2026-11-07",
   "latest": "2026-11-07",
+  "highlights": []
+ },
+ "canning yasmin": {
+  "results": [
+   {
+    "date": "2026-05-19",
+    "event": "The Bob Heffernan and Mary Hanley 5k 2026",
+    "series": "the bob heffernan and mary hanley 5k",
+    "race": "5km",
+    "time": "0:20:05",
+    "place": "371",
+    "category": "F50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/396850/results",
+    "highlights": []
+   }
+  ],
+  "name": "Yasmin Canning",
+  "races": 1,
+  "first_seen": "2026-05-19",
+  "latest": "2026-05-19",
   "highlights": []
  }
 }
