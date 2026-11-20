@@ -1,4 +1,25 @@
 {
+ "00a53d9e84a9527f": {
+  "athlete": "Seán Monaghan",
+  "cat_place": "",
+  "category": "U20M",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "00a53d9e84a9527f",
+  "match": "confident",
+  "place": "160",
+  "race": "5km",
+  "raw": "2451 | 247 | 160 | Seán MONAGHAN | Drogheda & District A.C. |  | U20M | 0:31:19 | 0:31:50",
+  "source": "raceresult",
+  "time": "0:31:19",
+  "url": "https://my.raceresult.com/400696/results"
+ },
  "010514b3b57cadf5": {
   "athlete": "Paul Stuart",
   "cat_place": "",
@@ -57,6 +78,48 @@
   "source": "myrunresults",
   "time": "00:23:14",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "0504c441b1fee2d5": {
+  "athlete": "Conor Cooney",
+  "cat_place": "",
+  "category": "M70",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-31",
+  "event_id": "411859",
+  "event_name": "Streets of Athboy 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "0504c441b1fee2d5",
+  "match": "confident",
+  "place": "227",
+  "race": "5km",
+  "raw": "217 | 683 | 227 | Conor COONEY | Drogheda and District A.C. | 173. M | M70 |  |  | 0:23:13 | 0:23:26",
+  "source": "raceresult",
+  "time": "0:23:13",
+  "url": "https://my.raceresult.com/411859/results"
+ },
+ "05b52137bc236dbb": {
+  "athlete": "Niamh Matthews",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "05b52137bc236dbb",
+  "match": "confident",
+  "place": "138",
+  "race": "5km",
+  "raw": "539 | 297 | 138 | Niamh MATTHEWS | Drogheda and District A.C. | 19. F | F50 |  |  | 0:23:07 | 0:23:12",
+  "source": "raceresult",
+  "time": "0:23:07",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "07b00e8496af3ab8": {
   "athlete": "Brian Martin",
@@ -119,6 +182,48 @@
   "time": "1:26:22",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "0a0a04ec5ea84a94": {
+  "athlete": "Sarah Monaghan",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "0a0a04ec5ea84a94",
+  "match": "confident",
+  "place": "260",
+  "race": "5km",
+  "raw": "2450 | 246 | 260 | Sarah MONAGHAN | Drogheda & District A.C. |  | F | 0:38:30 | 0:39:20",
+  "source": "raceresult",
+  "time": "0:38:30",
+  "url": "https://my.raceresult.com/400696/results"
+ },
+ "0a27476a4cfb70e8": {
+  "athlete": "Paul Kierans",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "0a27476a4cfb70e8",
+  "match": "confident",
+  "place": "166",
+  "race": "5km",
+  "raw": "3346 | 403 | 166 | Paul KIERANS | Drogheda and District A.C. | 136. M | M |  |  | 0:23:42 | 0:23:56",
+  "source": "raceresult",
+  "time": "0:23:42",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "0b1ed6d28b916c41": {
   "athlete": "Johnny Breen",
   "cat_place": "",
@@ -139,6 +244,27 @@
   "source": "raceresult",
   "time": "1:02:35",
   "url": "https://my.raceresult.com/379375/results"
+ },
+ "0b95bac269d105a4": {
+  "athlete": "Sergii Raschupkin",
+  "cat_place": "",
+  "category": "M35",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-31",
+  "event_id": "411859",
+  "event_name": "Streets of Athboy 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "0b95bac269d105a4",
+  "match": "confident",
+  "place": "1",
+  "race": "5km",
+  "raw": "96 | 471 | 1 | Sergii RASCHUPKIN | Drogheda and District A.C. | 1. M | M35 |  |  | 0:15:32 | 0:15:33",
+  "source": "raceresult",
+  "time": "0:15:32",
+  "url": "https://my.raceresult.com/411859/results"
  },
  "0cbcdc9fdb3dd03c": {
   "athlete": "Michelle Egan",
@@ -180,6 +306,27 @@
   "time": "00:12:39",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
  },
+ "123e005039fe4927": {
+  "athlete": "Louise McGovern",
+  "cat_place": "",
+  "category": "F45",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "123e005039fe4927",
+  "match": "confident",
+  "place": "123",
+  "race": "5km",
+  "raw": "2686 | 196 | 123 | Louise MC GOVERN | Drogheda & District A.C. |  | F45 | 0:28:49 | 0:29:10",
+  "source": "raceresult",
+  "time": "0:28:49",
+  "url": "https://my.raceresult.com/400696/results"
+ },
  "1384e7d1622506bc": {
   "athlete": "Mia Jacob",
   "cat_place": "",
@@ -200,6 +347,27 @@
   "source": "raceresult",
   "time": "1:10:45",
   "url": "https://my.raceresult.com/379375/results"
+ },
+ "1436066d631d59ae": {
+  "athlete": "Seamus Roe",
+  "cat_place": "",
+  "category": "M55",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-31",
+  "event_id": "411859",
+  "event_name": "Streets of Athboy 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "1436066d631d59ae",
+  "match": "confident",
+  "place": "248",
+  "race": "5km",
+  "raw": "372 | 669 | 248 | Seamus ROE | Drogheda and District A.C. | 181. M | M55 |  |  | 0:24:04 | 0:24:19",
+  "source": "raceresult",
+  "time": "0:24:04",
+  "url": "https://my.raceresult.com/411859/results"
  },
  "1909e3037afbf66b": {
   "athlete": "Brian Martin",
@@ -264,6 +432,27 @@
   "time": "1:02:09",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "1b457dd43b4b8a7c": {
+  "athlete": "Aaron Hanlon",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-12",
+  "event_id": "410415",
+  "event_name": "Frank Kilrane (Edenderry) 10 Mile 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "1b457dd43b4b8a7c",
+  "match": "confident",
+  "place": "3",
+  "race": "10  Miles",
+  "raw": "3279 | 2126 | 3 | Aaron HANLON | Drogheda and District A.C. | M | [img:video.png|height:1rem] | 0:49:47 | 0:49:47",
+  "source": "raceresult",
+  "time": "0:49:47",
+  "url": "https://my.raceresult.com/410415/results"
+ },
  "1d52a84bafbf5105": {
   "athlete": "Ian Reilly",
   "cat_place": "32",
@@ -282,6 +471,69 @@
   "source": "myrunresults",
   "time": "00:21:04",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "1e6e5d976ec395d1": {
+  "athlete": "Kathryn Meade",
+  "cat_place": "",
+  "category": "F40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-08-20",
+  "event_id": "411870",
+  "event_name": "Celbridge A.C. 5km Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "1e6e5d976ec395d1",
+  "match": "confident",
+  "place": "130",
+  "race": "5km",
+  "raw": "226 | 854 | 130 | Kathryn MEADE | Drogheda and District A.C. | 23. F | F40 |  |  | 0:19:36 | 0:19:40",
+  "source": "raceresult",
+  "time": "0:19:36",
+  "url": "https://my.raceresult.com/411870/results"
+ },
+ "1e818e6520732b3c": {
+  "athlete": "Roisin McGeough",
+  "cat_place": "",
+  "category": "F40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "1e818e6520732b3c",
+  "match": "confident",
+  "place": "141",
+  "race": "5km",
+  "raw": "310 | 462 | 141 | Roisin MC GEOUGH | Drogheda and District A.C. | 22. F | F40 |  |  | 0:23:15 | 0:23:19",
+  "source": "raceresult",
+  "time": "0:23:15",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "1ebb7e285e7fa050": {
+  "athlete": "Andrea McArdle",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-31",
+  "event_id": "411859",
+  "event_name": "Streets of Athboy 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "1ebb7e285e7fa050",
+  "match": "confident",
+  "place": "122",
+  "race": "5km",
+  "raw": "191 | 409 | 122 | Andrea MC ARDLE | Drogheda and District A.C. | 12. F | F50 |  |  | 0:20:13 | 0:20:20",
+  "source": "raceresult",
+  "time": "0:20:13",
+  "url": "https://my.raceresult.com/411859/results"
  },
  "1ece7c514e352385": {
   "athlete": "Paul Smith",
@@ -445,6 +697,27 @@
   "time": "0:32:57",
   "url": "https://my.raceresult.com/405167/results"
  },
+ "28c9f4812c77af1e": {
+  "athlete": "Nuala Reilly",
+  "cat_place": "",
+  "category": "F65",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "28c9f4812c77af1e",
+  "match": "confident",
+  "place": "180",
+  "race": "5km",
+  "raw": "331 | 207 | 180 | Nuala REILLY | Drogheda and District A.C. | 37. F | F65 |  |  | 0:24:35 | 0:24:40",
+  "source": "raceresult",
+  "time": "0:24:35",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "28d54054797eb2fb": {
   "athlete": "Conor Cooney",
   "cat_place": "",
@@ -465,6 +738,27 @@
   "source": "raceresult",
   "time": "0:26:18",
   "url": "https://my.raceresult.com/428096/results"
+ },
+ "29e9ab49901d67f3": {
+  "athlete": "Paul Kierans",
+  "cat_place": "",
+  "category": "M35",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-31",
+  "event_id": "411859",
+  "event_name": "Streets of Athboy 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "29e9ab49901d67f3",
+  "match": "confident",
+  "place": "19",
+  "race": "5km",
+  "raw": "204 | 438 | 19 | Paul KIERANS | Drogheda and District A.C. | 19. M | M35 |  |  | 0:16:56 | 0:16:56",
+  "source": "raceresult",
+  "time": "0:16:56",
+  "url": "https://my.raceresult.com/411859/results"
  },
  "2ac46ee2869e10bf": {
   "athlete": "Rachel McCormack",
@@ -507,6 +801,27 @@
   "source": "raceresult",
   "time": "0:40:55",
   "url": "https://my.raceresult.com/405167/results"
+ },
+ "2d9f57d89ed5d64d": {
+  "athlete": "Alan Foley",
+  "cat_place": "",
+  "category": "M45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "2d9f57d89ed5d64d",
+  "match": "confident",
+  "place": "47",
+  "race": "5km",
+  "raw": "181 | 21 | 47 | Alan FOLEY | Drogheda and District A.C. | 44. M | M45 |  |  | 0:19:25 | 0:19:27",
+  "source": "raceresult",
+  "time": "0:19:25",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "2e3a6671b094b63d": {
   "athlete": "Yasmin Canning",
@@ -691,6 +1006,27 @@
   "time": "22.13",
   "url": "http://pastresults.dublinathletics.com/graded26-1/menu.html"
  },
+ "3b26dc5214c1701e": {
+  "athlete": "Thomas Breen",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "3b26dc5214c1701e",
+  "match": "confident",
+  "place": "11",
+  "race": "5km",
+  "raw": "395 | 450 | 11 | Thomas BREEN | Drogheda and District A.C. | 11. M | M |  |  | 0:17:10 | 0:17:11",
+  "source": "raceresult",
+  "time": "0:17:10",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "3d15e4881eb190ce": {
   "athlete": "Shane Larkin",
   "cat_place": "18",
@@ -730,6 +1066,48 @@
   "source": "raceresult",
   "time": "2:12:09",
   "url": "https://my.raceresult.com/377847/results"
+ },
+ "3e3241b30a1792c8": {
+  "athlete": "Robbie Farrell",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "3e3241b30a1792c8",
+  "match": "confident",
+  "place": "44",
+  "race": "5km",
+  "raw": "378 | 521 | 44 | Robbie FARRELL | Drogheda and District A.C. | 41. M | M |  |  | 0:19:17 | 0:19:20",
+  "source": "raceresult",
+  "time": "0:19:17",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "3f99ad9de0bb1daf": {
+  "athlete": "Martin Duffy",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "3f99ad9de0bb1daf",
+  "match": "confident",
+  "place": "153",
+  "race": "5km",
+  "raw": "437 | 426 | 153 | Martin DUFFY | Drogheda and District A.C. | 128. M | M60 |  |  | 0:23:27 | 0:23:30",
+  "source": "raceresult",
+  "time": "0:23:27",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "40157c16d975e535": {
   "athlete": "Mary Mc Donnell",
@@ -914,6 +1292,48 @@
   "time": "1:06.75",
   "url": "http://pastresults.dublinathletics.com/graded26-6/menu.html"
  },
+ "46417a8713f0c57b": {
+  "athlete": "Aishling Reilly",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "46417a8713f0c57b",
+  "match": "confident",
+  "place": "67",
+  "race": "5km",
+  "raw": "1401 | 361 | 67 | Aishling REILLY | Drogheda & District A.C. |  | F | 0:25:12 | 0:25:18",
+  "source": "raceresult",
+  "time": "0:25:12",
+  "url": "https://my.raceresult.com/400696/results"
+ },
+ "478f7f72e50d80f7": {
+  "athlete": "Roisin King",
+  "cat_place": "",
+  "category": "U20F",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "478f7f72e50d80f7",
+  "match": "confident",
+  "place": "115",
+  "race": "5km",
+  "raw": "1879 | 380 | 115 | Roisin KING | Drogheda & District A.C. |  | U20F | 0:28:09 | 0:28:27",
+  "source": "raceresult",
+  "time": "0:28:09",
+  "url": "https://my.raceresult.com/400696/results"
+ },
  "48c86a54bef61b31": {
   "athlete": "Thomas Breen",
   "cat_place": "",
@@ -975,6 +1395,48 @@
   "time": "2:27.14",
   "url": "http://pastresults.dublinathletics.com/graded26-1/menu.html"
  },
+ "49d7794a9970b27b": {
+  "athlete": "Barry Sullivan",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "49d7794a9970b27b",
+  "match": "confident",
+  "place": "217",
+  "race": "5km",
+  "raw": "450 | 467 | 217 | Barry SULLIVAN | Drogheda and District A.C. | 158. M | M50 |  |  | 0:25:21 | 0:25:38",
+  "source": "raceresult",
+  "time": "0:25:21",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "49e0977478642df9": {
+  "athlete": "Linda Bowe",
+  "cat_place": "",
+  "category": "F60",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "49e0977478642df9",
+  "match": "confident",
+  "place": "357",
+  "race": "5km",
+  "raw": "312 | 395 | 357 | Linda BOWE | Drogheda and District A.C. | 137. F | F60 |  |  | 0:29:38 | 0:29:59",
+  "source": "raceresult",
+  "time": "0:29:38",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "4a936a658ea0aa9c": {
   "athlete": "Oisín Mc Ardle",
   "cat_place": "2",
@@ -1012,6 +1474,27 @@
   "source": "myrunresults",
   "time": "00:23:33",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "4d430e2fb543a054": {
+  "athlete": "Elizabeth Townshend",
+  "cat_place": "",
+  "category": "F45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "4d430e2fb543a054",
+  "match": "confident",
+  "place": "397",
+  "race": "5km",
+  "raw": "485 | 452 | 397 | Elizabeth TOWNSHEND | Drogheda and District A.C. | 160. F | F45 |  |  | 0:30:57 | 0:31:13",
+  "source": "raceresult",
+  "time": "0:30:57",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "4d51a64d340aa6d0": {
   "athlete": "Nuala Reilly",
@@ -1192,6 +1675,48 @@
   "time": "0:27:30",
   "url": "https://my.raceresult.com/404897/results"
  },
+ "547748cc5695bdd5": {
+  "athlete": "Ciara O Reilly",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "547748cc5695bdd5",
+  "match": "confident",
+  "place": "98",
+  "race": "5km",
+  "raw": "431 | 561 | 98 | Ciara O REILLY | Drogheda and District A.C. | 11. F | F50 |  |  | 0:21:37 | 0:21:40",
+  "source": "raceresult",
+  "time": "0:21:37",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "55886f144cc295bb": {
+  "athlete": "Mike Staunton",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "55886f144cc295bb",
+  "match": "confident",
+  "place": "238",
+  "race": "5km",
+  "raw": "300 | 454 | 238 | Mike STAUNTON | Drogheda and District A.C. | 172. M | M60 |  |  | 0:26:03 | 0:26:09",
+  "source": "raceresult",
+  "time": "0:26:03",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "574cc9cd98632b96": {
   "athlete": "Andy McDonnell",
   "cat_place": "",
@@ -1212,6 +1737,69 @@
   "source": "raceresult",
   "time": "0:16:46",
   "url": "https://my.raceresult.com/396850/results"
+ },
+ "5919c686a24e72ef": {
+  "athlete": "Liam Mulligan",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "5919c686a24e72ef",
+  "match": "confident",
+  "place": "5",
+  "race": "5km",
+  "raw": "297 | 552 | 5 | Liam MULLIGAN | Drogheda and District A.C. | 5. M | M |  |  | 0:15:41 | 0:15:42",
+  "source": "raceresult",
+  "time": "0:15:41",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "599d682835187286": {
+  "athlete": "Gerry McGeough",
+  "cat_place": "",
+  "category": "M70",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "599d682835187286",
+  "match": "confident",
+  "place": "143",
+  "race": "5km",
+  "raw": "1409 | 273 | 143 | Gerry MC GEOUGH | Drogheda & District A.C. |  | M70 | 0:30:20 | 0:30:25",
+  "source": "raceresult",
+  "time": "0:30:20",
+  "url": "https://my.raceresult.com/400696/results"
+ },
+ "5ac318c2ca3f86e2": {
+  "athlete": "Ruaidhri Nolan",
+  "cat_place": "",
+  "category": "M40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "5ac318c2ca3f86e2",
+  "match": "confident",
+  "place": "7",
+  "race": "5km",
+  "raw": "434 | 415 | 7 | Ruaidhri NOLAN | Drogheda and District A.C. | 7. M | M40 |  |  | 0:16:31 | 0:16:32",
+  "source": "raceresult",
+  "time": "0:16:31",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "5b1084fe0b65e4db": {
   "athlete": "Kathryn Meade",
@@ -1274,6 +1862,27 @@
   "time": "0:44:28",
   "url": "https://my.raceresult.com/405167/results"
  },
+ "5bcf7256b97640b4": {
+  "athlete": "Shane Larkin",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "5bcf7256b97640b4",
+  "match": "confident",
+  "place": "28",
+  "race": "5km",
+  "raw": "337 | 257 | 28 | Shane LARKIN | Drogheda and District A.C. | 26. M | M50 |  |  | 0:18:49 | 0:18:50",
+  "source": "raceresult",
+  "time": "0:18:49",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "5c62af83da497343": {
   "athlete": "Colin Leonard",
   "cat_place": "",
@@ -1294,6 +1903,48 @@
   "source": "raceresult",
   "time": "0:33:17",
   "url": "https://my.raceresult.com/405167/results"
+ },
+ "5c98ca60b0558882": {
+  "athlete": "Niamh Brogan",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "5c98ca60b0558882",
+  "match": "confident",
+  "place": "116",
+  "race": "5km",
+  "raw": "379 | 212 | 116 | Niamh BROGAN | Drogheda and District A.C. | 13. F | F |  |  | 0:22:14 | 0:22:18",
+  "source": "raceresult",
+  "time": "0:22:14",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "5d21d13990472673": {
+  "athlete": "Osgar Sullivan",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "5d21d13990472673",
+  "match": "confident",
+  "place": "148",
+  "race": "5km",
+  "raw": "436 | 276 | 148 | Osgar SULLIVAN | Drogheda and District A.C. | 126. M | M |  |  | 0:23:15 | 0:23:28",
+  "source": "raceresult",
+  "time": "0:23:15",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "60800d34d97a04ae": {
   "athlete": "Aaron Hanlon",
@@ -1396,6 +2047,27 @@
   "time": "1:20.50",
   "url": "http://pastresults.dublinathletics.com/graded26-6/menu.html"
  },
+ "627b3f7a9b4ce9df": {
+  "athlete": "Sophie Hetherington",
+  "cat_place": "",
+  "category": "U20F",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "627b3f7a9b4ce9df",
+  "match": "confident",
+  "place": "331",
+  "race": "5km",
+  "raw": "101 | 128 | 331 | Sophie HETHERINGTON | Drogheda and District A.C. | 122. F | U20F |  |  | 0:28:45 | 0:29:08",
+  "source": "raceresult",
+  "time": "0:28:45",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "62e55a34de4eaef5": {
   "athlete": "Colin Leonard",
   "cat_place": "",
@@ -1476,6 +2148,48 @@
   "time": "00:18:18",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
  },
+ "6868e34350474e00": {
+  "athlete": "Barry Foley",
+  "cat_place": "",
+  "category": "M40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "6868e34350474e00",
+  "match": "confident",
+  "place": "15",
+  "race": "5km",
+  "raw": "508 | 535 | 15 | Barry FOLEY | Drogheda and District A.C. | 14. M | M40 |  |  | 0:17:45 | 0:17:47",
+  "source": "raceresult",
+  "time": "0:17:45",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "69f88931de29774b": {
+  "athlete": "Helen Dillon",
+  "cat_place": "",
+  "category": "F45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-31",
+  "event_id": "411859",
+  "event_name": "Streets of Athboy 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "69f88931de29774b",
+  "match": "confident",
+  "place": "145",
+  "race": "5km",
+  "raw": "189 | 522 | 145 | Helen DILLON | Drogheda and District A.C. | 19. F | F45 |  |  | 0:20:50 | 0:20:58",
+  "source": "raceresult",
+  "time": "0:20:50",
+  "url": "https://my.raceresult.com/411859/results"
+ },
  "6db6475632854973": {
   "athlete": "Andrea McCabe",
   "cat_place": "",
@@ -1494,6 +2208,27 @@
   "source": "dublin_graded",
   "time": "3:10.62",
   "url": "http://pastresults.dublinathletics.com/graded26-1/menu.html"
+ },
+ "6dc03e056381df6a": {
+  "athlete": "Jim Nolan",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "6dc03e056381df6a",
+  "match": "confident",
+  "place": "368",
+  "race": "5km",
+  "raw": "442 | 230 | 368 | Jim NOLAN | Drogheda and District A.C. | 225. M | M60 |  |  | 0:29:58 | 0:30:23",
+  "source": "raceresult",
+  "time": "0:29:58",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "700d535de2b77e62": {
   "athlete": "Luke Cormican",
@@ -1534,6 +2269,69 @@
   "source": "myrunresults",
   "time": "00:10:14",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
+ },
+ "72b3ea5102e6ecdd": {
+  "athlete": "Nuala Reilly",
+  "cat_place": "",
+  "category": "F70",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-31",
+  "event_id": "411859",
+  "event_name": "Streets of Athboy 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "72b3ea5102e6ecdd",
+  "match": "confident",
+  "place": "245",
+  "race": "5km",
+  "raw": "214 | 551 | 245 | Nuala REILLY | Drogheda and District A.C. | 66. F | F70 |  |  | 0:24:04 | 0:24:10",
+  "source": "raceresult",
+  "time": "0:24:04",
+  "url": "https://my.raceresult.com/411859/results"
+ },
+ "769c620580f2ca38": {
+  "athlete": "Darragh Minogue",
+  "cat_place": "",
+  "category": "U20M",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "769c620580f2ca38",
+  "match": "confident",
+  "place": "14",
+  "race": "5km",
+  "raw": "2687 | 197 | 14 | Darragh MINOGUE | Drogheda & District A.C. |  | U20M | 0:19:58 | 0:19:59",
+  "source": "raceresult",
+  "time": "0:19:58",
+  "url": "https://my.raceresult.com/400696/results"
+ },
+ "76cef579ca32d352": {
+  "athlete": "Andrea McArdle",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "76cef579ca32d352",
+  "match": "confident",
+  "place": "87",
+  "race": "5km",
+  "raw": "413 | 350 | 87 | Andrea MC ARDLE | Drogheda and District A.C. | 6. F | F50 |  |  | 0:20:58 | 0:21:01",
+  "source": "raceresult",
+  "time": "0:20:58",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "791b50c773d8a760": {
   "athlete": "Eve Russell",
@@ -1613,6 +2411,27 @@
   "time": "00:16:03",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
  },
+ "80ed3a8f8c79fd85": {
+  "athlete": "Anna Marie Bolton",
+  "cat_place": "",
+  "category": "F40",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "80ed3a8f8c79fd85",
+  "match": "confident",
+  "place": "215",
+  "race": "5km",
+  "raw": "2413 | 178 | 215 | Anna Marie BOLTON | Drogheda & District A.C. |  | F40 | 0:33:55 | 0:34:16",
+  "source": "raceresult",
+  "time": "0:33:55",
+  "url": "https://my.raceresult.com/400696/results"
+ },
  "816f2994275e02e0": {
   "athlete": "Joe Hammel",
   "cat_place": "",
@@ -1633,6 +2452,27 @@
   "source": "raceresult",
   "time": "1:04:54",
   "url": "https://my.raceresult.com/379375/results"
+ },
+ "839ac2d98870f7c6": {
+  "athlete": "Ian Delaney",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "839ac2d98870f7c6",
+  "match": "confident",
+  "place": "189",
+  "race": "5km",
+  "raw": "3340 | 510 | 189 | Ian DELANEY | Drogheda and District A.C. | 149. M | M |  |  | 0:24:43 | 0:24:52",
+  "source": "raceresult",
+  "time": "0:24:43",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "84bcc9cb97c22f99": {
   "athlete": "Alan Floyd",
@@ -1676,6 +2516,27 @@
   "time": "1:13:32",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "8564ddf6f945d9cb": {
+  "athlete": "Conor Cooney",
+  "cat_place": "",
+  "category": "M65",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "8564ddf6f945d9cb",
+  "match": "confident",
+  "place": "178",
+  "race": "5km",
+  "raw": "332 | 209 | 178 | Conor COONEY | Drogheda and District A.C. | 142. M | M65 |  |  | 0:24:31 | 0:24:36",
+  "source": "raceresult",
+  "time": "0:24:31",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "85b7a11f33469c7c": {
   "athlete": "James Keenan",
   "cat_place": "66",
@@ -1694,6 +2555,48 @@
   "source": "myrunresults",
   "time": "00:26:03",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "860374703a87e1b1": {
+  "athlete": "Gearóid Ó Gibne",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "860374703a87e1b1",
+  "match": "confident",
+  "place": "220",
+  "race": "5km",
+  "raw": "252 | 191 | 220 | Gearóid Ó GIBNE | Drogheda and District A.C. | 161. M | M60 |  |  | 0:25:29 | 0:25:40",
+  "source": "raceresult",
+  "time": "0:25:29",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "8941b979c78765ed": {
+  "athlete": "Barney Flannery",
+  "cat_place": "",
+  "category": "M65",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "8941b979c78765ed",
+  "match": "confident",
+  "place": "346",
+  "race": "5km",
+  "raw": "311 | 396 | 346 | Barney FLANNERY | Drogheda and District A.C. | 215. M | M65 |  |  | 0:29:12 | 0:29:33",
+  "source": "raceresult",
+  "time": "0:29:12",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "8c691ead6363f43d": {
   "athlete": "Morgan Reid",
@@ -1734,6 +2637,27 @@
   "source": "myrunresults",
   "time": "00:25:27",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "8e47e01d20d7414e": {
+  "athlete": "Nuala Reilly",
+  "cat_place": "",
+  "category": "F70",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "8e47e01d20d7414e",
+  "match": "confident",
+  "place": "83",
+  "race": "5km",
+  "raw": "2690 | 283 | 83 | Nuala REILLY | Drogheda & District A.C. |  | F70 | 0:26:21 | 0:26:25",
+  "source": "raceresult",
+  "time": "0:26:21",
+  "url": "https://my.raceresult.com/400696/results"
  },
  "90784e51f49c1195": {
   "athlete": "Roisin Mc Geough",
@@ -1776,6 +2700,27 @@
   "source": "raceresult",
   "time": "1:06:34",
   "url": "https://my.raceresult.com/379375/results"
+ },
+ "90e4c7736ac88109": {
+  "athlete": "Aaron Hanlon",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-08-16",
+  "event_id": "413377",
+  "event_name": "Cork City 10km 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "90e4c7736ac88109",
+  "match": "confident",
+  "place": "2",
+  "race": "10km",
+  "raw": "178 | 3 | 2 | Aaron HANLON | Drogheda and District A.C. | 2. M | M |  |  | 0:30:42 | 0:30:43",
+  "source": "raceresult",
+  "time": "0:30:42",
+  "url": "https://my.raceresult.com/413377/results"
  },
  "913c8e51004cc3c3": {
   "athlete": "Robbie Keane",
@@ -1998,6 +2943,48 @@
   "time": "00:33:45",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
  },
+ "ae780001cd304de9": {
+  "athlete": "Thady Lynch",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "ae780001cd304de9",
+  "match": "confident",
+  "place": "76",
+  "race": "5km",
+  "raw": "430 | 570 | 76 | Thady LYNCH | Drogheda and District A.C. | 72. M | M |  |  | 0:20:30 | 0:20:34",
+  "source": "raceresult",
+  "time": "0:20:30",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "aed8accc9cb431fa": {
+  "athlete": "Paul Reilly",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-31",
+  "event_id": "411859",
+  "event_name": "Streets of Athboy 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "aed8accc9cb431fa",
+  "match": "confident",
+  "place": "135",
+  "race": "5km",
+  "raw": "143 | 550 | 135 | Paul REILLY | Drogheda and District A.C. | 120. M | M60 |  |  | 0:20:38 | 0:20:43",
+  "source": "raceresult",
+  "time": "0:20:38",
+  "url": "https://my.raceresult.com/411859/results"
+ },
  "b01b6538ee00fbb7": {
   "athlete": "Colin Leonard",
   "cat_place": "",
@@ -2018,6 +3005,27 @@
   "source": "raceresult",
   "time": "0:16:03",
   "url": "https://my.raceresult.com/396850/results"
+ },
+ "b02fa9937d073d80": {
+  "athlete": "Olivia Reilly",
+  "cat_place": "",
+  "category": "F40",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "b02fa9937d073d80",
+  "match": "confident",
+  "place": "92",
+  "race": "5km",
+  "raw": "2380 | 118 | 92 | Olivia REILLY | Drogheda & District A.C. |  | F40 | 0:26:56 | 0:27:01",
+  "source": "raceresult",
+  "time": "0:26:56",
+  "url": "https://my.raceresult.com/400696/results"
  },
  "b0cd1bf6ec0b46d5": {
   "athlete": "Colin Griffin",
@@ -2061,6 +3069,27 @@
   "time": "1:19:24",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "b3c31210f7b0d3df": {
+  "athlete": "Shane Larkin",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "b3c31210f7b0d3df",
+  "match": "confident",
+  "place": "8",
+  "race": "5km",
+  "raw": "1405 | 296 | 8 | Shane LARKIN | Drogheda & District A.C. |  | M50 | 0:19:19 | 0:19:20",
+  "source": "raceresult",
+  "time": "0:19:19",
+  "url": "https://my.raceresult.com/400696/results"
+ },
  "b51dc062c4343ce4": {
   "athlete": "Martin Duffy",
   "cat_place": "",
@@ -2081,6 +3110,27 @@
   "source": "raceresult",
   "time": "0:50:34",
   "url": "https://my.raceresult.com/405167/results"
+ },
+ "b5d1d9d77f2d4e1c": {
+  "athlete": "Liam Farrell",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-31",
+  "event_id": "411859",
+  "event_name": "Streets of Athboy 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "b5d1d9d77f2d4e1c",
+  "match": "confident",
+  "place": "244",
+  "race": "5km",
+  "raw": "278 | 634 | 244 | Liam FARRELL | Drogheda and District A.C. | 179. M | M50 |  |  | 0:23:53 | 0:24:09",
+  "source": "raceresult",
+  "time": "0:23:53",
+  "url": "https://my.raceresult.com/411859/results"
  },
  "b6aa5b20be4b10ee": {
   "athlete": "Emmet Steenson",
@@ -2124,6 +3174,27 @@
   "time": "0:54:04",
   "url": "https://my.raceresult.com/405167/results"
  },
+ "b77577dcb6ccad43": {
+  "athlete": "Paul Russell",
+  "cat_place": "",
+  "category": "M45",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "b77577dcb6ccad43",
+  "match": "confident",
+  "place": "54",
+  "race": "5km",
+  "raw": "2442 | 231 | 54 | Paul RUSSELL | Drogheda & District A.C. |  | M45 | 0:23:35 | 0:23:37",
+  "source": "raceresult",
+  "time": "0:23:35",
+  "url": "https://my.raceresult.com/400696/results"
+ },
  "b94fedf5a2649ddf": {
   "athlete": "Cian Bolton",
   "cat_place": "56",
@@ -2143,6 +3214,27 @@
   "time": "00:09:37",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
  },
+ "b9507fd3e8996b51": {
+  "athlete": "Gearóid Ó Gibne",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-31",
+  "event_id": "411859",
+  "event_name": "Streets of Athboy 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "b9507fd3e8996b51",
+  "match": "confident",
+  "place": "255",
+  "race": "5km",
+  "raw": "133 | 645 | 255 | Gearóid Ó GIBNE | Drogheda and District A.C. | 184. M | M60 |  |  | 0:24:24 | 0:24:40",
+  "source": "raceresult",
+  "time": "0:24:24",
+  "url": "https://my.raceresult.com/411859/results"
+ },
  "bc77dde18c4d4ae1": {
   "athlete": "Barney Flannery",
   "cat_place": "71",
@@ -2161,6 +3253,48 @@
   "source": "myrunresults",
   "time": "00:26:49",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "bf9cb68601c8e1ef": {
+  "athlete": "Brian Guilfoyle",
+  "cat_place": "",
+  "category": "M55",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-31",
+  "event_id": "411859",
+  "event_name": "Streets of Athboy 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "bf9cb68601c8e1ef",
+  "match": "confident",
+  "place": "275",
+  "race": "5km",
+  "raw": "211 | 633 | 275 | Brian GUILFOYLE | Drogheda and District A.C. | 193. M | M55 |  |  | 0:25:01 | 0:25:17",
+  "source": "raceresult",
+  "time": "0:25:01",
+  "url": "https://my.raceresult.com/411859/results"
+ },
+ "c096388abf040fe0": {
+  "athlete": "Padraig King",
+  "cat_place": "",
+  "category": "U20M",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "c096388abf040fe0",
+  "match": "confident",
+  "place": "175",
+  "race": "5km",
+  "raw": "1880 | 381 | 175 | Padraig KING | Drogheda & District A.C. |  | U20M | 0:31:58 | 0:32:20",
+  "source": "raceresult",
+  "time": "0:31:58",
+  "url": "https://my.raceresult.com/400696/results"
  },
  "c2bee44cca955d13": {
   "athlete": "Colin Griffin",
@@ -2201,6 +3335,27 @@
   "source": "raceresult",
   "time": "1:44:10",
   "url": "https://my.raceresult.com/379375/results"
+ },
+ "c36647e54d43686c": {
+  "athlete": "Dean Smith",
+  "cat_place": "",
+  "category": "M45",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "c36647e54d43686c",
+  "match": "confident",
+  "place": "19",
+  "race": "5km",
+  "raw": "2702 | 216 | 19 | Dean SMITH | Drogheda & District A.C. |  | M45 | 0:20:38 | 0:20:40",
+  "source": "raceresult",
+  "time": "0:20:38",
+  "url": "https://my.raceresult.com/400696/results"
  },
  "c45e96fe347df745": {
   "athlete": "Nuala Reilly",
@@ -2265,6 +3420,69 @@
   "time": "0:17:48",
   "url": "https://my.raceresult.com/396850/results"
  },
+ "c9292cf10262f72b": {
+  "athlete": "Eimear Marron",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-31",
+  "event_id": "411859",
+  "event_name": "Streets of Athboy 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "c9292cf10262f72b",
+  "match": "confident",
+  "place": "167",
+  "race": "5km",
+  "raw": "192 | 552 | 167 | Eimear MARRON | Drogheda and District A.C. | 23. F | F50 |  |  | 0:21:15 | 0:21:22",
+  "source": "raceresult",
+  "time": "0:21:15",
+  "url": "https://my.raceresult.com/411859/results"
+ },
+ "ca105687312a7e9b": {
+  "athlete": "Ilario Agostino",
+  "cat_place": "",
+  "category": "M40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "ca105687312a7e9b",
+  "match": "confident",
+  "place": "107",
+  "race": "5km",
+  "raw": "298 | 324 | 107 | Ilario AGOSTINO | Drogheda and District A.C. | 96. M | M40 |  |  | 0:22:06 | 0:22:06",
+  "source": "raceresult",
+  "time": "0:22:06",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "cc7527a3f64ec5c2": {
+  "athlete": "Louise McCann",
+  "cat_place": "",
+  "category": "F40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "cc7527a3f64ec5c2",
+  "match": "confident",
+  "place": "272",
+  "race": "5km",
+  "raw": "357 | 457 | 272 | Louise MC CANN | Drogheda and District A.C. | 85. F | F40 |  |  | 0:27:01 | 0:27:16",
+  "source": "raceresult",
+  "time": "0:27:01",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "cefcb0d793c42eb5": {
   "athlete": "Olivia Reilly",
   "cat_place": "",
@@ -2328,6 +3546,27 @@
   "time": "1:14:57",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "d586788e8018559b": {
+  "athlete": "Brian Carrig",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "d586788e8018559b",
+  "match": "confident",
+  "place": "13",
+  "race": "5km",
+  "raw": "1426 | 326 | 13 | Brian CARRIG | Drogheda & District A.C. |  | M50 | 0:19:55 | 0:19:56",
+  "source": "raceresult",
+  "time": "0:19:55",
+  "url": "https://my.raceresult.com/400696/results"
+ },
  "d715846d17b1787b": {
   "athlete": "Thomas Breen",
   "cat_place": "",
@@ -2370,6 +3609,27 @@
   "time": "1:38:24",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "dbfa7c5ca58d056e": {
+  "athlete": "Mary Leech",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "dbfa7c5ca58d056e",
+  "match": "confident",
+  "place": "34",
+  "race": "5km",
+  "raw": "326 | 392 | 34 | Mary LEECH | Drogheda and District A.C. | 3. F | F50 |  |  | 0:18:54 | 0:18:56",
+  "source": "raceresult",
+  "time": "0:18:54",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "dbfe0c9eefd4bfa4": {
   "athlete": "Seamus Roe",
   "cat_place": "",
@@ -2390,6 +3650,48 @@
   "source": "raceresult",
   "time": "1:30:20",
   "url": "https://my.raceresult.com/379375/results"
+ },
+ "dc5f6a1ab1534e29": {
+  "athlete": "Sergii Raschupkin",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "dc5f6a1ab1534e29",
+  "match": "confident",
+  "place": "1",
+  "race": "5km",
+  "raw": "284 | 409 | 1 | Sergii RASCHUPKIN | Drogheda and District A.C. | 1. M | M |  |  | 0:15:19 | 0:15:20",
+  "source": "raceresult",
+  "time": "0:15:19",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "dccddb5011b2def7": {
+  "athlete": "Dale Thornton",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "dccddb5011b2def7",
+  "match": "confident",
+  "place": "31",
+  "race": "5km",
+  "raw": "388 | 527 | 31 | Dale THORNTON | Drogheda and District A.C. | 29. M | M |  |  | 0:18:51 | 0:18:53",
+  "source": "raceresult",
+  "time": "0:18:51",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "df42e0886e64bb71": {
   "athlete": "Nuala Reilly",
@@ -2412,6 +3714,48 @@
   "time": "0:50:00",
   "url": "https://my.raceresult.com/405167/results"
  },
+ "e283c9df8ddb28b7": {
+  "athlete": "Adrian King",
+  "cat_place": "",
+  "category": "M45",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "e283c9df8ddb28b7",
+  "match": "confident",
+  "place": "176",
+  "race": "5km",
+  "raw": "1882 | 379 | 176 | Adrian KING | Drogheda & District A.C. |  | M45 | 0:32:00 | 0:32:21",
+  "source": "raceresult",
+  "time": "0:32:00",
+  "url": "https://my.raceresult.com/400696/results"
+ },
+ "e2ba401663dac8a3": {
+  "athlete": "Brian Carrig",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "e2ba401663dac8a3",
+  "match": "confident",
+  "place": "43",
+  "race": "5km",
+  "raw": "57 | 84 | 43 | Brian CARRIG | Drogheda and District A.C. | 40. M | M50 |  |  | 0:19:17 | 0:19:19",
+  "source": "raceresult",
+  "time": "0:19:17",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "e2f2d48f6ae92631": {
   "athlete": "Mike Staunton",
   "cat_place": "",
@@ -2432,6 +3776,27 @@
   "source": "raceresult",
   "time": "0:51:41",
   "url": "https://my.raceresult.com/405167/results"
+ },
+ "e4f5d6b5e6e495ac": {
+  "athlete": "Anna Marie Bolton",
+  "cat_place": "",
+  "category": "F40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "e4f5d6b5e6e495ac",
+  "match": "confident",
+  "place": "402",
+  "race": "5km",
+  "raw": "44 | 71 | 402 | Anna Marie BOLTON | Drogheda and District A.C. | 164. F | F40 |  |  | 0:31:11 | 0:31:26",
+  "source": "raceresult",
+  "time": "0:31:11",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "e7762766abc28fd0": {
   "athlete": "Barry Sullivan",
@@ -2475,6 +3840,27 @@
   "time": "0:36:39",
   "url": "https://my.raceresult.com/390867/results"
  },
+ "e8fa730c999cb907": {
+  "athlete": "John Perkins",
+  "cat_place": "",
+  "category": "M45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "e8fa730c999cb907",
+  "match": "confident",
+  "place": "30",
+  "race": "5km",
+  "raw": "71 | 98 | 30 | John PERKINS | Drogheda and District A.C. | 28. M | M45 |  |  | 0:18:50 | 0:18:52",
+  "source": "raceresult",
+  "time": "0:18:50",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "e9c99d74b9868aa8": {
   "athlete": "Yasaman Nuri",
   "cat_place": "44",
@@ -2493,6 +3879,27 @@
   "source": "myrunresults",
   "time": "00:14:11",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
+ },
+ "e9e2fb8166cc5f1b": {
+  "athlete": "Cian Bolton",
+  "cat_place": "",
+  "category": "U20M",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "e9e2fb8166cc5f1b",
+  "match": "confident",
+  "place": "18",
+  "race": "5km",
+  "raw": "2454 | 250 | 18 | Cian BOLTON | Drogheda & District A.C. |  | U20M | 0:20:38 | 0:20:38",
+  "source": "raceresult",
+  "time": "0:20:38",
+  "url": "https://my.raceresult.com/400696/results"
  },
  "ea14b8d99947be12": {
   "athlete": "Anna Isgrò",
@@ -2515,6 +3922,48 @@
   "time": "1:10:58",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "ee799b671543c1c6": {
+  "athlete": "Seamus Roe",
+  "cat_place": "",
+  "category": "M55",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "ee799b671543c1c6",
+  "match": "confident",
+  "place": "197",
+  "race": "5km",
+  "raw": "3402 | 518 | 197 | Seamus ROE | Drogheda and District A.C. | 152. M | M55 |  |  | 0:25:00 | 0:25:05",
+  "source": "raceresult",
+  "time": "0:25:00",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "efe4fa00d9018b6e": {
+  "athlete": "Brian Guilfoyle",
+  "cat_place": "",
+  "category": "M55",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "efe4fa00d9018b6e",
+  "match": "confident",
+  "place": "240",
+  "race": "5km",
+  "raw": "324 | 568 | 240 | Brian GUILFOYLE | Drogheda and District A.C. | 173. M | M55 |  |  | 0:26:10 | 0:26:16",
+  "source": "raceresult",
+  "time": "0:26:10",
+  "url": "https://my.raceresult.com/408998/results"
+ },
  "f0181b4e44a61141": {
   "athlete": "Gerry Mc Geough",
   "cat_place": "85",
@@ -2533,6 +3982,69 @@
   "source": "myrunresults",
   "time": "00:30:09",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "f0fa1851d59fdfcb": {
+  "athlete": "Sarah Monaghan",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "f0fa1851d59fdfcb",
+  "match": "confident",
+  "place": "493",
+  "race": "5km",
+  "raw": "116 | 143 | 493 | Sarah MONAGHAN | Drogheda and District A.C. | 236. F | F |  |  | 0:37:01 | 0:37:30",
+  "source": "raceresult",
+  "time": "0:37:01",
+  "url": "https://my.raceresult.com/408998/results"
+ },
+ "f1202007d497a5c8": {
+  "athlete": "Gearoid O Gibne",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-08-29",
+  "event_id": "400696",
+  "event_name": "Monasterboice 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "f1202007d497a5c8",
+  "match": "confident",
+  "place": "79",
+  "race": "5km",
+  "raw": "1423 | 148 | 79 | Gearoid O GIBNE | Drogheda & District A.C. |  | M60 | 0:25:57 | 0:26:04",
+  "source": "raceresult",
+  "time": "0:25:57",
+  "url": "https://my.raceresult.com/400696/results"
+ },
+ "f281ff2e727a298e": {
+  "athlete": "Catherine Guilfoyle",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-07-03",
+  "event_id": "408998",
+  "event_name": "B5 Bettystown 5K 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "f281ff2e727a298e",
+  "match": "confident",
+  "place": "395",
+  "race": "5km",
+  "raw": "487 | 474 | 395 | Catherine GUILFOYLE | Drogheda and District A.C. | 158. F | F |  |  | 0:30:52 | 0:31:08",
+  "source": "raceresult",
+  "time": "0:30:52",
+  "url": "https://my.raceresult.com/408998/results"
  },
  "f2d7be054baca85b": {
   "athlete": "Lily Maher",
@@ -2716,6 +4228,27 @@
   "source": "raceresult",
   "time": "1:37:20",
   "url": "https://my.raceresult.com/379375/results"
+ },
+ "facee1a043dddffc": {
+  "athlete": "Niall Donnelly",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda & District AC",
+  "event_date": "2026-08-12",
+  "event_id": "415843",
+  "event_name": "2026 Liberties Fun Run",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:52:09+00:00",
+  "key": "facee1a043dddffc",
+  "match": "confident",
+  "place": "21",
+  "race": "4 Mile",
+  "raw": "871 | 520 | 21 | Niall DONNELLY | Drogheda & District AC | 20. M | M50 |  |  | 0:25:30 | 0:25:30",
+  "source": "raceresult",
+  "time": "0:25:30",
+  "url": "https://my.raceresult.com/415843/results"
  },
  "fb26e6aacd1490cd": {
   "athlete": "Mike Staunton",

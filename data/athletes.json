@@ -2,6 +2,21 @@
  "aaron hanlon": {
   "results": [
    {
+    "date": "2026-08-16",
+    "event": "Cork City 10km 2026",
+    "series": "cork city 10km",
+    "race": "10km",
+    "time": "0:30:42",
+    "place": "2",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/413377/results",
+    "highlights": [
+     "2nd overall"
+    ]
+   },
+   {
     "date": "2026-07-29",
     "event": "Dublin Graded Meet 8 2026",
     "series": "dublin graded meet 8",
@@ -13,6 +28,21 @@
     "source": "dublin_graded",
     "url": "http://pastresults.dublinathletics.com/graded26-8/menu.html",
     "highlights": []
+   },
+   {
+    "date": "2026-07-12",
+    "event": "Frank Kilrane (Edenderry) 10 Mile 2026",
+    "series": "frank kilrane edenderry 10 mile",
+    "race": "10  Miles",
+    "time": "0:49:47",
+    "place": "3",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/410415/results",
+    "highlights": [
+     "3rd overall"
+    ]
    },
    {
     "date": "2026-06-20",
@@ -44,15 +74,52 @@
    }
   ],
   "name": "Aaron Hanlon",
-  "races": 3,
+  "races": 5,
   "first_seen": "2026-05-24",
-  "latest": "2026-07-29",
+  "latest": "2026-08-16",
   "highlights": [
+   "2nd overall — Cork City 10km 2026 (2026-08-16)",
+   "3rd overall — Frank Kilrane (Edenderry) 10 Mile 2026 (2026-07-12)",
    "1st overall — The Culmullen Run 2026 (2026-05-24)"
   ]
  },
+ "adrian king": {
+  "results": [
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:32:00",
+    "place": "176",
+    "category": "M45",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   }
+  ],
+  "name": "Adrian King",
+  "races": 1,
+  "first_seen": "2026-08-29",
+  "latest": "2026-08-29",
+  "highlights": []
+ },
  "aishling reilly": {
   "results": [
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:25:12",
+    "place": "67",
+    "category": "F",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   },
    {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
@@ -68,9 +135,9 @@
    }
   ],
   "name": "Aishling Reilly",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-08-29",
   "highlights": []
  },
  "alan floyd": {
@@ -98,6 +165,19 @@
  "alan foley": {
   "results": [
    {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:19:25",
+    "place": "47",
+    "category": "M45",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
+   {
     "date": "2026-06-20",
     "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
     "series": "michael manning memorial dunshaughlin 10k",
@@ -112,9 +192,9 @@
    }
   ],
   "name": "Alan Foley",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-06-20",
-  "latest": "2026-06-20",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "alan wade": {
@@ -159,6 +239,32 @@
  "andrea mcardle": {
   "results": [
    {
+    "date": "2026-07-31",
+    "event": "Streets of Athboy 5k 2026",
+    "series": "streets of athboy 5k",
+    "race": "5km",
+    "time": "0:20:13",
+    "place": "122",
+    "category": "F50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411859/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:20:58",
+    "place": "87",
+    "category": "F50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
+   {
     "date": "2026-06-20",
     "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
     "series": "michael manning memorial dunshaughlin 10k",
@@ -186,9 +292,9 @@
    }
   ],
   "name": "Andrea McArdle",
-  "races": 2,
+  "races": 4,
   "first_seen": "2026-02-01",
-  "latest": "2026-06-20",
+  "latest": "2026-07-31",
   "highlights": []
  },
  "andrea mccabe": {
@@ -257,6 +363,41 @@
   "latest": "2026-02-01",
   "highlights": []
  },
+ "anna bolton marie": {
+  "results": [
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:33:55",
+    "place": "215",
+    "category": "F40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:31:11",
+    "place": "402",
+    "category": "F40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Anna Marie Bolton",
+  "races": 2,
+  "first_seen": "2026-07-03",
+  "latest": "2026-08-29",
+  "highlights": []
+ },
  "austin mccann": {
   "results": [
    {
@@ -306,16 +447,42 @@
     "source": "myrunresults",
     "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results",
     "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:29:12",
+    "place": "346",
+    "category": "M65",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
    }
   ],
   "name": "Barney Flannery",
-  "races": 1,
-  "first_seen": "2026-11-07",
+  "races": 2,
+  "first_seen": "2026-07-03",
   "latest": "2026-11-07",
   "highlights": []
  },
  "barry foley": {
   "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:17:45",
+    "place": "15",
+    "category": "M40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
    {
     "date": "2026-05-19",
     "event": "The Bob Heffernan and Mary Hanley 5k 2026",
@@ -331,13 +498,26 @@
    }
   ],
   "name": "Barry Foley",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-05-19",
-  "latest": "2026-05-19",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "barry sullivan": {
   "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:25:21",
+    "place": "217",
+    "category": "M50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
    {
     "date": "2026-05-30",
     "event": "Wexford Festival May 2026",
@@ -353,9 +533,9 @@
    }
   ],
   "name": "Barry Sullivan",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-05-30",
-  "latest": "2026-05-30",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "beatrice cunningham": {
@@ -402,6 +582,76 @@
   "latest": "2026-11-07",
   "highlights": []
  },
+ "brian carrig": {
+  "results": [
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:19:55",
+    "place": "13",
+    "category": "M50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:19:17",
+    "place": "43",
+    "category": "M50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Brian Carrig",
+  "races": 2,
+  "first_seen": "2026-07-03",
+  "latest": "2026-08-29",
+  "highlights": []
+ },
+ "brian guilfoyle": {
+  "results": [
+   {
+    "date": "2026-07-31",
+    "event": "Streets of Athboy 5k 2026",
+    "series": "streets of athboy 5k",
+    "race": "5km",
+    "time": "0:25:01",
+    "place": "275",
+    "category": "M55",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411859/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:26:10",
+    "place": "240",
+    "category": "M55",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Brian Guilfoyle",
+  "races": 2,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-31",
+  "highlights": []
+ },
  "brian martin": {
   "results": [
    {
@@ -437,6 +687,28 @@
   "latest": "2026-06-20",
   "highlights": []
  },
+ "catherine guilfoyle": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:30:52",
+    "place": "395",
+    "category": "F",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Catherine Guilfoyle",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
+  "highlights": []
+ },
  "bolton cian": {
   "results": [
    {
@@ -451,16 +723,42 @@
     "source": "myrunresults",
     "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results",
     "highlights": []
+   },
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:20:38",
+    "place": "18",
+    "category": "U20M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
    }
   ],
   "name": "Cian Bolton",
-  "races": 1,
-  "first_seen": "2026-11-07",
+  "races": 2,
+  "first_seen": "2026-08-29",
   "latest": "2026-11-07",
   "highlights": []
  },
  "ciara o reilly": {
   "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:21:37",
+    "place": "98",
+    "category": "F50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
    {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
@@ -476,9 +774,9 @@
    }
   ],
   "name": "Ciara O Reilly",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "ciara oreilly": {
@@ -637,6 +935,32 @@
     "highlights": []
    },
    {
+    "date": "2026-07-31",
+    "event": "Streets of Athboy 5k 2026",
+    "series": "streets of athboy 5k",
+    "race": "5km",
+    "time": "0:23:13",
+    "place": "227",
+    "category": "M70",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411859/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:24:31",
+    "place": "178",
+    "category": "M65",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
+   {
     "date": "2026-06-20",
     "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
     "series": "michael manning memorial dunshaughlin 10k",
@@ -664,9 +988,31 @@
    }
   ],
   "name": "Conor Cooney",
-  "races": 3,
+  "races": 5,
   "first_seen": "2026-05-19",
   "latest": "2026-10-11",
+  "highlights": []
+ },
+ "dale thornton": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:18:51",
+    "place": "31",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Dale Thornton",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "darragh minogue": {
@@ -683,11 +1029,24 @@
     "source": "myrunresults",
     "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results",
     "highlights": []
+   },
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:19:58",
+    "place": "14",
+    "category": "U20M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
    }
   ],
   "name": "Darragh Minogue",
-  "races": 1,
-  "first_seen": "2026-11-07",
+  "races": 2,
+  "first_seen": "2026-08-29",
   "latest": "2026-11-07",
   "highlights": []
  },
@@ -711,6 +1070,28 @@
   "races": 1,
   "first_seen": "2026-11-07",
   "latest": "2026-11-07",
+  "highlights": []
+ },
+ "dean smith": {
+  "results": [
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:20:38",
+    "place": "19",
+    "category": "M45",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   }
+  ],
+  "name": "Dean Smith",
+  "races": 1,
+  "first_seen": "2026-08-29",
+  "latest": "2026-08-29",
   "highlights": []
  },
  "dearbhla johnston": {
@@ -738,6 +1119,19 @@
  "eimear marron": {
   "results": [
    {
+    "date": "2026-07-31",
+    "event": "Streets of Athboy 5k 2026",
+    "series": "streets of athboy 5k",
+    "race": "5km",
+    "time": "0:21:15",
+    "place": "167",
+    "category": "F50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411859/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -752,9 +1146,31 @@
    }
   ],
   "name": "Eimear Marron",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-07-31",
+  "highlights": []
+ },
+ "elizabeth townshend": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:30:57",
+    "place": "397",
+    "category": "F45",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Elizabeth Townshend",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "elma martin": {
@@ -949,6 +1365,45 @@
  "gearoid gibne o": {
   "results": [
    {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:25:57",
+    "place": "79",
+    "category": "M60",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-31",
+    "event": "Streets of Athboy 5k 2026",
+    "series": "streets of athboy 5k",
+    "race": "5km",
+    "time": "0:24:24",
+    "place": "255",
+    "category": "M60",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411859/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:25:29",
+    "place": "220",
+    "category": "M60",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
+   {
     "date": "2026-06-12",
     "event": "The Braveheart 5km Run 2026",
     "series": "the braveheart 5km run",
@@ -963,9 +1418,9 @@
    }
   ],
   "name": "Gearóid Ó Gibne",
-  "races": 1,
+  "races": 4,
   "first_seen": "2026-06-12",
-  "latest": "2026-06-12",
+  "latest": "2026-08-29",
   "highlights": []
  },
  "gerry mcgeough": {
@@ -982,11 +1437,24 @@
     "source": "myrunresults",
     "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results",
     "highlights": []
+   },
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:30:20",
+    "place": "143",
+    "category": "M70",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
    }
   ],
-  "name": "Gerry Mc Geough",
-  "races": 1,
-  "first_seen": "2026-11-07",
+  "name": "Gerry McGeough",
+  "races": 2,
+  "first_seen": "2026-08-29",
   "latest": "2026-11-07",
   "highlights": []
  },
@@ -1015,6 +1483,19 @@
  "dillon helen": {
   "results": [
    {
+    "date": "2026-07-31",
+    "event": "Streets of Athboy 5k 2026",
+    "series": "streets of athboy 5k",
+    "race": "5km",
+    "time": "0:20:50",
+    "place": "145",
+    "category": "F45",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411859/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -1029,9 +1510,9 @@
    }
   ],
   "name": "Helen Dillon",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-07-31",
   "highlights": []
  },
  "helga mcdonnell": {
@@ -1056,6 +1537,28 @@
   "latest": "2026-02-01",
   "highlights": []
  },
+ "delaney ian": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:24:43",
+    "place": "189",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Ian Delaney",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
+  "highlights": []
+ },
  "ian reilly": {
   "results": [
    {
@@ -1076,6 +1579,28 @@
   "races": 1,
   "first_seen": "2026-11-07",
   "latest": "2026-11-07",
+  "highlights": []
+ },
+ "agostino ilario": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:22:06",
+    "place": "107",
+    "category": "M40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Ilario Agostino",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "james keenan": {
@@ -1120,6 +1645,28 @@
   "races": 1,
   "first_seen": "2026-02-01",
   "latest": "2026-02-01",
+  "highlights": []
+ },
+ "jim nolan": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:29:58",
+    "place": "368",
+    "category": "M60",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Jim Nolan",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "jim ogrady": {
@@ -1182,6 +1729,19 @@
  "john perkins": {
   "results": [
    {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:18:50",
+    "place": "30",
+    "category": "M45",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -1196,9 +1756,9 @@
    }
   ],
   "name": "John Perkins",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "breen johnny": {
@@ -1270,6 +1830,19 @@
  "kathryn meade": {
   "results": [
    {
+    "date": "2026-08-20",
+    "event": "Celbridge A.C. 5km Road Race 2026",
+    "series": "celbridge a c 5km road race",
+    "race": "5km",
+    "time": "0:19:36",
+    "place": "130",
+    "category": "F40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411870/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "The Coal Miners 5k 2026",
     "series": "the coal miners 5k",
@@ -1284,9 +1857,9 @@
    }
   ],
   "name": "Kathryn Meade",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-08-20",
   "highlights": []
  },
  "katja o shea": {
@@ -1337,6 +1910,50 @@
    "1st FU18 — Johnny McKenna Charity Run 2026 (2026-11-07)"
   ]
  },
+ "farrell liam": {
+  "results": [
+   {
+    "date": "2026-07-31",
+    "event": "Streets of Athboy 5k 2026",
+    "series": "streets of athboy 5k",
+    "race": "5km",
+    "time": "0:23:53",
+    "place": "244",
+    "category": "M50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411859/results",
+    "highlights": []
+   }
+  ],
+  "name": "Liam Farrell",
+  "races": 1,
+  "first_seen": "2026-07-31",
+  "latest": "2026-07-31",
+  "highlights": []
+ },
+ "liam mulligan": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:15:41",
+    "place": "5",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Liam Mulligan",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
+  "highlights": []
+ },
  "lily maher": {
   "results": [
    {
@@ -1366,6 +1983,19 @@
  "bowe linda": {
   "results": [
    {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:29:38",
+    "place": "357",
+    "category": "F60",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
+   {
     "date": "2026-04-04",
     "event": "Kilmovee 10km and 5km 26",
     "series": "kilmovee 10km and 5km 26",
@@ -1380,9 +2010,9 @@
    }
   ],
   "name": "Linda Bowe",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-04-04",
-  "latest": "2026-04-04",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "cruise linda": {
@@ -1427,6 +2057,50 @@
   "races": 1,
   "first_seen": "2026-02-01",
   "latest": "2026-02-01",
+  "highlights": []
+ },
+ "louise mccann": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:27:01",
+    "place": "272",
+    "category": "F40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Louise McCann",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
+  "highlights": []
+ },
+ "louise mcgovern": {
+  "results": [
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:28:49",
+    "place": "123",
+    "category": "F45",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   }
+  ],
+  "name": "Louise McGovern",
+  "races": 1,
+  "first_seen": "2026-08-29",
+  "latest": "2026-08-29",
   "highlights": []
  },
  "cormican luke": {
@@ -1489,6 +2163,19 @@
  "duffy martin": {
   "results": [
    {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:23:27",
+    "place": "153",
+    "category": "M60",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
+   {
     "date": "2026-06-20",
     "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
     "series": "michael manning memorial dunshaughlin 10k",
@@ -1503,9 +2190,9 @@
    }
   ],
   "name": "Martin Duffy",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-06-20",
-  "latest": "2026-06-20",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "flanagan mary": {
@@ -1568,6 +2255,19 @@
     "highlights": []
    },
    {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:18:54",
+    "place": "34",
+    "category": "F50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
+   {
     "date": "2026-05-19",
     "event": "The Bob Heffernan and Mary Hanley 5k 2026",
     "series": "the bob heffernan and mary hanley 5k",
@@ -1595,7 +2295,7 @@
    }
   ],
   "name": "Mary Leech",
-  "races": 3,
+  "races": 4,
   "first_seen": "2026-05-03",
   "latest": "2026-07-29",
   "highlights": []
@@ -1717,6 +2417,19 @@
  "mike staunton": {
   "results": [
    {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:26:03",
+    "place": "238",
+    "category": "M60",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
+   {
     "date": "2026-06-20",
     "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
     "series": "michael manning memorial dunshaughlin 10k",
@@ -1757,9 +2470,9 @@
    }
   ],
   "name": "Mike Staunton",
-  "races": 3,
+  "races": 4,
   "first_seen": "2026-01-11",
-  "latest": "2026-06-20",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "morgan reid": {
@@ -1809,6 +2522,19 @@
  "donnelly niall": {
   "results": [
    {
+    "date": "2026-08-12",
+    "event": "2026 Liberties Fun Run",
+    "series": "liberties fun run",
+    "race": "4 Mile",
+    "time": "0:25:30",
+    "place": "21",
+    "category": "M50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/415843/results",
+    "highlights": []
+   },
+   {
     "date": "2026-07-03",
     "event": "Dublin Graded Meet 6 2026",
     "series": "dublin graded meet 6",
@@ -1851,15 +2577,98 @@
    }
   ],
   "name": "Niall Donnelly",
-  "races": 3,
+  "races": 4,
   "first_seen": "2026-05-20",
-  "latest": "2026-07-03",
+  "latest": "2026-08-12",
   "highlights": [
    "3rd in 800m Men Grade D — Dublin Graded Meet 5 2026 (2026-06-14)"
   ]
  },
+ "brogan niamh": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:22:14",
+    "place": "116",
+    "category": "F",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Niamh Brogan",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
+  "highlights": []
+ },
+ "matthews niamh": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:23:07",
+    "place": "138",
+    "category": "F50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Niamh Matthews",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
+  "highlights": []
+ },
  "nuala reilly": {
   "results": [
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:26:21",
+    "place": "83",
+    "category": "F70",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-31",
+    "event": "Streets of Athboy 5k 2026",
+    "series": "streets of athboy 5k",
+    "race": "5km",
+    "time": "0:24:04",
+    "place": "245",
+    "category": "F70",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411859/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:24:35",
+    "place": "180",
+    "category": "F65",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
    {
     "date": "2026-06-20",
     "event": "Michael Manning Memorial Dunshaughlin 10k 2026",
@@ -1901,9 +2710,9 @@
    }
   ],
   "name": "Nuala Reilly",
-  "races": 3,
+  "races": 6,
   "first_seen": "2026-02-01",
-  "latest": "2026-06-20",
+  "latest": "2026-08-29",
   "highlights": []
  },
  "nuala reily": {
@@ -1957,6 +2766,19 @@
  "olivia reilly": {
   "results": [
    {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:26:56",
+    "place": "92",
+    "category": "F40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   },
+   {
     "date": "2026-05-19",
     "event": "The Bob Heffernan and Mary Hanley 5k 2026",
     "series": "the bob heffernan and mary hanley 5k",
@@ -1971,9 +2793,31 @@
    }
   ],
   "name": "Olivia Reilly",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-05-19",
-  "latest": "2026-05-19",
+  "latest": "2026-08-29",
+  "highlights": []
+ },
+ "osgar sullivan": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:23:15",
+    "place": "148",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Osgar Sullivan",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "murphy paddy": {
@@ -1998,8 +2842,56 @@
   "latest": "2026-06-20",
   "highlights": []
  },
+ "king padraig": {
+  "results": [
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:31:58",
+    "place": "175",
+    "category": "U20M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   }
+  ],
+  "name": "Padraig King",
+  "races": 1,
+  "first_seen": "2026-08-29",
+  "latest": "2026-08-29",
+  "highlights": []
+ },
  "kierans paul": {
   "results": [
+   {
+    "date": "2026-07-31",
+    "event": "Streets of Athboy 5k 2026",
+    "series": "streets of athboy 5k",
+    "race": "5km",
+    "time": "0:16:56",
+    "place": "19",
+    "category": "M35",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411859/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:23:42",
+    "place": "166",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
    {
     "date": "2026-05-31",
     "event": "Analog Devices Cork City Marathon 2026",
@@ -2041,9 +2933,53 @@
    }
   ],
   "name": "Paul Kierans",
-  "races": 3,
+  "races": 5,
   "first_seen": "2026-02-01",
-  "latest": "2026-05-31",
+  "latest": "2026-07-31",
+  "highlights": []
+ },
+ "paul reilly": {
+  "results": [
+   {
+    "date": "2026-07-31",
+    "event": "Streets of Athboy 5k 2026",
+    "series": "streets of athboy 5k",
+    "race": "5km",
+    "time": "0:20:38",
+    "place": "135",
+    "category": "M60",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411859/results",
+    "highlights": []
+   }
+  ],
+  "name": "Paul Reilly",
+  "races": 1,
+  "first_seen": "2026-07-31",
+  "latest": "2026-07-31",
+  "highlights": []
+ },
+ "paul russell": {
+  "results": [
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:23:35",
+    "place": "54",
+    "category": "M45",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   }
+  ],
+  "name": "Paul Russell",
+  "races": 1,
+  "first_seen": "2026-08-29",
+  "latest": "2026-08-29",
   "highlights": []
  },
  "paul smith": {
@@ -2206,6 +3142,19 @@
  "farrell robbie": {
   "results": [
    {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:19:17",
+    "place": "44",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
+   {
     "date": "2026-05-19",
     "event": "The Bob Heffernan and Mary Hanley 5k 2026",
     "series": "the bob heffernan and mary hanley 5k",
@@ -2220,9 +3169,9 @@
    }
   ],
   "name": "Robbie Farrell",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-05-19",
-  "latest": "2026-05-19",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "keane robbie": {
@@ -2299,6 +3248,28 @@
   "latest": "2026-11-07",
   "highlights": []
  },
+ "king roisin": {
+  "results": [
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:28:09",
+    "place": "115",
+    "category": "U20F",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   }
+  ],
+  "name": "Roisin King",
+  "races": 1,
+  "first_seen": "2026-08-29",
+  "latest": "2026-08-29",
+  "highlights": []
+ },
  "mcgeough roisin": {
   "results": [
    {
@@ -2326,12 +3297,47 @@
     "source": "raceresult",
     "url": "https://my.raceresult.com/428096/results",
     "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:23:15",
+    "place": "141",
+    "category": "F40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
    }
   ],
   "name": "Roisin Mc Geough",
-  "races": 2,
-  "first_seen": "2026-10-11",
+  "races": 3,
+  "first_seen": "2026-07-03",
   "latest": "2026-11-07",
+  "highlights": []
+ },
+ "nolan ruaidhri": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:16:31",
+    "place": "7",
+    "category": "M40",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Ruaidhri Nolan",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "monaghan sarah": {
@@ -2348,16 +3354,68 @@
     "source": "myrunresults",
     "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results",
     "highlights": []
+   },
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:38:30",
+    "place": "260",
+    "category": "F",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:37:01",
+    "place": "493",
+    "category": "F",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
    }
   ],
   "name": "Sarah Monaghan",
-  "races": 1,
-  "first_seen": "2026-11-07",
+  "races": 3,
+  "first_seen": "2026-07-03",
   "latest": "2026-11-07",
   "highlights": []
  },
  "roe seamus": {
   "results": [
+   {
+    "date": "2026-07-31",
+    "event": "Streets of Athboy 5k 2026",
+    "series": "streets of athboy 5k",
+    "race": "5km",
+    "time": "0:24:04",
+    "place": "248",
+    "category": "M55",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411859/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:25:00",
+    "place": "197",
+    "category": "M55",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
    {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
@@ -2373,9 +3431,9 @@
    }
   ],
   "name": "Seamus Roe",
-  "races": 1,
+  "races": 3,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-07-31",
   "highlights": []
  },
  "raschupkin sergii": {
@@ -2392,6 +3450,36 @@
     "source": "myrunresults",
     "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results",
     "highlights": []
+   },
+   {
+    "date": "2026-07-31",
+    "event": "Streets of Athboy 5k 2026",
+    "series": "streets of athboy 5k",
+    "race": "5km",
+    "time": "0:15:32",
+    "place": "1",
+    "category": "M35",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/411859/results",
+    "highlights": [
+     "1st overall"
+    ]
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:15:19",
+    "place": "1",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": [
+     "1st overall"
+    ]
    },
    {
     "date": "2026-05-19",
@@ -2421,9 +3509,34 @@
    }
   ],
   "name": "Sergii Raschupkin",
-  "races": 3,
+  "races": 5,
   "first_seen": "2026-02-01",
   "latest": "2026-11-07",
+  "highlights": [
+   "1st overall — Streets of Athboy 5k 2026 (2026-07-31)",
+   "1st overall — B5 Bettystown 5K 2026 (2026-07-03)"
+  ]
+ },
+ "monaghan sean": {
+  "results": [
+   {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:31:19",
+    "place": "160",
+    "category": "U20M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   }
+  ],
+  "name": "Seán Monaghan",
+  "races": 1,
+  "first_seen": "2026-08-29",
+  "latest": "2026-08-29",
   "highlights": []
  },
  "larkin shane": {
@@ -2455,6 +3568,32 @@
     "highlights": []
    },
    {
+    "date": "2026-08-29",
+    "event": "Monasterboice 5k 2026",
+    "series": "monasterboice 5k",
+    "race": "5km",
+    "time": "0:19:19",
+    "place": "8",
+    "category": "M50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/400696/results",
+    "highlights": []
+   },
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:18:49",
+    "place": "28",
+    "category": "M50",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
+   {
     "date": "2026-06-12",
     "event": "The Braveheart 5km Run 2026",
     "series": "the braveheart 5km run",
@@ -2469,7 +3608,7 @@
    }
   ],
   "name": "Shane Larkin",
-  "races": 3,
+  "races": 5,
   "first_seen": "2026-06-12",
   "latest": "2026-11-07",
   "highlights": []
@@ -2529,6 +3668,28 @@
   "races": 2,
   "first_seen": "2026-05-19",
   "latest": "2026-06-20",
+  "highlights": []
+ },
+ "hetherington sophie": {
+  "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:28:45",
+    "place": "331",
+    "category": "U20F",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   }
+  ],
+  "name": "Sophie Hetherington",
+  "races": 1,
+  "first_seen": "2026-07-03",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "kinsella sophie": {
@@ -2600,6 +3761,19 @@
  "lynch thady": {
   "results": [
    {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:20:30",
+    "place": "76",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
+   {
     "date": "2026-02-01",
     "event": "Trim 10 Mile Road Race 2026",
     "series": "trim 10 mile road race",
@@ -2614,13 +3788,26 @@
    }
   ],
   "name": "Thady Lynch",
-  "races": 1,
+  "races": 2,
   "first_seen": "2026-02-01",
-  "latest": "2026-02-01",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "breen thomas": {
   "results": [
+   {
+    "date": "2026-07-03",
+    "event": "B5 Bettystown 5K 2026",
+    "series": "b5 bettystown 5k",
+    "race": "5km",
+    "time": "0:17:10",
+    "place": "11",
+    "category": "M",
+    "cat_place": "",
+    "source": "raceresult",
+    "url": "https://my.raceresult.com/408998/results",
+    "highlights": []
+   },
    {
     "date": "2026-05-31",
     "event": "Analog Devices Cork City Marathon 2026",
@@ -2662,9 +3849,9 @@
    }
   ],
   "name": "Thomas Breen",
-  "races": 3,
+  "races": 4,
   "first_seen": "2026-02-01",
-  "latest": "2026-05-31",
+  "latest": "2026-07-03",
   "highlights": []
  },
  "nuri yasaman": {
