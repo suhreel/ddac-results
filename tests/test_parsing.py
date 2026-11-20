@@ -75,7 +75,7 @@ def test_myrunresults_json_mapping():
     rs = rows_to_results(h, rows, {**BASE, "race": ""})
     got = {r.athlete: (r.place, r.time, r.category, r.cat_place, r.race, r.match) for r in rs}
     assert got == {
-        "Oisín Mc Ardle": ("37", "00:21:41", "MU18", "2", "5km", "confident"),
+        "Oisín McArdle": ("37", "00:21:41", "MU18", "2", "5km", "confident"),
         "Ann Byrne": ("", "DNF", "", "", "10km", "confident"),
     }
 
