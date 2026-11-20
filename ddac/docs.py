@@ -11,7 +11,10 @@ from . import ROOT, load_config
 from .models import Result
 
 FLAG = {"ambiguous": "⚠️ check club", "member-only": "⚠️ no club listed"}
-SOURCE_LABEL = {"myrunresults": "MyRunResults", "dublin_graded": "Dublin Athletics (graded)"}
+SOURCE_LABEL = {"myrunresults": "MyRunResults", "dublin_graded": "Dublin Athletics (graded)",
+                "raceresult": "RaceResult"}
+VIA_LABEL = {"popupraces": "Pop Up Races", "racetimingireland": "Race Timing Ireland",
+             "justruns": "JustRuns Events"}
 
 
 def _secs(t: str) -> float:
@@ -94,7 +97,7 @@ def build_month(results: list[Result], month: str) -> str:
         lines += ["> **Needs checking:** " + f"{len(review)} result(s) marked ⚠️ — club name unclear. "
                   "Confirm and add the spelling to `config.yaml` if it's DDAC.", ""]
     for (d, name, src), group in sorted(events.items(), key=lambda x: x[0][0], reverse=True):
-        lines += [f"## {name}", f"**{_nice_date(d)}** · {SOURCE_LABEL.get(src, src)} · [results]({group[0].url})",
+        lines += [f"## {name}", f"**{_nice_date(d)}** · {VIA_LABEL.get((group[0].extra or {}).get('via'), SOURCE_LABEL.get(src, src))} · [results]({group[0].url})",
                   "", summary(name, d, group), ""]
         by_race = defaultdict(list)
         for r in group:

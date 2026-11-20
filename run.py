@@ -69,6 +69,8 @@ def main() -> int:
         months = {d["event_date"][:7] for d in store.results.values()}
     if months:
         print("Updated docs:", ", ".join(write_months(store.all_results(), months)))
+    from ddac.athletes import write as write_athletes, write_csv
+    print("Athletes:", ", ".join(write_athletes(store.all_results()) + write_csv(store.all_results())))
     if not args.no_email:
         from ddac.models import Result
         send_digest([Result.from_dict(d) for d in new], [Result.from_dict(d) for d in upd])

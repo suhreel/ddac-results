@@ -51,6 +51,14 @@ sources:
     base_url: "http://pastresults.dublinathletics.com"
     max_meets: 12          # graded meets per season to probe
     recheck_days: 3
+  raceresult:              # RaceResult: also Pop Up Races, JustRuns, Race Timing Ireland
+    enabled: true
+    countries: [372]       # RaceResult's code for Ireland
+    recheck_days: 4
+    popupraces_pages: 1    # Pop Up Races "finished" list pages to check each run
+    backfill_pages: 15     # pages to read when backfilling with --since
+    rti_pages:
+      - "https://www.racetimingireland.com/results/2026-results-8jp85"
 
 output:
   results_dir: docs/results

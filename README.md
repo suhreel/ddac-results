@@ -130,3 +130,19 @@ someone. The list can only *add* certainty — it never removes a result:
 
 ## Costs
 Free: GitHub Actions (public repo), Gmail SMTP, Box API.
+
+## Sources (Nov 2026)
+
+| Source | How | Notes |
+|---|---|---|
+| MyRunResults | JSON feed via headless browser | Main source |
+| Dublin Graded | Timetronics pages via headless browser | Track, in season |
+| RaceResult | JSON API, no browser | Irish events listed on my.raceresult.com — also covers **JustRuns Events** |
+| ↳ Pop Up Races | "finished" list → race page → embedded RaceResult id | Pop Up events are often unlisted on RaceResult |
+| ↳ Race Timing Ireland | results page → race pages → embedded RaceResult id | Some RTI races link to Sporthive (not covered yet) or MyRunResults (already covered) |
+
+## Athlete database and Google Sheets
+
+Every run rebuilds, from `data/results.json`:
+- `data/athletes.json` and `docs/athletes.md` — one record per DDAC athlete with every result and podium/category highlights. "Drogheda AC"-style matches stay out until confirmed. No PB claims; `series` keys allow like-for-like year-on-year comparison only.
+- `data/results.csv` and `data/athletes.csv` — flat copies for Google Sheets. In a sheet, `=IMPORTDATA("https://raw.githubusercontent.com/suhreel/ddac-results/main/data/results.csv")` keeps itself up to date.
