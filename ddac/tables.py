@@ -74,7 +74,9 @@ def tidy_name(name: str) -> str:
         w = w.capitalize()
         w = re.sub(r"^(O'|Mc)([a-z])", lambda m: m.group(1) + m.group(2).upper(), w) if len(w) > 3 else w
         return re.sub(r"-([a-z])", lambda m: "-" + m.group(1).upper(), w)
-    return " ".join(fix(w) for w in (name or "").split())
+    out = " ".join(fix(w) for w in (name or "").split())
+    # "MC NAMARA" -> "Mc Namara" -> "McNamara"
+    return re.sub(r"\bMc ([A-Z])", r"Mc\1", out)
 
 
 def classify(club: str, athlete: str, raw_line: str = "") -> str | None:

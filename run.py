@@ -22,6 +22,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--sources", default="", help="comma-separated; default = all enabled")
     ap.add_argument("--since", help="backfill events on/after this date (YYYY-MM-DD)")
+    ap.add_argument("--until", help="with --since: stop at this date (RaceResult backfill in chunks)")
     ap.add_argument("--no-email", action="store_true")
     ap.add_argument("--dry-run", action="store_true", help="don't save anything")
     ap.add_argument("--reset", action="store_true", help="forget all stored results and rebuild the docs")
@@ -40,7 +41,7 @@ def main() -> int:
             continue
         print(f"== {name}")
         try:
-            results = SOURCES[name].run(store, cfg["sources"][name], since=args.since)
+            results = SOURCES[name].run(store, {**cfg["sources"][name], "until": args.until}, since=args.since)
         except Exception:
             failures.append(name)
             traceback.print_exc()

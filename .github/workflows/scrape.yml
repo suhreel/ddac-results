@@ -13,6 +13,10 @@ on:
         description: "Backfill from date YYYY-MM-DD (blank = normal run)"
         required: false
         default: ""
+      until:
+        description: "Backfill up to date YYYY-MM-DD (RaceResult only; blank = today)"
+        required: false
+        default: ""
       debug:
         description: "Save page HTML/screenshots as an artifact"
         type: boolean
@@ -67,6 +71,7 @@ jobs:
           ARGS=""
           [ -n "${{ inputs.sources }}" ] && ARGS="$ARGS --sources ${{ inputs.sources }}"
           [ -n "${{ inputs.since }}" ] && ARGS="$ARGS --since ${{ inputs.since }}"
+          [ -n "${{ inputs.until }}" ] && ARGS="$ARGS --until ${{ inputs.until }}"
           [ "${{ inputs.email }}" = "false" ] && ARGS="$ARGS --no-email"
           [ "${{ inputs.reset }}" = "true" ] && ARGS="$ARGS --reset"
           python run.py $ARGS

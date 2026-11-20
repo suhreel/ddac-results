@@ -194,6 +194,8 @@ def map_fields(fields: list[str]) -> dict[str, int]:
     """RaceResult column expressions -> our fields."""
     cols = {
         "athlete": _col(fields, r"^displayname$", r"^(fl|lf)?name$", r"displayname", r"fullname"),
+        "first": _col(fields, r"^first ?name$", r"^firstname"),
+        "last": _col(fields, r"^last ?name$", r"^lastname", r"^surname"),
         "club": _col(fields, r"^club$", r"^\[?club\]?$", r"\bclub\b", r"^team$", exclude=r"rank"),
         "place": _col(fields, r"^(auto|total|overall)?rank\d?(\.p)?$", r"withstatus\(\[?(total|overall)?rank",
                       r"rank", exclude=r"gender|agegroup|division|sex|ag\b|age"),
@@ -242,7 +244,12 @@ def choose_lists(cfg: dict) -> list[dict]:
 
 def scrape_event(ev: dict) -> list[Result]:
     eid = ev["id"]
-    cfg = get(f"{RR}/{eid}/results/config?lang=en", as_json=True)
+    try:
+        cfg = get(f"{RR}/{eid}/results/config?lang=en", as_json=True, tries=1)
+    except RuntimeError as e:
+        if "HTTP 404" in str(e):   # event has no public results page (yet)
+            return []
+        raise
     if not isinstance(cfg, dict) or "key" not in cfg:
         return []
     server = cfg.get("server") or "my.raceresult.com"
@@ -263,13 +270,15 @@ def scrape_event(ev: dict) -> list[Result]:
             continue
         fields = j.get("DataFields") or []
         cols = map_fields(fields)
+        if "athlete" not in cols and "first" in cols and "last" in cols:
+            cols["athlete"] = -1  # built from first + last below
         if "athlete" not in cols:
             _debug(f"no name column in {l['Name']}: {fields}")
             continue
         _debug(f"{l['Name']} contest {contest}: {cols}")
         for race, row in _flatten(j.get("data")):
             val = lambda f: str(row[cols[f]]).strip() if f in cols and cols[f] < len(row) else ""
-            athlete = _clean_name(val("athlete"))
+            athlete = _clean_name(f"{val('first')} {val('last')}" if cols["athlete"] == -1 else val("athlete"))
             club = val("club") if "club" in cols else None
             raw = " | ".join(str(c) for c in row if not str(c).startswith("http"))
             m = classify(club, athlete, raw)
@@ -292,6 +301,8 @@ def run(store, cfg: dict, since: str | None = None) -> list[Result]:
     today = date.today()
     window = timedelta(days=cfg.get("recheck_days", 4))
     start = date.fromisoformat(since) if since else today - window
+    if cfg.get("until"):
+        today = min(today, date.fromisoformat(cfg["until"]))
 
     events: list[dict] = []
     try:
