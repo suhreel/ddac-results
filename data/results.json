@@ -18,6 +18,27 @@
   "time": "58.47",
   "url": "http://pastresults.dublinathletics.com/graded26-3/menu.html"
  },
+ "016ab5a0a96b9859": {
+  "athlete": "Rachel McCormack",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "016ab5a0a96b9859",
+  "match": "confident",
+  "place": "495",
+  "race": "10 Miles",
+  "raw": "1914 | 1905 | 495 | Rachel MC CORMACK | Drogheda and District A.C. | F | [img:video.png|height:1rem] | 1:11:45 | 1:12:00",
+  "source": "raceresult",
+  "time": "1:11:45",
+  "url": "https://my.raceresult.com/379375/results"
+ },
  "034a2cc5b56a437e": {
   "athlete": "David O'Neill",
   "cat_place": "46",
@@ -56,6 +77,69 @@
   "time": "00:19:22",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
  },
+ "09d1d53c24f09b45": {
+  "athlete": "Linda Cruise",
+  "cat_place": "",
+  "category": "F55",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "09d1d53c24f09b45",
+  "match": "confident",
+  "place": "1144",
+  "race": "10 Miles",
+  "raw": "1580 | 1571 | 1144 | Linda CRUISE | Drogheda and District A.C. | F55 | [img:video.png|height:1rem] | 1:26:22 | 1:26:53",
+  "source": "raceresult",
+  "time": "1:26:22",
+  "url": "https://my.raceresult.com/379375/results"
+ },
+ "0b1ed6d28b916c41": {
+  "athlete": "Johnny Breen",
+  "cat_place": "",
+  "category": "M45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "0b1ed6d28b916c41",
+  "match": "confident",
+  "place": "154",
+  "race": "10 Miles",
+  "raw": "988 | 979 | 154 | Johnny BREEN | Drogheda and District A.C. | M45 | [img:video.png|height:1rem] | 1:02:35 | 1:02:36",
+  "source": "raceresult",
+  "time": "1:02:35",
+  "url": "https://my.raceresult.com/379375/results"
+ },
+ "0cbcdc9fdb3dd03c": {
+  "athlete": "Michelle Egan",
+  "cat_place": "",
+  "category": "F45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "0cbcdc9fdb3dd03c",
+  "match": "confident",
+  "place": "1665",
+  "race": "10 Miles",
+  "raw": "76 | 67 | 1665 | Michelle EGAN | Drogheda and District A.C. | F45 | [img:video.png|height:1rem] | 1:40:34 | 1:41:55",
+  "source": "raceresult",
+  "time": "1:40:34",
+  "url": "https://my.raceresult.com/379375/results"
+ },
  "0f3a8f65eb79af03": {
   "athlete": "Emily Garvey",
   "cat_place": "6",
@@ -74,6 +158,48 @@
   "source": "myrunresults",
   "time": "00:12:39",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
+ },
+ "1384e7d1622506bc": {
+  "athlete": "Mia Jacob",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "1384e7d1622506bc",
+  "match": "confident",
+  "place": "453",
+  "race": "10 Miles",
+  "raw": "1384 | 1375 | 453 | Mia JACOB | Drogheda and District A.C. | F | [img:video.png|height:1rem] | 1:10:45 | 1:11:01",
+  "source": "raceresult",
+  "time": "1:10:45",
+  "url": "https://my.raceresult.com/379375/results"
+ },
+ "1a72c48826567c0f": {
+  "athlete": "Stephen Duggan",
+  "cat_place": "",
+  "category": "M45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "1a72c48826567c0f",
+  "match": "confident",
+  "place": "142",
+  "race": "10 Miles",
+  "raw": "2174 | 2165 | 142 | Stephen DUGGAN | Drogheda and District A.C. | M45 | [img:video.png|height:1rem] | 1:02:09 | 1:02:14",
+  "source": "raceresult",
+  "time": "1:02:09",
+  "url": "https://my.raceresult.com/379375/results"
  },
  "1d52a84bafbf5105": {
   "athlete": "Ian Reilly",
@@ -132,6 +258,48 @@
   "time": "10:53.01",
   "url": "http://pastresults.dublinathletics.com/graded26-1/menu.html"
  },
+ "216108fe55bcd70f": {
+  "athlete": "Katja O Shea",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "216108fe55bcd70f",
+  "match": "confident",
+  "place": "1410",
+  "race": "10 Miles",
+  "raw": "1750 | 1741 | 1410 | Katja O SHEA | Drogheda and District A.C. | F50 | [img:video.png|height:1rem] | 1:32:06 | 1:33:26",
+  "source": "raceresult",
+  "time": "1:32:06",
+  "url": "https://my.raceresult.com/379375/results"
+ },
+ "21c257da13220266": {
+  "athlete": "Paul Smith",
+  "cat_place": "",
+  "category": "M45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "21c257da13220266",
+  "match": "confident",
+  "place": "22",
+  "race": "10 Miles",
+  "raw": "1854 | 1845 | 22 | Paul SMITH | Drogheda and District A.C. | M45 | [img:video.png|height:1rem] | 0:54:36 | 0:54:37",
+  "source": "raceresult",
+  "time": "0:54:36",
+  "url": "https://my.raceresult.com/379375/results"
+ },
  "22b5d1f3d9f9fc3f": {
   "athlete": "Bobby Daly",
   "cat_place": "9",
@@ -172,6 +340,48 @@
   "time": "0:26:18",
   "url": "https://my.raceresult.com/428096/results"
  },
+ "3255179a8540c0a7": {
+  "athlete": "Sergii Raschupkin",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "3255179a8540c0a7",
+  "match": "confident",
+  "place": "16",
+  "race": "10 Miles",
+  "raw": "1990 | 1981 | 16 | Sergii RASCHUPKIN | Drogheda and District A.C. | M | [img:video.png|height:1rem] | 0:54:14 | 0:54:14",
+  "source": "raceresult",
+  "time": "0:54:14",
+  "url": "https://my.raceresult.com/379375/results"
+ },
+ "32a34abdef795019": {
+  "athlete": "Paul Kierans",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "32a34abdef795019",
+  "match": "confident",
+  "place": "54",
+  "race": "10 Miles",
+  "raw": "1886 | 1877 | 54 | Paul KIERANS | Drogheda and District A.C. | M | [img:video.png|height:1rem] | 0:58:38 | 0:58:39",
+  "source": "raceresult",
+  "time": "0:58:38",
+  "url": "https://my.raceresult.com/379375/results"
+ },
  "32d90d2ddc19eb88": {
   "athlete": "Mia Jacob",
   "cat_place": "28",
@@ -190,6 +400,27 @@
   "source": "myrunresults",
   "time": "00:25:33",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
+ },
+ "3480ffdb8cbafad0": {
+  "athlete": "Linda Bowe",
+  "cat_place": "",
+  "category": "F60",
+  "club_raw": "Drogheda & District",
+  "event_date": "2026-04-04",
+  "event_id": "388937",
+  "event_name": "Kilmovee 10km and 5km 26",
+  "extra": {
+   "via": "raceresult"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "3480ffdb8cbafad0",
+  "match": "confident",
+  "place": "239",
+  "race": "Kilmovee 10km 2026",
+  "raw": "931 | 658 | 239. | Bowe, Linda | f | Drogheda & District | F60 | 6:00 | 13:01:14 | 00:29:37 | 00:30:04 | 00:59:54 | +27:16 | 00:59:41",
+  "source": "raceresult",
+  "time": "00:59:41",
+  "url": "https://my.raceresult.com/388937/results"
  },
  "377944d7ba605621": {
   "athlete": "Alan Wade",
@@ -247,6 +478,27 @@
   "source": "myrunresults",
   "time": "00:19:00",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "3d6828d560808feb": {
+  "athlete": "Mike Staunton",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-01-11",
+  "event_id": "377847",
+  "event_name": "World Half Marathon Festival 2026 – Sunday",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "3d6828d560808feb",
+  "match": "confident",
+  "place": "134",
+  "race": "Half Marathon - 10am SUNDAY",
+  "raw": "4338 | 217 | 134 | Mike STAUNTON | Drogheda & District A.C. | M60 | 2:12:09 | 2:12:24",
+  "source": "raceresult",
+  "time": "2:12:09",
+  "url": "https://my.raceresult.com/377847/results"
  },
  "40157c16d975e535": {
   "athlete": "Mary Mc Donnell",
@@ -307,6 +559,27 @@
   "time": "00:08:42",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
  },
+ "432cb9fec8922a8d": {
+  "athlete": "Jane O'Callaghan",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda & District",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "432cb9fec8922a8d",
+  "match": "confident",
+  "place": "1571",
+  "race": "10 Miles",
+  "raw": "2318 | 2309 | 1571 | Jane O'CALLAGHAN | Drogheda & District | F | [img:video.png|height:1rem] | 1:38:14 | 1:39:02",
+  "source": "raceresult",
+  "time": "1:38:14",
+  "url": "https://my.raceresult.com/379375/results"
+ },
  "4538d35b17e30f7e": {
   "athlete": "Sophie Kinsella",
   "cat_place": "",
@@ -325,6 +598,27 @@
   "source": "dublin_graded",
   "time": "1:06.75",
   "url": "http://pastresults.dublinathletics.com/graded26-6/menu.html"
+ },
+ "48c86a54bef61b31": {
+  "athlete": "Thomas Breen",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "48c86a54bef61b31",
+  "match": "confident",
+  "place": "93",
+  "race": "10 Miles",
+  "raw": "1160 | 1151 | 93 | Thomas BREEN | Drogheda and District A.C. | M | [img:video.png|height:1rem] | 0:59:50 | 0:59:50",
+  "source": "raceresult",
+  "time": "0:59:50",
+  "url": "https://my.raceresult.com/379375/results"
  },
  "492403bc9cf27f14": {
   "athlete": "Shane Larkin",
@@ -403,6 +697,48 @@
   "source": "myrunresults",
   "time": "00:23:33",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "4d51a64d340aa6d0": {
+  "athlete": "Nuala Reilly",
+  "cat_place": "",
+  "category": "F70",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "4d51a64d340aa6d0",
+  "match": "confident",
+  "place": "906",
+  "race": "10 Miles",
+  "raw": "2139 | 2130 | 906 | Nuala REILLY | Drogheda and District A.C. | F70 | [img:video.png|height:1rem] | 1:21:08 | 1:21:24",
+  "source": "raceresult",
+  "time": "1:21:08",
+  "url": "https://my.raceresult.com/379375/results"
+ },
+ "4deac4b85a68cb98": {
+  "athlete": "Johnny Corcoran",
+  "cat_place": "",
+  "category": "M40",
+  "club_raw": "Drogheda & District AC",
+  "event_date": "2026-02-14",
+  "event_id": "382318",
+  "event_name": "Donadea 50k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "4deac4b85a68cb98",
+  "match": "confident",
+  "place": "271",
+  "race": "Donadea 50k",
+  "raw": "76 | 77 | 271. | Johnny CORCORAN | [img:/graphics/flags/IE.svg] | Drogheda & District AC | M40 | 4:57:29 | 4:58:02 | 05/11/1976 | Ireland",
+  "source": "raceresult",
+  "time": "4:57:29",
+  "url": "https://my.raceresult.com/382318/results"
  },
  "4f22402af50a7529": {
   "athlete": "Alan Wade",
@@ -499,6 +835,27 @@
   "time": "00:18:15",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
  },
+ "5b1084fe0b65e4db": {
+  "athlete": "Kathryn Meade",
+  "cat_place": "",
+  "category": "F40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "380923",
+  "event_name": "The Coal Miners 5k 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "5b1084fe0b65e4db",
+  "match": "confident",
+  "place": "46",
+  "race": "5km",
+  "raw": "120 | 117 | 46 | Kathryn MEADE | Drogheda and District A.C. | F40 |  | 0:19:54 | 0:19:56",
+  "source": "raceresult",
+  "time": "0:19:54",
+  "url": "https://my.raceresult.com/380923/results"
+ },
  "5b6b1ccfee8b3819": {
   "athlete": "Ciara O'Reilly",
   "cat_place": "34",
@@ -555,6 +912,48 @@
   "source": "dublin_graded",
   "time": "1:20.50",
   "url": "http://pastresults.dublinathletics.com/graded26-6/menu.html"
+ },
+ "62e55a34de4eaef5": {
+  "athlete": "Colin Leonard",
+  "cat_place": "",
+  "category": "M40",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "62e55a34de4eaef5",
+  "match": "confident",
+  "place": "19",
+  "race": "10 Miles",
+  "raw": "2126 | 2117 | 19 | Colin LEONARD | Drogheda and District A.C. | M40 | [img:video.png|height:1rem] | 0:54:29 | 0:54:29",
+  "source": "raceresult",
+  "time": "0:54:29",
+  "url": "https://my.raceresult.com/379375/results"
+ },
+ "655fd19c349df3ec": {
+  "athlete": "Thady Lynch",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "655fd19c349df3ec",
+  "match": "confident",
+  "place": "512",
+  "race": "10 Miles",
+  "raw": "397 | 388 | 512 | Thady LYNCH | Drogheda and District A.C. | M | [img:video.png|height:1rem] | 1:12:09 | 1:12:30",
+  "source": "raceresult",
+  "time": "1:12:09",
+  "url": "https://my.raceresult.com/379375/results"
  },
  "6596c8ada61ade99": {
   "athlete": "Robbie Keane",
@@ -651,6 +1050,27 @@
   "time": "00:14:55",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
  },
+ "7a42ed8cbd28279d": {
+  "athlete": "Andrea McArdle",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "7a42ed8cbd28279d",
+  "match": "confident",
+  "place": "538",
+  "race": "10 Miles",
+  "raw": "1691 | 1682 | 538 | Andrea MC ARDLE | Drogheda and District A.C. | F50 | [img:video.png|height:1rem] | 1:12:42 | 1:13:11",
+  "source": "raceresult",
+  "time": "1:12:42",
+  "url": "https://my.raceresult.com/379375/results"
+ },
  "7bec1de620276c1c": {
   "athlete": "Frank Brady",
   "cat_place": "87",
@@ -689,6 +1109,27 @@
   "time": "00:16:03",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
  },
+ "816f2994275e02e0": {
+  "athlete": "Joe Hammel",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "816f2994275e02e0",
+  "match": "confident",
+  "place": "220",
+  "race": "10 Miles",
+  "raw": "1437 | 1428 | 220 | Joe HAMMEL | Drogheda and District A.C. | M50 | [img:video.png|height:1rem] | 1:04:54 | 1:04:59",
+  "source": "raceresult",
+  "time": "1:04:54",
+  "url": "https://my.raceresult.com/379375/results"
+ },
  "84bcc9cb97c22f99": {
   "athlete": "Alan Floyd",
   "cat_place": "",
@@ -710,6 +1151,27 @@
   "time": "0:30:34",
   "url": "https://my.raceresult.com/428096/results"
  },
+ "854c7ee32e4b9243": {
+  "athlete": "Ciara O Reilly",
+  "cat_place": "",
+  "category": "F45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "854c7ee32e4b9243",
+  "match": "confident",
+  "place": "580",
+  "race": "10 Miles",
+  "raw": "614 | 605 | 580 | Ciara O REILLY | Drogheda and District A.C. | F45 | [img:video.png|height:1rem] | 1:13:32 | 1:13:59",
+  "source": "raceresult",
+  "time": "1:13:32",
+  "url": "https://my.raceresult.com/379375/results"
+ },
  "85b7a11f33469c7c": {
   "athlete": "James Keenan",
   "cat_place": "66",
@@ -728,6 +1190,27 @@
   "source": "myrunresults",
   "time": "00:26:03",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
+ },
+ "8c691ead6363f43d": {
+  "athlete": "Morgan Reid",
+  "cat_place": "",
+  "category": "M",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "8c691ead6363f43d",
+  "match": "confident",
+  "place": "359",
+  "race": "10 Miles",
+  "raw": "218 | 209 | 359 | Morgan REID | Drogheda and District A.C. | M | [img:video.png|height:1rem] | 1:08:38 | 1:08:54",
+  "source": "raceresult",
+  "time": "1:08:38",
+  "url": "https://my.raceresult.com/379375/results"
  },
  "8def043a85c06476": {
   "athlete": "Keeley Nolan",
@@ -768,6 +1251,27 @@
   "source": "raceresult",
   "time": "0:23:19",
   "url": "https://my.raceresult.com/428096/results"
+ },
+ "90af3bad3edec180": {
+  "athlete": "John Perkins",
+  "cat_place": "",
+  "category": "M45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "90af3bad3edec180",
+  "match": "confident",
+  "place": "285",
+  "race": "10 Miles",
+  "raw": "354 | 345 | 285 | John PERKINS | Drogheda and District A.C. | M45 | [img:video.png|height:1rem] | 1:06:34 | 1:06:54",
+  "source": "raceresult",
+  "time": "1:06:34",
+  "url": "https://my.raceresult.com/379375/results"
  },
  "913c8e51004cc3c3": {
   "athlete": "Robbie Keane",
@@ -826,6 +1330,27 @@
   "time": "00:27:10",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
  },
+ "a41d6377c210c477": {
+  "athlete": "Stephen Gill",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "a41d6377c210c477",
+  "match": "confident",
+  "place": "983",
+  "race": "10 Miles",
+  "raw": "771 | 762 | 983 | Stephen GILL | Drogheda and District A.C. | M60 | [img:video.png|height:1rem] | 1:22:20 | 1:23:24",
+  "source": "raceresult",
+  "time": "1:22:20",
+  "url": "https://my.raceresult.com/379375/results"
+ },
  "a46058029519b241": {
   "athlete": "Niall Donnelly",
   "cat_place": "",
@@ -844,6 +1369,48 @@
   "source": "dublin_graded",
   "time": "4:51.76",
   "url": "http://pastresults.dublinathletics.com/graded26-6/menu.html"
+ },
+ "a5e6736cd506eca3": {
+  "athlete": "Emmet Steenson",
+  "cat_place": "",
+  "category": "M55",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "a5e6736cd506eca3",
+  "match": "confident",
+  "place": "1066",
+  "race": "10 Miles",
+  "raw": "665 | 656 | 1066 | Emmet STEENSON | Drogheda and District A.C. | M55 | [img:video.png|height:1rem] | 1:24:07 | 1:25:09",
+  "source": "raceresult",
+  "time": "1:24:07",
+  "url": "https://my.raceresult.com/379375/results"
+ },
+ "a718be367998e991": {
+  "athlete": "Karen Delaney",
+  "cat_place": "",
+  "category": "F55",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "a718be367998e991",
+  "match": "confident",
+  "place": "977",
+  "race": "10 Miles",
+  "raw": "300 | 291 | 977 | Karen DELANEY | Drogheda and District A.C. | F55 | [img:video.png|height:1rem] | 1:22:44 | 1:23:11",
+  "source": "raceresult",
+  "time": "1:22:44",
+  "url": "https://my.raceresult.com/379375/results"
  },
  "ad3eb0832a951161": {
   "athlete": "Sarah Monaghan",
@@ -884,6 +1451,27 @@
   "source": "raceresult",
   "time": "1:50:47",
   "url": "https://my.raceresult.com/420871/results"
+ },
+ "b1b4499dfa7240bc": {
+  "athlete": "Helga McDonnell",
+  "cat_place": "",
+  "category": "F55",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "b1b4499dfa7240bc",
+  "match": "confident",
+  "place": "857",
+  "race": "10 Miles",
+  "raw": "2187 | 2178 | 857 | Helga MC DONNELL | Drogheda and District A.C. | F55 | [img:video.png|height:1rem] | 1:19:24 | 1:19:56",
+  "source": "raceresult",
+  "time": "1:19:24",
+  "url": "https://my.raceresult.com/379375/results"
  },
  "b94fedf5a2649ddf": {
   "athlete": "Cian Bolton",
@@ -942,6 +1530,90 @@
   "time": "00:21:51",
   "url": "https://www.myrunresults.com/events/johnny_mckenna_charity_run_2026/6399/results"
  },
+ "c302714f48fd4aba": {
+  "athlete": "Aishling Reilly",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "c302714f48fd4aba",
+  "match": "confident",
+  "place": "1736",
+  "race": "10 Miles",
+  "raw": "1922 | 1913 | 1736 | Aishling REILLY | Drogheda and District A.C. | F | [img:video.png|height:1rem] | 1:44:10 | 1:45:57",
+  "source": "raceresult",
+  "time": "1:44:10",
+  "url": "https://my.raceresult.com/379375/results"
+ },
+ "d3964b4d05958b09": {
+  "athlete": "Eimear Marron",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "d3964b4d05958b09",
+  "match": "confident",
+  "place": "647",
+  "race": "10 Miles",
+  "raw": "1693 | 1684 | 647 | Eimear MARRON | Drogheda and District A.C. | F50 | [img:video.png|height:1rem] | 1:14:57 | 1:15:26",
+  "source": "raceresult",
+  "time": "1:14:57",
+  "url": "https://my.raceresult.com/379375/results"
+ },
+ "dae5019f075dafa9": {
+  "athlete": "Gavin Bruce",
+  "cat_place": "",
+  "category": "M50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "dae5019f075dafa9",
+  "match": "confident",
+  "place": "1582",
+  "race": "10 Miles",
+  "raw": "470 | 461 | 1582 | Gavin BRUCE | Drogheda and District A.C. | M50 | [img:video.png|height:1rem] | 1:38:24 | 1:39:27",
+  "source": "raceresult",
+  "time": "1:38:24",
+  "url": "https://my.raceresult.com/379375/results"
+ },
+ "dbfe0c9eefd4bfa4": {
+  "athlete": "Seamus Roe",
+  "cat_place": "",
+  "category": "M55",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "dbfe0c9eefd4bfa4",
+  "match": "confident",
+  "place": "1351",
+  "race": "10 Miles",
+  "raw": "970 | 961 | 1351 | Seamus ROE | Drogheda and District A.C. | M55 | [img:video.png|height:1rem] | 1:30:20 | 1:31:39",
+  "source": "raceresult",
+  "time": "1:30:20",
+  "url": "https://my.raceresult.com/379375/results"
+ },
  "e9c99d74b9868aa8": {
   "athlete": "Yasaman Nuri",
   "cat_place": "44",
@@ -960,6 +1632,27 @@
   "source": "myrunresults",
   "time": "00:14:11",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
+ },
+ "ea14b8d99947be12": {
+  "athlete": "Anna Isgrò",
+  "cat_place": "",
+  "category": "F",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "ea14b8d99947be12",
+  "match": "confident",
+  "place": "465",
+  "race": "10 Miles",
+  "raw": "633 | 624 | 465 | Anna ISGRÒ | Drogheda and District A.C. | F | [img:video.png|height:1rem] | 1:10:58 | 1:11:26",
+  "source": "raceresult",
+  "time": "1:10:58",
+  "url": "https://my.raceresult.com/379375/results"
  },
  "f0181b4e44a61141": {
   "athlete": "Gerry Mc Geough",
@@ -1079,6 +1772,48 @@
   "time": "0:28:17",
   "url": "https://my.raceresult.com/428096/results"
  },
+ "fa799f0074540152": {
+  "athlete": "Louise Irvin",
+  "cat_place": "",
+  "category": "F50",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "fa799f0074540152",
+  "match": "confident",
+  "place": "1574",
+  "race": "10 Miles",
+  "raw": "781 | 772 | 1574 | Louise IRVIN | Drogheda and District A.C. | F50 | [img:video.png|height:1rem] | 1:37:20 | 1:39:07",
+  "source": "raceresult",
+  "time": "1:37:20",
+  "url": "https://my.raceresult.com/379375/results"
+ },
+ "fb26e6aacd1490cd": {
+  "athlete": "Mike Staunton",
+  "cat_place": "",
+  "category": "M60",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "fb26e6aacd1490cd",
+  "match": "confident",
+  "place": "1267",
+  "race": "10 Miles",
+  "raw": "1399 | 1390 | 1267 | Mike STAUNTON | Drogheda and District A.C. | M60 | [img:video.png|height:1rem] | 1:28:45 | 1:29:43",
+  "source": "raceresult",
+  "time": "1:28:45",
+  "url": "https://my.raceresult.com/379375/results"
+ },
  "fb8537ff7d5968b2": {
   "athlete": "Austin McCann",
   "cat_place": "",
@@ -1116,6 +1851,27 @@
   "source": "dublin_graded",
   "time": "57.17",
   "url": "http://pastresults.dublinathletics.com/graded26-6/menu.html"
+ },
+ "fd1aed1bf302d8a2": {
+  "athlete": "Helen Dillon",
+  "cat_place": "",
+  "category": "F45",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-02-01",
+  "event_id": "379375",
+  "event_name": "Trim 10 Mile Road Race 2026",
+  "extra": {
+   "via": "popupraces"
+  },
+  "first_seen": "2026-11-20T17:16:37+00:00",
+  "key": "fd1aed1bf302d8a2",
+  "match": "confident",
+  "place": "667",
+  "race": "10 Miles",
+  "raw": "1692 | 1683 | 667 | Helen DILLON | Drogheda and District A.C. | F45 | [img:video.png|height:1rem] | 1:15:32 | 1:16:00",
+  "source": "raceresult",
+  "time": "1:15:32",
+  "url": "https://my.raceresult.com/379375/results"
  },
  "fd89f7c8b540ed47": {
   "athlete": "Raymond Hoey",
