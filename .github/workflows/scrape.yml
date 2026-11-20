@@ -40,7 +40,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: ${{ inputs.since && 90 || 25 }}   # backfills take longer
     steps:
       - uses: actions/checkout@v4
 
