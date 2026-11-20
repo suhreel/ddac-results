@@ -145,4 +145,4 @@ Free: GitHub Actions (public repo), Gmail SMTP, Box API.
 
 Every run rebuilds, from `data/results.json`:
 - `data/athletes.json` and `docs/athletes.md` — one record per DDAC athlete with every result and podium/category highlights. "Drogheda AC"-style matches stay out until confirmed. No PB claims; `series` keys allow like-for-like year-on-year comparison only.
-- `data/results.csv` and `data/athletes.csv` — flat copies for Google Sheets. In a sheet, `=IMPORTDATA("https://raw.githubusercontent.com/suhreel/ddac-results/main/data/results.csv")` keeps itself up to date.
+- `data/results.csv` and `data/athletes.csv` — flat copies for Google Sheets. In a sheet, `=IMPORTDATA("https://raw.githubusercontent.com/suhreel/ddac-results/main/data/results.csv")` keeps itself up to date. The two live sheets, "DDAC Results (live)" and "DDAC Athletes (live)", are in the **DDAC** folder in Google Drive, alongside **DDAC Newspaper Reports**.
