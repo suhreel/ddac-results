@@ -43,7 +43,7 @@
    }
   }
  },
- "last_run": "2026-11-21T10:14:22+00:00",
+ "last_run": "2026-11-21T17:39:27+00:00",
  "myrunresults": {
   "events": {
    "5900": {
@@ -3030,7 +3030,7 @@
     "via": "popupraces"
    },
    "433785": {
-    "checked": "2026-11-21T10:14",
+    "checked": "2026-11-21T17:39",
     "date": "2026-11-21",
     "ddac": 0,
     "name": "Clane GAA 10k & 5k Walk/Run 2026",
@@ -3367,6 +3367,7 @@
    "https://www.racetimingireland.com/bilboa2026": "404714",
    "https://www.racetimingireland.com/bmoh2026": "416698",
    "https://www.racetimingireland.com/bridgeunited1": "433028",
+   "https://www.racetimingireland.com/callander": "",
    "https://www.racetimingireland.com/claughaungaa5km": "392734",
    "https://www.racetimingireland.com/clonmell": "412868",
    "https://www.racetimingireland.com/corkcitymile": "420971",
