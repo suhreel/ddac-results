@@ -1,10 +1,10 @@
 # DDAC Athletes
 
-_Auto-generated 2026-11-22 from the results database. 122 athletes. Highlights are podium and category podium finishes taken straight from official results; nothing here is a PB claim._
+_Auto-generated 2026-11-22 from the results database. 123 athletes. Highlights are podium and category podium finishes taken straight from official results; nothing here is a PB claim._
 
 | Athlete | Races | First seen | Latest | Highlights |
 |---|---|---|---|---|
-| Aaron Hanlon | 5 | 2026-05-24 | 2026-08-16 | 2nd overall — Cork City 10km 2026 (2026-08-16); 3rd overall — Frank Kilrane (Edenderry) 10 Mile 2026 (2026-07-12); 1st overall — The Culmullen Run 2026 (2026-05-24) |
+| Aaron Hanlon | 6 | 2026-05-24 | 2026-11-22 | 2nd overall — Cork City 10km 2026 (2026-08-16); 3rd overall — Frank Kilrane (Edenderry) 10 Mile 2026 (2026-07-12); 1st overall — The Culmullen Run 2026 (2026-05-24) |
 | Adrian King | 1 | 2026-08-29 | 2026-08-29 |  |
 | Aishling Reilly | 2 | 2026-02-01 | 2026-08-29 |  |
 | Alan Floyd | 1 | 2026-10-11 | 2026-10-11 |  |
@@ -20,12 +20,12 @@ _Auto-generated 2026-11-22 from the results database. 122 athletes. Highlights a
 | Barry Foley | 2 | 2026-05-19 | 2026-07-03 |  |
 | Barry Sullivan | 2 | 2026-05-30 | 2026-07-03 |  |
 | Beatrice Cunningham | 1 | 2026-11-07 | 2026-11-07 |  |
-| Bobby Daly | 1 | 2026-11-07 | 2026-11-07 |  |
+| Bobby Daly | 2 | 2026-11-07 | 2026-11-22 |  |
 | Brian Carrig | 2 | 2026-07-03 | 2026-08-29 |  |
 | Brian Guilfoyle | 2 | 2026-07-03 | 2026-07-31 |  |
 | Brian Martin | 2 | 2026-05-19 | 2026-06-20 |  |
 | Catherine Guilfoyle | 1 | 2026-07-03 | 2026-07-03 |  |
-| Cian Bolton | 2 | 2026-08-29 | 2026-11-07 |  |
+| Cian Bolton | 3 | 2026-08-29 | 2026-11-22 |  |
 | Ciara O Reilly | 2 | 2026-02-01 | 2026-07-03 |  |
 | Ciara O'Reilly | 1 | 2026-11-07 | 2026-11-07 |  |
 | Colin Dyas | 2 | 2026-05-19 | 2026-06-20 |  |
@@ -33,14 +33,14 @@ _Auto-generated 2026-11-22 from the results database. 122 athletes. Highlights a
 | Colin Leonard | 3 | 2026-02-01 | 2026-06-20 |  |
 | Conor Cooney | 5 | 2026-05-19 | 2026-10-11 |  |
 | Dale Thornton | 1 | 2026-07-03 | 2026-07-03 |  |
-| Darragh Minogue | 2 | 2026-08-29 | 2026-11-07 |  |
+| Darragh Minogue | 3 | 2026-08-29 | 2026-11-22 |  |
 | David O'Neill | 1 | 2026-11-07 | 2026-11-07 |  |
 | Dean Smith | 1 | 2026-08-29 | 2026-08-29 |  |
-| Dearbhla Johnston | 1 | 2026-11-07 | 2026-11-07 |  |
+| Dearbhla Johnston | 2 | 2026-11-07 | 2026-11-22 |  |
 | Eimear Marron | 2 | 2026-02-01 | 2026-07-31 |  |
 | Elizabeth Townshend | 1 | 2026-07-03 | 2026-07-03 |  |
 | Elma Martin | 1 | 2026-05-19 | 2026-05-19 |  |
-| Emily Garvey | 1 | 2026-11-07 | 2026-11-07 |  |
+| Emily Garvey | 2 | 2026-11-07 | 2026-11-22 |  |
 | Emmet Steenson | 2 | 2026-02-01 | 2026-05-10 |  |
 | Eve Cunningham | 1 | 2026-11-07 | 2026-11-07 |  |
 | Eve Russell | 1 | 2026-11-07 | 2026-11-07 |  |
@@ -69,7 +69,7 @@ _Auto-generated 2026-11-22 from the results database. 122 athletes. Highlights a
 | Keeley Nolan | 1 | 2026-11-07 | 2026-11-07 | 1st FU18 — Johnny McKenna Charity Run 2026 (2026-11-07) |
 | Liam Farrell | 1 | 2026-07-31 | 2026-07-31 |  |
 | Liam Mulligan | 1 | 2026-07-03 | 2026-07-03 |  |
-| Lily Maher | 1 | 2026-11-07 | 2026-11-07 | 2nd overall — Leinster Senior, Juvenile Uneven Ages (2026-11-07) |
+| Lily Maher | 2 | 2026-11-07 | 2026-11-22 | 2nd overall — Leinster Senior, Juvenile Uneven Ages (2026-11-07) |
 | Linda Bowe | 2 | 2026-04-04 | 2026-07-03 |  |
 | Linda Cruise | 1 | 2026-02-01 | 2026-02-01 |  |
 | Louise Irvin | 1 | 2026-02-01 | 2026-02-01 |  |
@@ -118,6 +118,7 @@ _Auto-generated 2026-11-22 from the results database. 122 athletes. Highlights a
 | Shane Larkin | 5 | 2026-06-12 | 2026-11-07 |  |
 | Shane Russell | 1 | 2026-05-19 | 2026-05-19 |  |
 | Shaun Conroy | 2 | 2026-05-19 | 2026-06-20 |  |
+| Shea O'Donnell | 1 | 2026-11-22 | 2026-11-22 |  |
 | Sophie Hetherington | 1 | 2026-07-03 | 2026-07-03 |  |
 | Sophie Kinsella | 1 | 2026-07-03 | 2026-07-03 |  |
 | Stephen Duggan | 1 | 2026-02-01 | 2026-02-01 |  |

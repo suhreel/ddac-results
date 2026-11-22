@@ -60,6 +60,25 @@
   "time": "1:11:45",
   "url": "https://my.raceresult.com/379375/results"
  },
+ "0315c8a6f745e986": {
+  "athlete": "Cian Bolton",
+  "cat_place": "172",
+  "category": "",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-11-22",
+  "event_id": "6634",
+  "event_name": "123.ie National Even U12 to U16 XC 2026",
+  "extra": {},
+  "first_seen": "2026-11-22T17:44:23+00:00",
+  "key": "0315c8a6f745e986",
+  "match": "confident",
+  "place": "172",
+  "race": "Boys U14",
+  "raw": "172 | Cian | BOLTON | Drogheda and District A.C. | 00:12:54 |  | 172 | Boys U14",
+  "source": "myrunresults",
+  "time": "00:12:54",
+  "url": "https://www.myrunresults.com/events/123ie_national_even_u12_to_u16__xc_2026/6634/results"
+ },
  "034a2cc5b56a437e": {
   "athlete": "David O'Neill",
   "cat_place": "46",
@@ -100,6 +119,25 @@
   "time": "0:23:13",
   "url": "https://my.raceresult.com/411859/results"
  },
+ "05a99477b5c52a32": {
+  "athlete": "Dearbhla Johnston",
+  "cat_place": "132",
+  "category": "",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-11-22",
+  "event_id": "6634",
+  "event_name": "123.ie National Even U12 to U16 XC 2026",
+  "extra": {},
+  "first_seen": "2026-11-22T17:44:23+00:00",
+  "key": "05a99477b5c52a32",
+  "match": "confident",
+  "place": "132",
+  "race": "Girls U14",
+  "raw": "132 | Dearbhla | JOHNSTON | Drogheda and District A.C. | 00:12:49 |  | 132 | Girls U14",
+  "source": "myrunresults",
+  "time": "00:12:49",
+  "url": "https://www.myrunresults.com/events/123ie_national_even_u12_to_u16__xc_2026/6634/results"
+ },
  "05b52137bc236dbb": {
   "athlete": "Niamh Matthews",
   "cat_place": "",
@@ -120,6 +158,25 @@
   "source": "raceresult",
   "time": "0:23:07",
   "url": "https://my.raceresult.com/408998/results"
+ },
+ "06f50184d0f1db1e": {
+  "athlete": "Bobby Daly",
+  "cat_place": "67",
+  "category": "",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-11-22",
+  "event_id": "6634",
+  "event_name": "123.ie National Even U12 to U16 XC 2026",
+  "extra": {},
+  "first_seen": "2026-11-22T17:44:23+00:00",
+  "key": "06f50184d0f1db1e",
+  "match": "confident",
+  "place": "67",
+  "race": "Boys U16",
+  "raw": "67 | Bobby | DALY | Drogheda and District A.C. | 00:14:16 |  | 67 | Boys U16",
+  "source": "myrunresults",
+  "time": "00:14:16",
+  "url": "https://www.myrunresults.com/events/123ie_national_even_u12_to_u16__xc_2026/6634/results"
  },
  "07b00e8496af3ab8": {
   "athlete": "Brian Martin",
@@ -801,6 +858,25 @@
   "source": "raceresult",
   "time": "0:40:55",
   "url": "https://my.raceresult.com/405167/results"
+ },
+ "2ceb3c270094ada3": {
+  "athlete": "Shea O'Donnell",
+  "cat_place": "22",
+  "category": "MU20",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-11-22",
+  "event_id": "6647",
+  "event_name": "123.ie National U18 & U20 XC 2026",
+  "extra": {},
+  "first_seen": "2026-11-22T17:44:23+00:00",
+  "key": "2ceb3c270094ada3",
+  "match": "confident",
+  "place": "22",
+  "race": "Boys U18 & U20",
+  "raw": "22 | Shea | O'DONNELL | Drogheda & District A.C. | 00:14:34 | MU20 | 22 | Boys U18 & U20",
+  "source": "myrunresults",
+  "time": "00:14:34",
+  "url": "https://www.myrunresults.com/events/123ie_national_u18__u20__xc_2026/6647/results"
  },
  "2d9f57d89ed5d64d": {
   "athlete": "Alan Foley",
@@ -2190,6 +2266,25 @@
   "time": "0:20:50",
   "url": "https://my.raceresult.com/411859/results"
  },
+ "6c63fa0a501b2884": {
+  "athlete": "Darragh Minogue",
+  "cat_place": "130",
+  "category": "",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-11-22",
+  "event_id": "6634",
+  "event_name": "123.ie National Even U12 to U16 XC 2026",
+  "extra": {},
+  "first_seen": "2026-11-22T17:44:23+00:00",
+  "key": "6c63fa0a501b2884",
+  "match": "confident",
+  "place": "130",
+  "race": "Boys U14",
+  "raw": "130 | Darragh | MINOGUE | Drogheda and District A.C. | 00:11:53 |  | 130 | Boys U14",
+  "source": "myrunresults",
+  "time": "00:11:53",
+  "url": "https://www.myrunresults.com/events/123ie_national_even_u12_to_u16__xc_2026/6634/results"
+ },
  "6db6475632854973": {
   "athlete": "Andrea McCabe",
   "cat_place": "",
@@ -3525,6 +3620,25 @@
   "time": "0:15:11",
   "url": "https://my.raceresult.com/396850/results"
  },
+ "d22bb62ce59d11bd": {
+  "athlete": "Lily Maher",
+  "cat_place": "30",
+  "category": "",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-11-22",
+  "event_id": "6634",
+  "event_name": "123.ie National Even U12 to U16 XC 2026",
+  "extra": {},
+  "first_seen": "2026-11-22T17:44:23+00:00",
+  "key": "d22bb62ce59d11bd",
+  "match": "confident",
+  "place": "30",
+  "race": "Girls U14",
+  "raw": "30 | Lily | MAHER | Drogheda and District A.C. | 00:11:45 |  | 30 | Girls U14",
+  "source": "myrunresults",
+  "time": "00:11:45",
+  "url": "https://www.myrunresults.com/events/123ie_national_even_u12_to_u16__xc_2026/6634/results"
+ },
  "d3964b4d05958b09": {
   "athlete": "Eimear Marron",
   "cat_place": "",
@@ -4187,6 +4301,25 @@
   "time": "00:10:11",
   "url": "https://www.myrunresults.com/events/leinster_senior_juvenile_uneven_ages/6235/results"
  },
+ "f737ebff1148132a": {
+  "athlete": "Emily Garvey",
+  "cat_place": "41",
+  "category": "",
+  "club_raw": "Drogheda and District A.C.",
+  "event_date": "2026-11-22",
+  "event_id": "6634",
+  "event_name": "123.ie National Even U12 to U16 XC 2026",
+  "extra": {},
+  "first_seen": "2026-11-22T17:44:23+00:00",
+  "key": "f737ebff1148132a",
+  "match": "confident",
+  "place": "41",
+  "race": "Girls U16",
+  "raw": "41 | Emily | GARVEY | Drogheda and District A.C. | 00:15:46 |  | 41 | Girls U16",
+  "source": "myrunresults",
+  "time": "00:15:46",
+  "url": "https://www.myrunresults.com/events/123ie_national_even_u12_to_u16__xc_2026/6634/results"
+ },
  "f816e1030ef1df67": {
   "athlete": "Robert Quaile",
   "cat_place": "",
@@ -4350,5 +4483,24 @@
   "source": "raceresult",
   "time": "0:31:15",
   "url": "https://my.raceresult.com/428096/results"
+ },
+ "fdfdeb9ebb8d7350": {
+  "athlete": "Aaron Hanlon",
+  "cat_place": "24",
+  "category": "",
+  "club_raw": "Drogheda & District A.C.",
+  "event_date": "2026-11-22",
+  "event_id": "6230",
+  "event_name": "123.ie National Senior & Even XC 2026",
+  "extra": {},
+  "first_seen": "2026-11-22T17:44:23+00:00",
+  "key": "fdfdeb9ebb8d7350",
+  "match": "confident",
+  "place": "30",
+  "race": "Senior Men",
+  "raw": "30 | Aaron | HANLON | Drogheda & District A.C. | 00:23:34 |  | 24 | Senior Men",
+  "source": "myrunresults",
+  "time": "00:23:34",
+  "url": "https://www.myrunresults.com/events/123ie_national_senior__even_xc_2026/6230/results"
  }
 }
