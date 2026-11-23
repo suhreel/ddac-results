@@ -1,0 +1,67 @@
+name: Facebook posts to Members notices
+
+# Turns new DDAC Facebook page posts into DRAFT notices on the Members page
+# (Webflow CMS "Member Notices") and emails NOTIFY_TO to check and publish them.
+
+on:
+  schedule:
+    - cron: "37 * * * *"    # hourly (GitHub may run it less often)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run: show what would be drafted, change nothing"
+        type: boolean
+        default: false
+      email:
+        description: "Send email notification"
+        type: boolean
+        default: true
+
+concurrency:
+  group: fb-notices
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  notices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install "requests>=2.31" "pyyaml>=6.0"
+
+      - name: Draft notices
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          WEBFLOW_TOKEN: ${{ secrets.WEBFLOW_TOKEN }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFY_TO: ${{ secrets.NOTIFY_TO }}
+        run: |
+          ARGS=""
+          [ "${{ inputs.dry_run }}" = "true" ] && ARGS="$ARGS --dry-run"
+          [ "${{ inputs.email }}" = "false" ] && ARGS="$ARGS --no-email"
+          python fb_notices.py $ARGS
+
+      - name: Save state
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "ddac-results-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/fb_notices_state.json || true
+          if git diff --cached --quiet; then echo "No state change"; exit 0; fi
+          git commit -q -m "Facebook notices state"
+          for i in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          echo "Could not push state"; exit 1
