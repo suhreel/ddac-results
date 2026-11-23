@@ -80,7 +80,14 @@ def build_notice(post: dict) -> dict | None:
     msg = clean(post.get("message", ""))
     if not msg:
         return None  # photo-only post with no text: nothing to summarise
-    lines = [l.strip() for l in msg.split("\n") if l.strip()]
+    raw = [l.strip() for l in msg.split("\n") if l.strip()]
+    # Re-join lines that were broken mid-sentence (e.g. ending in a comma).
+    lines: list[str] = []
+    for l in raw:
+        if lines and (lines[-1].endswith((",", ";", "-", "–", "&", "and")) or not re.search(r"[.!?:)\U0001F300-\U0001FAFF]$", lines[-1]) and len(lines[-1]) > 60):
+            lines[-1] = f"{lines[-1]} {l}"
+        else:
+            lines.append(l)
     # Title = first sentence of the first line; everything after it is the summary.
     head = re.split(r"(?<=[.!?])\s+", lines[0], maxsplit=1)[0]
     first_rest = lines[0][len(head):].strip()
