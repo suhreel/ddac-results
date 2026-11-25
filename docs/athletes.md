@@ -1,6 +1,6 @@
 # DDAC Athletes
 
-_Auto-generated 2026-11-24 from the results database. 123 athletes. Highlights are podium and category podium finishes taken straight from official results; nothing here is a PB claim._
+_Auto-generated 2026-11-25 from the results database. 123 athletes. Highlights are podium and category podium finishes taken straight from official results; nothing here is a PB claim._
 
 | Athlete | Races | First seen | Latest | Highlights |
 |---|---|---|---|---|
